@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getAIModelById } from '../data/aiModels';
 import { AIModel } from '../types';
+import { Helmet } from 'react-helmet-async';
 import { 
   ArrowLeft, Star, ExternalLink, Github, FileText, 
   Calendar, Building, Tag, Zap, Share2, Heart 
@@ -63,7 +64,43 @@ const ModelDetailPage: React.FC = () => {
     : model.usage;
 
   return (
-    <div className="py-24 px-4">
+    <main className="py-24 px-4">
+      <Helmet>
+         <title>{model.name} – AI Model Details</title>
+         <meta name="description" content={model.description.slice(0, 160)} />
+         <meta property="og:title" content={model.name} />
+         <meta property="og:description" content={model.description.slice(0, 160)} />
+         <meta property="og:image" content={model.imageUrl} />
+         <meta property="og:url" content={`https://project100ai-bay.vercel.app/models/${model.id}`} />
+         <meta property="og:type" content="website" />
+         <meta name="twitter:card" content="summary_large_image" />
+         <script type="application/ld+json">
+            {JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "SoftwareApplication",
+               "name": model.name,
+               "description": model.description,
+               "applicationCategory": model.category,
+               "operatingSystem": "All",
+               "image": model.imageUrl,
+               "url": `https://project100ai-bay.vercel.app/models/${model.id}`,
+               "author": {
+                 "@type": "Organization",
+                 "name": model.company
+               },
+               "releaseDate": model.releaseDate,
+               ...(model.demoUrl && {
+                "offers": {
+                  "@type": "Offer",
+                  "url": model.demoUrl,
+                  "price": "0.00",
+                  "priceCurrency": "USD"
+                }
+              })
+           })}
+         </script>
+       </Helmet>
+
       <div className="container mx-auto max-w-7xl">
         <div className="mb-8">
           <Link 
@@ -83,7 +120,7 @@ const ModelDetailPage: React.FC = () => {
               <div className="relative aspect-video">
                 <img 
                   src={model.imageUrl} 
-                  alt={model.name} 
+                  alt={`Illustration for ${model.name}`} 
                   className="w-full h-full object-cover"
                 />
                 {model.featured && (
@@ -93,14 +130,12 @@ const ModelDetailPage: React.FC = () => {
                 )}
               </div>
 
-              {/* Model Description */}
               <div className="p-8">
                 <h1 className="text-3xl font-bold mb-4">{model.name}</h1>
                 <p className="text-gray-600 dark:text-gray-400 text-lg mb-6">
                   {model.description}
                 </p>
 
-                {/* Capabilities */}
                 <div className="mb-8">
                   <h2 className="text-xl font-semibold mb-4 flex items-center">
                     <Zap size={20} className="mr-2 text-yellow-500" />
@@ -118,7 +153,6 @@ const ModelDetailPage: React.FC = () => {
                   </div>
                 </div>
 
-                {/* How to Use */}
                 {model.usage && (
                   <div className="mb-8">
                     <h2 className="text-xl font-semibold mb-4 flex items-center">
@@ -139,7 +173,6 @@ const ModelDetailPage: React.FC = () => {
                   </div>
                 )}
 
-                {/* External Links */}
                 <div className="flex flex-wrap gap-4">
                   {model.demoUrl && (
                     <a 
@@ -152,7 +185,6 @@ const ModelDetailPage: React.FC = () => {
                       Try Demo
                     </a>
                   )}
-                  
                   {model.githubUrl && (
                     <a 
                       href={model.githubUrl}
@@ -164,7 +196,6 @@ const ModelDetailPage: React.FC = () => {
                       GitHub Repository
                     </a>
                   )}
-                  
                   {model.paperUrl && (
                     <a 
                       href={model.paperUrl}
@@ -186,7 +217,6 @@ const ModelDetailPage: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Check out these AI models in the same category.
               </p>
-
               <div className="text-center p-8">
                 <Link 
                   to={`/models?category=${encodeURIComponent(model.category)}`}
@@ -272,7 +302,7 @@ const ModelDetailPage: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
