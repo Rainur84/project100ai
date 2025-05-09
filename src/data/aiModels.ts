@@ -2946,6 +2946,92 @@ export const aiModels: AIModel[] = [
       'Organize a creative writing outline.',
       'Use visual tags to group related ideas.'
     ]
+  },
+  {
+    id: '133',
+    name: 'MagickPen',
+    category: 'Texts',
+    description: 'MagickPen is an AI-powered writing assistant that helps create articles, emails, essays, and more in a clean interface.',
+    capabilities: ['Text generation', 'Blog writing', 'Email drafting', 'Idea development'],
+    releaseDate: '2023-05-12',
+    company: 'MagickPen',
+    imageUrl: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg',
+    featured: false,
+    usage: `1. Go to https://www.magickpen.com.
+  2. Select the type of content you want to create (e.g., blog post, essay, letter).
+  3. Enter your topic or prompt.
+  4. Click "Generate" to receive AI-written content.
+  5. Edit, format, and export or copy the result.`,
+    accessType: 'Free',
+    examples: [
+      'Write a blog post about the future of AI in education.',
+      'Draft a professional resignation letter.',
+      'Summarize a long article in bullet points.'
+    ]
+  },
+  {
+    id: '134',
+    name: 'Gamma.app',
+    category: 'Presentations',
+    description: 'Gamma turns your ideas into beautiful presentations, docs, or web pages with the help of AI.',
+    capabilities: ['Presentation generation', 'Interactive slides', 'Design templates', 'Content summarization'],
+    releaseDate: '2022-11-04',
+    company: 'Gamma',
+    imageUrl: 'https://images.pexels.com/photos/3184309/pexels-photo-3184309.jpeg',
+    featured: true,
+    usage: `1. Visit https://gamma.app and sign up for an account.
+  2. Choose "Create with AI" and describe what kind of presentation or document you need.
+  3. Review the AI-generated structure and edit the content as needed.
+  4. Customize the theme, layout, and share/export the result.`,
+    accessType: 'Partially Free',
+    examples: [
+      'Startup pitch deck with 5 slides.',
+      'Lesson plan about climate change.',
+      'Marketing plan for a new product launch.'
+    ]
+  },
+  {
+    id: '135',
+    name: 'TalkPal',
+    category: 'Education',
+    description: 'TalkPal is an AI language partner that helps you practice English conversation through chat or voice.',
+    capabilities: ['English speaking practice', 'Grammar correction', 'Vocabulary improvement', 'Real-time chat'],
+    releaseDate: '2023-03-15',
+    company: 'TalkPal',
+    imageUrl: 'https://images.pexels.com/photos/4049785/pexels-photo-4049785.jpeg',
+    featured: false,
+    usage: `1. Go to https://www.talkpal.ai.
+  2. Choose your preferred language and level.
+  3. Start chatting or speaking with the AI.
+  4. Receive feedback on grammar, pronunciation, and vocabulary.
+  5. Track your progress with personalized recommendations.`,
+    accessType: 'Free',
+    examples: [
+      'Practice ordering food in a restaurant.',
+      'Talk about your daily routine in English.',
+      'Describe your favorite movie.'
+    ]
+  },
+  {
+    id: '136',
+    name: 'Bardeen',
+    category: 'Automation',
+    description: 'Bardeen is a powerful AI tool to automate repetitive tasks in your browser using simple workflows.',
+    capabilities: ['Workflow automation', 'Browser task automation', 'Data transfer', 'Custom integrations'],
+    releaseDate: '2022-06-22',
+    company: 'Bardeen AI',
+    imageUrl: 'https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg',
+    featured: true,
+    usage: `1. Install the Bardeen Chrome extension from https://www.bardeen.ai.
+  2. Open the extension and sign in with your Google account.
+  3. Browse ready-made workflows or create your own automation.
+  4. Run automations with a single click or set them to run on triggers.`,
+    accessType: 'Free',
+    examples: [
+      'Automatically copy LinkedIn profiles to Google Sheets.',
+      'Scrape product data from e-commerce websites.',
+      'Get daily email reports from Notion tasks.'
+    ]
   }
 
 ];
