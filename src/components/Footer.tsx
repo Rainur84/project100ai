@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center">
               <a href="mailto:contact@neurobox.ai" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 flex items-center">
                 <Mail size={16} className="mr-1" />
-                <span>contact@neurobox.ai</span>
+                <span>journeylistusa.outlook.com</span>
               </a>
             </div>
           </div>

@@ -44,6 +44,9 @@ const Header: React.FC = () => {
           <Link to="/compare" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
             Compare
           </Link>
+          <Link to="/prompts" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+            Prompts
+          </Link>
           <Link to="/donate" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
             Donate
           </Link>
@@ -87,46 +90,28 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-white dark:bg-gray-900 shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
-              <Link 
-                to="/" 
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 Home
               </Link>
-              <Link 
-                to="/models" 
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <Link to="/models" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 AI Models
               </Link>
-              <Link 
-                to="/compare" 
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <Link to="/compare" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 Compare
               </Link>
-              <Link 
-                to="/donate" 
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <Link to="/prompts" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
+                Prompts
+              </Link>
+              <Link to="/donate" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 Donate
               </Link>
-              <Link 
-                to="/about" 
-                className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <Link to="/about" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 About
               </Link>
               <div className="flex items-center justify-between pt-4 mt-4 border-t border-gray-200 dark:border-gray-700">
                 <button 
                   onClick={toggleTheme}
                   className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-                  aria-label={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
                 >
                   {theme === 'light' ? <Moon size={20} /> : <Sun size={20} className="text-yellow-400" />}
                   <span className="ml-2">{theme === 'light' ? 'Dark Mode' : 'Light Mode'}</span>
