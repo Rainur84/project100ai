@@ -27,13 +27,6 @@ export const donationMethods: DonationMethod[] = [
     name: 'Ko-fi',
     icon: 'coffee',
     instructions: 'Support us with a coffee on Ko-fi:',
-    url: 'https://ko-fi.com/yourname'
-  },
-  {
-    id: 'buymeacoffee',
-    name: 'Buy Me a Coffee',
-    icon: 'coffee',
-    instructions: 'Support us via Buy Me a Coffee:',
-    url: 'https://www.buymeacoffee.com/yourname'
+    url: 'https://ko-fi.com/neurobox'
   }
 ];
