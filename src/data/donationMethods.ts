@@ -20,7 +20,7 @@ export const donationMethods: DonationMethod[] = [
     name: 'PayPal',
     icon: 'dollar-sign',
     instructions: 'Donate via PayPal using the button below:',
-    url: 'https://www.paypal.com/donate/?hosted_button_id=YOUR_BUTTON_ID'
+    url: 'https://www.paypal.com/ncp/payment/5P4X3D2TLNYYL'
   },
   {
     id: 'ko-fi',
