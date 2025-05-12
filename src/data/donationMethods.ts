@@ -6,27 +6,34 @@ export const donationMethods: DonationMethod[] = [
     name: 'Bank card',
     icon: 'credit-card',
     instructions: 'Transfer any amount to the card: 4400 4303 3462 9885. Thank you for your support!',
-    url: '4400 4303 3462 9885' // ❗ Now here is the card number to copy
+    url: '4400 4303 3462 9885'
   },
   {
     id: 'bitcoin',
     name: 'Bitcoin',
     icon: 'bitcoin',
     instructions: 'Send Bitcoin to the address:',
-    url: '3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5' // ❗ Биткоин-адрес для копирования
+    url: '3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5'
   },
   {
-    id: 'ethereum',
-    name: 'Ethereum',
-    icon: 'ethereum',
-    instructions: 'Send Ethereum to the address:',
-    url: '0x742d35Cc6634C0532925a3b844Bc454e4438f44e' // ❗ Эфир-адрес для копирования
+    id: 'paypal',
+    name: 'PayPal',
+    icon: 'dollar-sign',
+    instructions: 'Donate via PayPal using the button below:',
+    url: 'https://www.paypal.com/donate/?hosted_button_id=YOUR_BUTTON_ID'
   },
   {
-    id: 'patreon',
-    name: 'Patreon',
-    icon: 'at-sign',
-    instructions: 'Support us monthly via Patreon and get bonuses!',
-    url: 'https://www.patreon.com/Neurobox' // ❗ Патреон ссылка
+    id: 'ko-fi',
+    name: 'Ko-fi',
+    icon: 'coffee',
+    instructions: 'Support us with a coffee on Ko-fi:',
+    url: 'https://ko-fi.com/yourname'
+  },
+  {
+    id: 'buymeacoffee',
+    name: 'Buy Me a Coffee',
+    icon: 'coffee',
+    instructions: 'Support us via Buy Me a Coffee:',
+    url: 'https://www.buymeacoffee.com/yourname'
   }
 ];
