@@ -457,6 +457,356 @@ const prompts = [
   category: 'Video',
   prompt: `Write a 60-second explainer video script for [product/service] targeting [audience].`
 },
+{
+  id: 66,
+  title: 'Debug JavaScript Code',
+  description: 'Find and fix a bug in JavaScript code.',
+  category: 'Coding',
+  prompt: `Help me debug this JavaScript code and explain the issue: [insert code].`
+},
+{
+  id: 67,
+  title: 'Optimize Code Performance',
+  description: 'Improve the performance of a slow function.',
+  category: 'Coding',
+  prompt: `Optimize this function to make it run faster: [insert function code].`
+},
+{
+  id: 68,
+  title: 'Write Unit Tests',
+  description: 'Generate unit tests for a given function.',
+  category: 'Coding',
+  prompt: `Write unit tests using Jest for this function: [insert code].`
+},
+{
+  id: 69,
+  title: 'Explain Code to Beginner',
+  description: 'Break down a code snippet for easy understanding.',
+  category: 'Coding',
+  prompt: `Explain this Python code to a beginner: [insert code].`
+},
+{
+  id: 70,
+  title: 'Convert Code to Another Language',
+  description: 'Translate code from one language to another.',
+  category: 'Coding',
+  prompt: `Convert this JavaScript code to Python: [insert code].`
+},
+{
+  id: 71,
+  title: 'Landing Page Feedback',
+  description: 'Review a landing page and suggest UX improvements.',
+  category: 'UI/UX',
+  prompt: `Review this landing page and suggest ways to improve UX: [insert URL or screenshot].`
+},
+{
+  id: 72,
+  title: 'UX Microcopy',
+  description: 'Generate effective UX microcopy for buttons and forms.',
+  category: 'UI/UX',
+  prompt: `Write clear and friendly UX copy for a signup form with name, email, and password fields.`
+},
+{
+  id: 73,
+  title: 'Improve Mobile Experience',
+  description: 'Suggestions to enhance mobile usability of a website.',
+  category: 'UI/UX',
+  prompt: `Suggest 5 ways to improve the mobile version of this website: [insert URL].`
+},
+{
+  id: 74,
+  title: 'User Persona Generator',
+  description: 'Create detailed user personas for a design project.',
+  category: 'UI/UX',
+  prompt: `Create 3 user personas for an app that helps freelancers manage time.`
+},
+{
+  id: 75,
+  title: 'Simplify Onboarding Flow',
+  description: 'Streamline the onboarding process for a new app.',
+  category: 'UI/UX',
+  prompt: `Suggest a simplified onboarding flow for a mobile banking app.`
+},
+{
+  id: 76,
+  title: 'Voice Ad Script',
+  description: 'Write a 30-second voice ad script for a product.',
+  category: 'Voice',
+  prompt: `Write a voice-over script promoting my fitness app. Keep it under 30 seconds.`
+},
+{
+  id: 77,
+  title: 'Podcast Intro Script',
+  description: 'Create an engaging podcast intro.',
+  category: 'Voice',
+  prompt: `Write an intro for a podcast about tech and innovation.`
+},
+{
+  id: 78,
+  title: 'AI Voiceover Prompt',
+  description: 'Generate a prompt for an AI voiceover tool.',
+  category: 'Voice',
+  prompt: `Write a script I can use in ElevenLabs to narrate a YouTube video about digital marketing.`
+},
+{
+  id: 79,
+  title: 'Voice Bot Script',
+  description: 'Create a conversational script for a voice assistant.',
+  category: 'Voice',
+  prompt: `Write a script for a voice assistant that helps users book a doctor’s appointment.`
+},
+{
+  id: 80,
+  title: 'Audiobook Narration Style',
+  description: 'Describe the voice and tone for audiobook narration.',
+  category: 'Voice',
+  prompt: `Describe how to narrate an audiobook about personal finance in a friendly and engaging tone.`
+},
+{
+  id: 81,
+  title: 'SEO Keyword Suggestions',
+  description: 'Find high-performing keywords for a blog post.',
+  category: 'SEO',
+  prompt: `Suggest 10 SEO keywords for a blog post about remote work productivity.`
+},
+{
+  id: 82,
+  title: 'Meta Description Generator',
+  description: 'Create an optimized meta description for a web page.',
+  category: 'SEO',
+  prompt: `Write an SEO-friendly meta description for my blog on healthy meal prep.`
+},
+{
+  id: 83,
+  title: 'Content Optimization',
+  description: 'Optimize a paragraph for better SEO performance.',
+  category: 'SEO',
+  prompt: `Rewrite this paragraph to improve its SEO: [insert paragraph].`
+},
+{
+  id: 84,
+  title: 'Alt Text Generator',
+  description: 'Create effective alt text for images.',
+  category: 'SEO',
+  prompt: `Generate descriptive alt text for an image of a person using a laptop outdoors.`
+},
+{
+  id: 85,
+  title: 'SEO Title Variations',
+  description: 'Generate variations of a blog title for SEO.',
+  category: 'SEO',
+  prompt: `Generate 5 SEO-friendly title variations for: "How to Save Money as a Student".`
+},
+{
+  id: 86,
+  title: 'Business Name Generator',
+  description: 'Generate name ideas for a new company.',
+  category: 'Business',
+  prompt: `Suggest 10 brand name ideas for a startup offering digital courses.`
+},
+{
+  id: 87,
+  title: 'SWOT Analysis',
+  description: 'Generate a SWOT analysis for a business idea.',
+  category: 'Business',
+  prompt: `Perform a SWOT analysis for a food delivery app in a small city.`
+},
+{
+  id: 88,
+  title: 'Investor Pitch Outline',
+  description: 'Structure a pitch deck for potential investors.',
+  category: 'Business',
+  prompt: `Create an outline for a startup pitch to investors in the health tech space.`
+},
+{
+  id: 89,
+  title: 'Business Plan Summary',
+  description: 'Summarize a business plan into a one-page format.',
+  category: 'Business',
+  prompt: `Summarize this business plan into a concise one-pager: [insert plan details].`
+},
+{
+  id: 90,
+  title: 'Unique Selling Proposition',
+  description: 'Define a compelling USP for a business.',
+  category: 'Business',
+  prompt: `Help me define a strong Unique Selling Proposition for my subscription box business.`
+},
+{
+  id: 91,
+  title: 'Logo Design Brief',
+  description: 'Create a brief for designing a new logo.',
+  category: 'Design',
+  prompt: `Write a design brief for a modern, minimalistic logo for a fintech startup named "MoneyFlow".`
+},
+{
+  id: 92,
+  title: 'Brand Color Palette',
+  description: 'Suggest color palettes for a specific brand type.',
+  category: 'Design',
+  prompt: `Suggest 3 color palettes for a wellness brand focused on mental health.`
+},
+{
+  id: 93,
+  title: 'Social Media Post Layout',
+  description: 'Create layout suggestions for Instagram posts.',
+  category: 'Design',
+  prompt: `Suggest 3 layout ideas for Instagram carousel posts for a marketing agency.`
+},
+{
+  id: 94,
+  title: 'Typography Suggestions',
+  description: 'Recommend fonts for a website or product.',
+  category: 'Design',
+  prompt: `Suggest 3 typography pairings for a modern tech blog.`
+},
+{
+  id: 95,
+  title: 'Website Style Guide',
+  description: 'Build a basic style guide for a website project.',
+  category: 'Design',
+  prompt: `Create a simple style guide (colors, fonts, spacing) for a SaaS dashboard.`
+},
+{
+  id: 96,
+  title: 'Customer Apology Email',
+  description: 'Craft a professional apology for a customer complaint.',
+  category: 'Customer Support',
+  prompt: `Write an apology email to a customer who received a damaged product.`
+},
+{
+  id: 97,
+  title: 'Live Chat Response Template',
+  description: 'Create a polite response for delayed delivery inquiries.',
+  category: 'Customer Support',
+  prompt: `Write a live chat template for explaining a delayed shipment.`
+},
+{
+  id: 98,
+  title: 'Refund Policy Explanation',
+  description: 'Explain refund policy in clear and friendly language.',
+  category: 'Customer Support',
+  prompt: `Explain our 30-day refund policy to a confused customer.`
+},
+{
+  id: 99,
+  title: 'Positive Review Request',
+  description: 'Ask satisfied customers to leave a review.',
+  category: 'Customer Support',
+  prompt: `Write a message requesting a product review from a happy customer.`
+},
+{
+  id: 100,
+  title: 'Escalation Email Template',
+  description: 'Create a professional message for escalating an issue.',
+  category: 'Customer Support',
+  prompt: `Write an escalation email to forward a technical issue to the IT department.`
+},
+{
+  id: 101,
+  title: 'Blog Post Outline',
+  description: 'Create a detailed outline for a blog article.',
+  category: 'Content',
+  prompt: `Create a blog post outline for “Top 10 Remote Work Tools in 2025”.`
+},
+{
+  id: 102,
+  title: 'Video Script',
+  description: 'Write a short YouTube video script.',
+  category: 'Content',
+  prompt: `Write a 1-minute YouTube script for an explainer video about time management tips.`
+},
+{
+  id: 103,
+  title: 'Newsletter Content Ideas',
+  description: 'Generate engaging topics for email newsletters.',
+  category: 'Content',
+  prompt: `Give me 5 newsletter content ideas for a SaaS company in the productivity space.`
+},
+{
+  id: 104,
+  title: 'Quote Compilation',
+  description: 'Generate a list of themed quotes for social media.',
+  category: 'Content',
+  prompt: `Generate 10 inspirational quotes for entrepreneurs to post on LinkedIn.`
+},
+{
+  id: 105,
+  title: 'Content Calendar Plan',
+  description: 'Develop a content calendar for the month.',
+  category: 'Content',
+  prompt: `Create a 4-week content calendar for an Instagram account about digital art.`
+},
+{
+  id: 106,
+  title: 'Summarize CSV Data',
+  description: 'Summarize key trends in spreadsheet data.',
+  category: 'Data Analysis',
+  prompt: `Summarize the key insights from this CSV file of monthly website traffic: [insert data].`
+},
+{
+  id: 107,
+  title: 'Visualize Data',
+  description: 'Create a chart idea for comparing performance metrics.',
+  category: 'Data Analysis',
+  prompt: `Suggest a chart to compare monthly revenue across 3 product lines.`
+},
+{
+  id: 108,
+  title: 'SQL Query Builder',
+  description: 'Generate SQL queries based on natural language.',
+  category: 'Data Analysis',
+  prompt: `Write an SQL query to find the top 5 products by revenue from the sales table.`
+},
+{
+  id: 109,
+  title: 'Customer Segmentation Prompt',
+  description: 'Define user segments based on behavior.',
+  category: 'Data Analysis',
+  prompt: `Segment customers based on frequency of purchases and average order value.`
+},
+{
+  id: 110,
+  title: 'Anomaly Detection',
+  description: 'Identify data anomalies in a dataset.',
+  category: 'Data Analysis',
+  prompt: `Find anomalies in monthly sales data from this dataset: [insert data].`
+},
+{
+  id: 111,
+  title: 'Automate Email Workflow',
+  description: 'Design an automated email sequence for onboarding.',
+  category: 'Automation',
+  prompt: `Create an onboarding email automation for new users signing up for a design app.`
+},
+{
+  id: 112,
+  title: 'Zapier Workflow Idea',
+  description: 'Suggest a workflow using Zapier.',
+  category: 'Automation',
+  prompt: `Suggest a Zapier automation that connects Gmail, Google Sheets, and Slack for lead tracking.`
+},
+{
+  id: 113,
+  title: 'Task Scheduler Prompt',
+  description: 'Automate repetitive tasks using a scheduler.',
+  category: 'Automation',
+  prompt: `Suggest a way to schedule daily database backups automatically.`
+},
+{
+  id: 114,
+  title: 'Bot for Social Media',
+  description: 'Build a bot that posts scheduled content.',
+  category: 'Automation',
+  prompt: `Create a prompt to build a Twitter bot that posts motivational quotes daily.`
+},
+{
+  id: 115,
+  title: 'AI Chatbot Script',
+  description: 'Define logic for an automated chatbot flow.',
+  category: 'Automation',
+  prompt: `Write a chatbot flow for handling basic customer support on a clothing e-commerce site.`
+}
 ];
 
 const categories = ['All', 'Automation', 'Data Analysis', 'Content', 'Customer Support', 'Design', 'Business', 'Education', 'SEO', 'Mind Mapping', 'Productivity', 'Prompt Engineering', 'Marketing', 'Voice', 'UI/UX', 'Coding'];
