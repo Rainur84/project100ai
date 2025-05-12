@@ -387,6 +387,76 @@ const prompts = [
     category: 'Ideas',
     prompt: `Suggest 5 brandable startup names for a [industry] company, and check if .com domain is likely available.`,
   },
+  {
+  id: 56,
+  title: 'LinkedIn Bio Rewrite',
+  description: 'Get help rewriting your LinkedIn bio to stand out professionally.',
+  category: 'Social Networks',
+  prompt: `Rewrite my LinkedIn bio to sound more professional and highlight my achievements in [industry or role].`
+},
+{
+  id: 57,
+  title: 'Product Description',
+  description: 'Create a persuasive description for an online product.',
+  category: 'Marketing',
+  prompt: `Write a compelling product description for my e-commerce item: [product name and details].`
+},
+{
+  id: 58,
+  title: 'Cold Email Outreach',
+  description: 'Generate a professional cold email to pitch a service.',
+  category: 'Marketing',
+  prompt: `Write a cold outreach email to offer my [service] to small business owners.`
+},
+{
+  id: 59,
+  title: 'Startup Elevator Pitch',
+  description: 'Craft a powerful one-minute pitch for your startup.',
+  category: 'Ideas',
+  prompt: `Write a 60-second elevator pitch for my startup [startup name] that solves [problem].`
+},
+{
+  id: 60,
+  title: 'SEO Blog Titles',
+  description: 'Generate catchy blog titles optimized for SEO.',
+  category: 'Blogging',
+  prompt: `Suggest 10 SEO-optimized blog titles about [topic].`
+},
+{
+  id: 61,
+  title: 'AI App Idea',
+  description: 'Get a creative AI app idea for a side project.',
+  category: 'Ideas',
+  prompt: `Suggest a unique idea for an AI-powered app for [audience or industry].`
+},
+{
+  id: 62,
+  title: 'UX Copy for CTA',
+  description: 'Write microcopy for a call-to-action button on a website.',
+  category: 'UI/UX',
+  prompt: `Write 5 variations of UX copy for a CTA button that encourages users to sign up.`
+},
+{
+  id: 63,
+  title: 'Instagram Caption',
+  description: 'Create an engaging Instagram caption for a lifestyle post.',
+  category: 'Social Networks',
+  prompt: `Write a fun and catchy Instagram caption for a photo of [describe the photo].`
+},
+{
+  id: 64,
+  title: 'Pitch Deck Summary',
+  description: 'Summarize your pitch deck into a single slide.',
+  category: 'Presentations',
+  prompt: `Summarize my startup pitch deck into one impactful slide. Here's what we do: [brief description].`
+},
+{
+  id: 65,
+  title: 'Explainer Video Script',
+  description: 'Write a script for a short explainer video.',
+  category: 'Video',
+  prompt: `Write a 60-second explainer video script for [product/service] targeting [audience].`
+},
 ];
 
 const categories = ['All', 'Automation', 'Data Analysis', 'Content', 'Customer Support', 'Design', 'Business', 'Education', 'SEO', 'Mind Mapping', 'Productivity', 'Prompt Engineering', 'Marketing', 'Voice', 'UI/UX', 'Coding'];
