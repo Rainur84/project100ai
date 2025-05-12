@@ -249,7 +249,7 @@ const prompts = [
   },
 ];
 
-const categories = ['All', 'Content', 'Design', 'Marketing', 'Coding'];
+const categories = ['All', 'Automation', 'Data Analysis', 'Content', 'Customer Support', 'Design', 'Business', 'Education', 'SEO', 'Mind Mapping', 'Productivity', 'Prompt Engineering', 'Marketing', 'Voice', 'UI/UX', 'Coding'];
 
 const PromptsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
