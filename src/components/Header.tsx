@@ -41,6 +41,9 @@ const Header: React.FC = () => {
           <Link to="/models" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
             AI Models
           </Link>
+          <Link to="/news" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
+            AI News
+          </Link>
           <Link to="/compare" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">
             Compare
           </Link>
@@ -95,6 +98,9 @@ const Header: React.FC = () => {
               </Link>
               <Link to="/models" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 AI Models
+              </Link>
+              <Link to="/news" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
+                AI News
               </Link>
               <Link to="/compare" onClick={() => setIsMenuOpen(false)} className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium py-2">
                 Compare

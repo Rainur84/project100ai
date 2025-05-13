@@ -16,7 +16,8 @@ import AboutPage from './pages/AboutPage';
 import SearchPage from './pages/SearchPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
-import PromptsPage from './pages/PromptsPage'; // ✅ добавлен импорт страницы промтов
+import PromptsPage from './pages/PromptsPage';
+import NewsPage from './pages/NewsPage'; // ✅ добавлен импорт страницы новостей
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
                 <Route path="/models" element={<ModelsPage />} />
                 <Route path="/model/:id" element={<ModelDetailPage />} />
                 <Route path="/compare" element={<ComparePage />} />
-                <Route path="/prompts" element={<PromptsPage />} /> {/* ✅ добавлен новый маршрут */}
+                <Route path="/prompts" element={<PromptsPage />} />
+                <Route path="/news" element={<NewsPage />} /> {/* ✅ добавлен маршрут новостей */}
                 <Route path="/donate" element={<DonatePage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/search" element={<SearchPage />} />
@@ -48,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;;
