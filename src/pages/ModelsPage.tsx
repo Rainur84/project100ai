@@ -10,70 +10,70 @@ const ModelsPage: React.FC = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const initialCategory = queryParams.get('category') || '';
-  
+
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [filteredModels, setFilteredModels] = useState<AIModel[]>(aiModels);
   const [showFilters, setShowFilters] = useState<boolean>(false);
-  
+
   const categories = ['All', ...getAIModelCategories()];
-  
+
   useEffect(() => {
     let result = aiModels;
-    
+
     // Filter by category
     if (selectedCategory && selectedCategory !== 'All') {
       result = result.filter(model => model.category === selectedCategory);
     }
-    
+
     // Filter by search query
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
-      result = result.filter(model => 
+      result = result.filter(model =>
         model.name.toLowerCase().includes(query) ||
         model.description.toLowerCase().includes(query) ||
         model.company.toLowerCase().includes(query) ||
+        model.category.toLowerCase().includes(query) ||
         model.capabilities.some(cap => cap.toLowerCase().includes(query))
       );
     }
-    
+
     setFilteredModels(result);
   }, [selectedCategory, searchQuery]);
-  
+
   const handleSearch = (query: string) => {
     setSearchQuery(query);
   };
-  
+
   const clearFilters = () => {
     setSelectedCategory('');
     setSearchQuery('');
   };
-  
+
   return (
     <div className="py-24 px-4">
       <div className="container mx-auto">
-        {/* Page Header */}
+        {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold mb-4">AI Model Directory</h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
             Explore our comprehensive collection of AI models, from language models to image generators and everything in between.
           </p>
-          
-          {/* Search */}
+
           <div className="max-w-xl mx-auto">
-            <SearchBar 
-              fullWidth 
-              placeholder="Search by name, capability, or company..." 
+            <SearchBar
+              fullWidth
+              placeholder="Search by name, category, capability, or company..."
               onSearch={handleSearch}
             />
           </div>
         </div>
-        
+
         {/* Filters */}
         <div className="mb-10">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-semibold">Filter Models</h2>
-            <button 
+            <button
               className="md:hidden flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setShowFilters(!showFilters)}
             >
@@ -90,7 +90,7 @@ const ModelsPage: React.FC = () => {
               )}
             </button>
           </div>
-          
+
           <div className={`${showFilters ? 'block' : 'hidden'} md:block`}>
             <div className="flex flex-wrap items-center gap-3 mb-4">
               <SlidersHorizontal size={16} className="text-gray-500 dark:text-gray-400" />
@@ -108,7 +108,7 @@ const ModelsPage: React.FC = () => {
                   {category}
                 </button>
               ))}
-              
+
               {(selectedCategory || searchQuery) && (
                 <button
                   onClick={clearFilters}
@@ -121,14 +121,14 @@ const ModelsPage: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Results count */}
         <div className="mb-6 text-gray-600 dark:text-gray-400">
           {filteredModels.length} {filteredModels.length === 1 ? 'model' : 'models'} found
           {selectedCategory && ` in ${selectedCategory}`}
           {searchQuery && ` matching "${searchQuery}"`}
         </div>
-        
+
         {/* Models Grid */}
         {filteredModels.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

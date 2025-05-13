@@ -1,5 +1,3 @@
-// src/pages/ModelDetailPage.tsx
-
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getAIModelById } from '../data/aiModels';
@@ -74,22 +72,25 @@ const ModelDetailPage: React.FC = () => {
          <meta property="og:url" content={`https://project100ai-bay.vercel.app/models/${model.id}`} />
          <meta property="og:type" content="website" />
          <meta name="twitter:card" content="summary_large_image" />
+         <meta name="twitter:title" content={model.name} />
+         <meta name="twitter:description" content={model.description.slice(0, 160)} />
+         <meta name="twitter:image" content={model.imageUrl} />
          <script type="application/ld+json">
             {JSON.stringify({
-               "@context": "https://schema.org",
-               "@type": "SoftwareApplication",
-               "name": model.name,
-               "description": model.description,
-               "applicationCategory": model.category,
-               "operatingSystem": "All",
-               "image": model.imageUrl,
-               "url": `https://project100ai-bay.vercel.app/models/${model.id}`,
-               "author": {
-                 "@type": "Organization",
-                 "name": model.company
-               },
-               "releaseDate": model.releaseDate,
-               ...(model.demoUrl && {
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": model.name,
+              "description": model.description,
+              "applicationCategory": model.category,
+              "operatingSystem": "All",
+              "image": model.imageUrl,
+              "url": `https://project100ai-bay.vercel.app/models/${model.id}`,
+              "author": {
+                "@type": "Organization",
+                "name": model.company
+              },
+              "releaseDate": model.releaseDate,
+              ...(model.demoUrl && {
                 "offers": {
                   "@type": "Offer",
                   "url": model.demoUrl,
@@ -97,9 +98,9 @@ const ModelDetailPage: React.FC = () => {
                   "priceCurrency": "USD"
                 }
               })
-           })}
+            })}
          </script>
-       </Helmet>
+      </Helmet>
 
       <div className="container mx-auto max-w-7xl">
         <div className="mb-8">
@@ -113,10 +114,8 @@ const ModelDetailPage: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-          {/* Main Content */}
           <div className="lg:col-span-2 order-2 lg:order-1">
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden mb-8">
-              {/* Hero Image */}
               <div className="relative aspect-video">
                 <img 
                   src={model.imageUrl} 
@@ -132,9 +131,7 @@ const ModelDetailPage: React.FC = () => {
 
               <div className="p-8">
                 <h1 className="text-3xl font-bold mb-4">{model.name}</h1>
-                <p className="text-gray-600 dark:text-gray-400 text-lg mb-6">
-                  {model.description}
-                </p>
+                <p className="text-gray-600 dark:text-gray-400 text-lg mb-6">{model.description}</p>
 
                 <div className="mb-8">
                   <h2 className="text-xl font-semibold mb-4 flex items-center">
@@ -211,7 +208,6 @@ const ModelDetailPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Similar Models */}
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden p-8">
               <h2 className="text-xl font-semibold mb-6">Similar Models</h2>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
@@ -229,7 +225,6 @@ const ModelDetailPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Sidebar */}
           <div className="order-1 lg:order-2">
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden p-6 mb-6 sticky top-24">
               <h2 className="text-xl font-semibold mb-4">Model Details</h2>
@@ -264,40 +259,15 @@ const ModelDetailPage: React.FC = () => {
                   <div className="flex space-x-3">
                     <button className="flex-1 flex items-center justify-center px-3 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                       <Share2 size={16} className="mr-1" />
-                      Share
+                       Share
                     </button>
                     <button className="flex-1 flex items-center justify-center px-3 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                       <Heart size={16} className="mr-1" />
-                      Favorite
+                      Save
                     </button>
                   </div>
                 </li>
-                <li className="pt-4 mt-4 border-t border-gray-200 dark:border-gray-700">
-                  <Link 
-                    to="/compare" 
-                    className="block w-full py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md text-center transition-colors"
-                  >
-                    Add to Comparison
-                  </Link>
-                </li>
               </ul>
-            </div>
-
-            {/* Support Section */}
-            <div className="bg-gradient-to-br from-purple-700 to-blue-700 rounded-xl shadow-md overflow-hidden p-6 text-white">
-              <div className="flex items-center mb-4">
-                <Star size={24} className="text-yellow-300 mr-2" />
-                <h3 className="text-lg font-semibold">Support Our Project</h3>
-              </div>
-              <p className="mb-4 text-blue-100">
-                Help us continue providing quality information about AI models by supporting our work.
-              </p>
-              <Link 
-                to="/donate" 
-                className="block w-full py-2 bg-white text-blue-700 rounded-md text-center font-medium hover:bg-blue-50 transition-colors"
-              >
-                Donate Now
-              </Link>
             </div>
           </div>
         </div>

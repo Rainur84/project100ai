@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
@@ -6,33 +6,48 @@ interface SearchBarProps {
   fullWidth?: boolean;
   placeholder?: string;
   onSearch?: (query: string) => void;
+  initialValue?: string;
+  inputRef?: React.RefObject<HTMLInputElement>;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ 
-  fullWidth = false, 
-  placeholder = "Search AI models...",
-  onSearch
+const SearchBar: React.FC<SearchBarProps> = ({
+  fullWidth = false,
+  placeholder = 'Search AI models...',
+  onSearch,
+  initialValue = '',
+  inputRef,
 }) => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(initialValue);
+  const internalRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setQuery(initialValue);
+  }, [initialValue]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (query.trim()) {
+    const trimmed = query.trim();
+    if (trimmed) {
       if (onSearch) {
-        onSearch(query.trim());
+        onSearch(trimmed);
       } else {
-        navigate(`/search?q=${encodeURIComponent(query.trim())}`);
+        navigate(`/search?q=${encodeURIComponent(trimmed)}`);
       }
     }
   };
 
   const clearSearch = () => {
     setQuery('');
+    if (inputRef?.current) {
+      inputRef.current.focus();
+    } else {
+      internalRef.current?.focus();
+    }
   };
 
   return (
-    <form 
+    <form
       onSubmit={handleSubmit}
       className={`${fullWidth ? 'w-full' : 'max-w-md'} relative`}
     >
@@ -41,6 +56,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
           <Search className="w-5 h-5 text-gray-400" />
         </div>
         <input
+          ref={inputRef ?? internalRef}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
