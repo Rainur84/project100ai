@@ -1,66 +1,85 @@
-// server.js
 import express from 'express';
 import cors from 'cors';
 import Parser from 'rss-parser';
 
 const app = express();
 const port = 3001;
-const parser = new Parser();
 
 app.use(cors());
 
-const feeds = [
+const parser = new Parser({
+  customFields: {
+    item: ['enclosure', ['media:content', 'url']],
+  },
+});
+
+const sources = [
   {
-    url: 'https://spectrum.ieee.org/rss/ai/fulltext',
-    source: 'IEEE Spectrum'
+    url: 'https://news.mit.edu/rss/topic/artificial-intelligence2',
+    name: 'MIT',
+  },
+  {
+    url: 'https://spectrum.ieee.org/rss/fulltext',
+    name: 'IEEE',
   },
   {
     url: 'https://www.technologyreview.com/feed/',
-    source: 'MIT Technology Review'
+    name: 'MIT Tech Review',
   },
   {
-    url: 'https://www.artificialintelligence-news.com/feed/',
-    source: 'AI News'
+    url: 'https://techcrunch.com/tag/artificial-intelligence/feed/',
+    name: 'TechCrunch',
   },
   {
-    url: 'https://venturebeat.com/category/ai/feed/',
-    source: 'VentureBeat'
+    url: 'https://openai.com/blog/rss.xml',
+    name: 'OpenAI',
   },
-  {
-    url: 'https://feeds.feedburner.com/thenextweb/Insider',
-    source: 'The Next Web'
-  }
 ];
 
-app.get('/api/news', async (req, res) => {
-  try {
-    const allItems = [];
+let cachedNews = [];
+let lastFetchTime = 0;
+const CACHE_DURATION = 15 * 60 * 1000; // 15 минут
 
-    for (const feed of feeds) {
-      try {
-        const parsedFeed = await parser.parseURL(feed.url);
-        const items = parsedFeed.items.map(item => ({
-          title: item.title,
-          link: item.link,
-          pubDate: item.pubDate,
-          source: feed.source,
-          contentSnippet: item.contentSnippet || '',
-        }));
-        allItems.push(...items);
-      } catch (err) {
-        console.error(`Error fetching ${feed.url}:`, err.message);
-      }
+const fetchAllFeeds = async () => {
+  const allItems = [];
+
+  for (const source of sources) {
+    try {
+      const feed = await parser.parseURL(source.url);
+      const items = feed.items.map((item) => ({
+        title: item.title,
+        link: item.link,
+        pubDate: item.pubDate || item.isoDate || '',
+        source: source.name,
+        image:
+          item.enclosure?.url ||
+          item['media:content']?.url ||
+          null,
+      }));
+      allItems.push(...items);
+    } catch (error) {
+      console.error(`Error fetching ${source.name}:`, error.message);
     }
-
-    allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-    res.json(allItems);
-  } catch (error) {
-    console.error('Error fetching RSS feeds:', error);
-    res.status(500).json({ error: 'Failed to fetch news.' });
   }
+
+  // Сортировка по дате (от новых к старым)
+  return allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+};
+
+app.get('/api/news', async (req, res) => {
+  const now = Date.now();
+
+  if (now - lastFetchTime > CACHE_DURATION || cachedNews.length === 0) {
+    console.log('Fetching fresh RSS feeds...');
+    cachedNews = await fetchAllFeeds();
+    lastFetchTime = now;
+  } else {
+    console.log('Serving cached news.');
+  }
+
+  res.json(cachedNews);
 });
 
 app.listen(port, () => {
-  console.log(`✅ Server is running on http://localhost:${port}`);
+  console.log(`RSS server listening at http://localhost:${port}`);
 });

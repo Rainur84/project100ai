@@ -1,58 +1,64 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
-interface NewsItem {
+type NewsItem = {
   title: string;
   link: string;
   pubDate: string;
-  contentSnippet: string;
   source: string;
-}
+  image?: string | null;
+};
 
-const NewsPage: React.FC = () => {
+export default function NewsPage() {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch('http://localhost:3001/api/news')
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setNews(data);
         setLoading(false);
       })
-      .catch(err => {
-        console.error('Error fetching news:', err);
+      .catch((error) => {
+        console.error('Error fetching news:', error);
         setLoading(false);
       });
   }, []);
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold mb-4 text-center">📰 AI News</h1>
-      <p className="text-gray-700 dark:text-gray-300 text-lg text-center mb-10">
-        Discover the latest breakthroughs and updates from the world of Artificial Intelligence.
-      </p>
+    <div className="p-4 max-w-5xl mx-auto">
+      <h1 className="text-3xl font-bold mb-6 text-center">AI News</h1>
 
       {loading ? (
-        <p className="text-center text-gray-500 dark:text-gray-400">Loading news...</p>
-      ) : news.length === 0 ? (
-        <p className="text-center text-red-500">No news available.</p>
+        <p className="text-center">Loading...</p>
       ) : (
-        <div className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {news.map((item, index) => (
-            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
-              <a href={item.link} target="_blank" rel="noopener noreferrer">
-                <h2 className="text-xl font-semibold mb-1 hover:underline">{item.title}</h2>
-              </a>
-              <p className="text-gray-600 dark:text-gray-300 mb-2">{item.contentSnippet}</p>
-              <div className="text-sm text-gray-400">
-                🕒 {new Date(item.pubDate).toLocaleString()} | 📌 {item.source}
+            <a
+              key={index}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white rounded-2xl shadow-md hover:shadow-lg transition overflow-hidden border border-gray-100"
+            >
+              {item.image && (
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-48 object-cover"
+                />
+              )}
+              <div className="p-4">
+                <h2 className="text-lg font-semibold mb-2">{item.title}</h2>
+                <div className="text-sm text-gray-500 flex justify-between">
+                  <span>{item.source}</span>
+                  <span>{new Date(item.pubDate).toLocaleDateString()}</span>
+                </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       )}
     </div>
   );
-};
-
-export default NewsPage;
+}
