@@ -1,59 +1,51 @@
-import { useEffect, useState } from 'react';
+// src/pages/NewsPage.tsx
+import React, { useEffect, useState } from 'react';
+import { Loader2 } from 'lucide-react';
 
-type NewsItem = {
+interface NewsItem {
   title: string;
   link: string;
-  pubDate: string;
+  date: string;
+  content: string;
   source: string;
-  image?: string | null;
-};
+}
 
-export default function NewsPage() {
+const NewsPage: React.FC = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/news')
+    fetch('/news.json')
       .then((res) => res.json())
-      .then((data) => {
+      .then((data: NewsItem[]) => {
         setNews(data);
         setLoading(false);
       })
-      .catch((error) => {
-        console.error('Error fetching news:', error);
-        setLoading(false);
-      });
+      .catch(() => setLoading(false));
   }, []);
 
   return (
-    <div className="p-4 max-w-5xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center">AI News</h1>
-
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold mb-6 text-center">🧠 AI News</h1>
       {loading ? (
-        <p className="text-center">Loading...</p>
+        <div className="flex justify-center items-center h-40">
+          <Loader2 className="animate-spin w-6 h-6 text-gray-500" />
+        </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {news.map((item, index) => (
+        <div className="grid gap-6">
+          {news.map((item, idx) => (
             <a
-              key={index}
+              key={idx}
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white rounded-2xl shadow-md hover:shadow-lg transition overflow-hidden border border-gray-100"
+              className="block p-4 border rounded-md shadow-sm hover:shadow-md transition"
             >
-              {item.image && (
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-48 object-cover"
-                />
-              )}
-              <div className="p-4">
-                <h2 className="text-lg font-semibold mb-2">{item.title}</h2>
-                <div className="text-sm text-gray-500 flex justify-between">
-                  <span>{item.source}</span>
-                  <span>{new Date(item.pubDate).toLocaleDateString()}</span>
-                </div>
+              <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
+              <p className="text-gray-600 dark:text-gray-400 mb-1">{item.content}</p>
+              <div className="text-sm text-gray-500 dark:text-gray-400 flex justify-between items-center">
+                <span>{new Date(item.date).toLocaleDateString()}</span>
+                <span className="italic">{item.source}</span>
               </div>
             </a>
           ))}
@@ -61,4 +53,6 @@ export default function NewsPage() {
       )}
     </div>
   );
-}
+};
+
+export default NewsPage;
