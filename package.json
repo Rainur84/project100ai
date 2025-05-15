@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "news": "tsx scripts/update-news.ts"
+    "news": "tsx scripts/update-news.ts",
+    "deploy-news": "npm run news && git add . && git commit -m \"update: fresh AI news\" && git push"
   },
   "dependencies": {
     "cors": "^2.8.5",
