@@ -1,5 +1,40 @@
 [
   {
+    "source": "MIT Technology Review AI",
+    "title": "This baby boy was treated with the first personalized gene-editing drug",
+    "link": "https://www.technologyreview.com/2025/05/15/1116524/this-baby-boy-was-treated-with-the-first-personalized-gene-editing-drug/",
+    "date": "Thu, 15 May 2025 17:00:00 +0000",
+    "content": "Doctors say they constructed a bespoke gene-editing treatment in less than seven months and used it to treat a baby with a deadly metabolic condition. The rapid-fire attempt to rewrite the child’s DNA marks the first time gene editing has been tailored to treat a single individual, according to a report published in the New…"
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Arm is rebranding its system-on-a-chip product designs to showcase power savings for AI workloads, targeting a surprising sector",
+    "link": "https://venturebeat.com/ai/arm-is-rebranding-its-system-on-a-chip-product-designs-to-showcase-power-savings-for-ai-workloads-targeting-a-surprising-sector/",
+    "date": "Thu, 15 May 2025 16:17:52 +0000",
+    "content": "For engineers orchestrating AI pipelines across environments, the modularity and performance tiering within Arm’s new architecture..."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "You.com’s ARI Enterprise crushes OpenAI in head-to-head tests, aims at deep research market",
+    "link": "https://venturebeat.com/ai/you-coms-ari-enterprise-crushes-openai-in-head-to-head-tests-aims-at-deep-research-market/",
+    "date": "Thu, 15 May 2025 13:00:00 +0000",
+    "content": "You.com launches ARI Enterprise, an AI research platform that outperforms OpenAI in 76% of head-to-head tests and integrates with enterprise data sources to transform business intelligence with 400+ source analysis."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "The Download: Montana’s experimental treatments, and Google DeepMind’s new AI agent",
+    "link": "https://www.technologyreview.com/2025/05/15/1116516/the-download-montanas-experimental-treatments-and-google-deepminds-new-ai-agent/",
+    "date": "Thu, 15 May 2025 12:10:00 +0000",
+    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The first US hub for experimental medical treatments is coming The news: A bill that allows clinics to sell unproven treatments has been passed in Montana. Under the legislation, doctors can apply for…"
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "How US research cuts are threatening crucial climate data",
+    "link": "https://www.technologyreview.com/2025/05/15/1116485/climate-data/",
+    "date": "Thu, 15 May 2025 09:00:00 +0000",
+    "content": "Over the last few months, and especially the last few weeks, there’s been an explosion of news about proposed budget cuts to science in the US. One trend I’ve noticed: Researchers and civil servants are sounding the alarm that those cuts mean we might lose key data that helps us understand our world and how…"
+  },
+  {
     "source": "VentureBeat AI",
     "title": "OpenAI brings GPT-4.1 and 4.1 mini to ChatGPT — what enterprises should know",
     "link": "https://venturebeat.com/ai/openai-brings-gpt-4-1-and-4-1-mini-to-chatgpt-what-enterprises-should-know/",
@@ -22,24 +57,10 @@
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "Google DeepMind’s new AI agent uses large language models to crack real-world problems",
+    "title": "Google DeepMind’s new AI agent cracks real-world problems better than humans can",
     "link": "https://www.technologyreview.com/2025/05/14/1116438/google-deepminds-new-ai-uses-large-language-models-to-crack-real-world-problems/",
     "date": "Wed, 14 May 2025 15:00:08 +0000",
     "content": "Google DeepMind has once again used large language models to discover new solutions to long-standing problems in math and computer science. This time the firm has shown that its approach can not only tackle unsolved theoretical puzzles, but improve a range of important real-world processes as well. Google DeepMind’s new tool, called AlphaEvolve, uses the…"
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Meet AlphaEvolve, the Google AI that writes its own code—and just saved millions in computing costs",
-    "link": "https://venturebeat.com/ai/meet-alphaevolve-the-google-ai-that-writes-its-own-code-and-just-saved-millions-in-computing-costs/",
-    "date": "Wed, 14 May 2025 15:00:00 +0000",
-    "content": "Google DeepMind's AlphaEvolve AI system breaks a 56-year-old mathematical record by discovering a more efficient matrix multiplication algorithm that had eluded human mathematicians since Strassen's 1969 breakthrough."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Patronus AI debuts Percival to help enterprises monitor failing AI agents at scale",
-    "link": "https://venturebeat.com/ai/patronus-ai-debuts-percival-to-help-enterprises-monitor-failing-ai-agents-at-scale/",
-    "date": "Wed, 14 May 2025 13:00:00 +0000",
-    "content": "Patronus AI introduces Percival, a real-time monitoring platform that helps enterprises detect, debug, and prevent failures in autonomous AI agents to improve reliability, safety, and scalability."
   },
   {
     "source": "MIT Technology Review AI",
@@ -47,26 +68,5 @@
     "link": "https://www.technologyreview.com/2025/05/14/1116428/first-us-hub-for-experimental-medical-treatments/",
     "date": "Wed, 14 May 2025 12:30:00 +0000",
     "content": "A bill that allows medical clinics to sell unproven treatments has been passed in Montana.  Under the legislation, doctors can apply for a license to open an experimental treatment clinic and recommend and sell therapies not approved by the Food and Drug Administration (FDA) to their patients. Once it’s signed by the governor, the law…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "The Download: taking the temperature of snow, and the future of privacy",
-    "link": "https://www.technologyreview.com/2025/05/14/1116426/the-download-taking-the-temperature-of-snow-and-the-future-of-privacy/",
-    "date": "Wed, 14 May 2025 12:10:00 +0000",
-    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why climate researchers are taking the temperature of mountain snow The Sierra’s frozen reservoir provides about a third of California’s water and most of what comes out of the faucets, shower heads, and…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "Why climate researchers are taking the temperature of mountain snow",
-    "link": "https://www.technologyreview.com/2025/05/14/1116395/why-climate-researchers-are-taking-the-temperature-of-mountain-snow/",
-    "date": "Wed, 14 May 2025 08:00:00 +0000",
-    "content": "On a crisp morning in early April, Dan McEvoy and Bjoern Bingham cut clean lines down a wide run at the Heavenly Ski Resort in South Lake Tahoe, then ducked under a rope line cordoning off a patch of untouched snow.  They side-stepped up a small incline, poled past a row of Jeffrey pines, then…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "The Download: CRISPR in court, and the police’s ban-skirting AI",
-    "link": "https://www.technologyreview.com/2025/05/13/1116357/the-download-crispr-in-court-and-the-polices-ban-skirting-ai/",
-    "date": "Tue, 13 May 2025 12:10:00 +0000",
-    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A US court just put ownership of CRISPR back in play The CRISPR patents are back in play. Yesterday, the US Court of Appeals for the Federal Circuit said scientists Jennifer Doudna and…"
   }
 ]
