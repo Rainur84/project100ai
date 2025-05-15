@@ -44,6 +44,7 @@ async function updateNews(): Promise<NewsItem[]> {
     const filePath = path.join(process.cwd(), 'public', 'news.json');
     await fs.writeFile(filePath, JSON.stringify(sorted, null, 2), 'utf-8');
     console.log('✅ News updated. Total items:', sorted.length);
+    console.log('✅ Auto-deploy script finished!');
   } catch (error) {
     console.error('❌ Error updating news:', error);
   }
