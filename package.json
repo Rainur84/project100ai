@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update-news": "tsx scripts/update-news.ts"
+    "news": "tsx scripts/update-news.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
