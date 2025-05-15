@@ -48,9 +48,11 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white dark:bg-gray-900 shadow-md py-2' : 'bg-transparent py-4'
-    }`}>
+    <header
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-white dark:bg-gray-900 shadow-md py-2' : 'bg-transparent py-4'
+      }`}
+    >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
           <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
@@ -74,7 +76,7 @@ const Header: React.FC = () => {
         <div className="hidden md:flex items-center space-x-4 relative" ref={searchRef}>
           <input
             type="text"
-            placeholder="Search AI Models..."
+            placeholder="Search models like GPT-4, Claude, etc..."
             className="px-3 py-1 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-sm text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={searchTerm}
             onChange={(e) => {
@@ -90,6 +92,11 @@ const Header: React.FC = () => {
                   <div
                     key={model.slug}
                     onClick={() => handleSelectModel(model.slug)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') handleSelectModel(model.slug);
+                    }}
+                    tabIndex={0}
+                    role="button"
                     className="cursor-pointer px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
                     dangerouslySetInnerHTML={{ __html: highlightMatch(model.name) }}
                   />

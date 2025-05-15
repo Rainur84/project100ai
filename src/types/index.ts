@@ -1,6 +1,7 @@
 export interface AIModel {
   id: string;
   name: string;
+  slug: string; // ✅ Добавлено поле slug для использования в key и handleSelectModel
   category: string;
   description: string;
   capabilities: string[];
@@ -11,10 +12,9 @@ export interface AIModel {
   githubUrl?: string;
   demoUrl?: string;
   paperUrl?: string;
-  usage?: string;
-  howToUse?: string; // ✅ Добавлено поле с описанием пошагового использования
-  accessType?: 'Free' | 'Paid' | 'Partially Free' | 'Not Yet Public'; // ✅ Тип доступа
-  examples?: string[]; // ✅ Примеры использования
+  usage?: string; // Подробная инструкция по использованию
+  accessType?: 'Free' | 'Paid' | 'Partially Free' | 'Not Yet Public'; // Тип доступа
+  examples?: string[]; // Примеры использования
 }
 
 export interface DonationMethod {

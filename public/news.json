@@ -1,6 +1,41 @@
 [
   {
     "source": "VentureBeat AI",
+    "title": "OpenAI brings GPT-4.1 and 4.1 mini to ChatGPT — what enterprises should know",
+    "link": "https://venturebeat.com/ai/openai-brings-gpt-4-1-and-4-1-mini-to-chatgpt-what-enterprises-should-know/",
+    "date": "Wed, 14 May 2025 23:46:50 +0000",
+    "content": "As OpenAI continues to evolve its model offerings, GPT-4.1 represents a step forward in democratizing advanced AI for enterprise environments"
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Beyond sycophancy: DarkBench exposes six hidden ‘dark patterns’ lurking in today’s top LLMs",
+    "link": "https://venturebeat.com/ai/darkness-rising-the-hidden-dangers-of-ai-sycophancy-and-dark-patterns/",
+    "date": "Wed, 14 May 2025 23:14:08 +0000",
+    "content": "Without a strong push from AI companies to combat sycophancy and other dark patterns, the default trajectory is more engagement optimization, more manipulation and fewer checks."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Elon Musk’s Grok AI is spamming X users about South African race relations now, for some reason",
+    "link": "https://venturebeat.com/ai/elon-musks-grok-ai-is-spamming-x-users-about-south-african-race-relations-now-for-some-reason/",
+    "date": "Wed, 14 May 2025 19:08:41 +0000",
+    "content": "Grok was caught earlier this year censoring results critical of President Trump and Musk himself, sowing more doubt of its factual integrity."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "Google DeepMind’s new AI agent uses large language models to crack real-world problems",
+    "link": "https://www.technologyreview.com/2025/05/14/1116438/google-deepminds-new-ai-uses-large-language-models-to-crack-real-world-problems/",
+    "date": "Wed, 14 May 2025 15:00:08 +0000",
+    "content": "Google DeepMind has once again used large language models to discover new solutions to long-standing problems in math and computer science. This time the firm has shown that its approach can not only tackle unsolved theoretical puzzles, but improve a range of important real-world processes as well. Google DeepMind’s new tool, called AlphaEvolve, uses the…"
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Meet AlphaEvolve, the Google AI that writes its own code—and just saved millions in computing costs",
+    "link": "https://venturebeat.com/ai/meet-alphaevolve-the-google-ai-that-writes-its-own-code-and-just-saved-millions-in-computing-costs/",
+    "date": "Wed, 14 May 2025 15:00:00 +0000",
+    "content": "Google DeepMind's AlphaEvolve AI system breaks a 56-year-old mathematical record by discovering a more efficient matrix multiplication algorithm that had eluded human mathematicians since Strassen's 1969 breakthrough."
+  },
+  {
+    "source": "VentureBeat AI",
     "title": "Patronus AI debuts Percival to help enterprises monitor failing AI agents at scale",
     "link": "https://venturebeat.com/ai/patronus-ai-debuts-percival-to-help-enterprises-monitor-failing-ai-agents-at-scale/",
     "date": "Wed, 14 May 2025 13:00:00 +0000",
@@ -28,45 +63,10 @@
     "content": "On a crisp morning in early April, Dan McEvoy and Bjoern Bingham cut clean lines down a wide run at the Heavenly Ski Resort in South Lake Tahoe, then ducked under a rope line cordoning off a patch of untouched snow.  They side-stepped up a small incline, poled past a row of Jeffrey pines, then…"
   },
   {
-    "source": "VentureBeat AI",
-    "title": "Notion bets big on integrated LLMs, adds GPT-4.1 and Claude 3.7 to platform",
-    "link": "https://venturebeat.com/ai/notion-bets-big-on-integrated-llms-adds-gpt-4-1-and-claude-3-7-to-platform/",
-    "date": "Tue, 13 May 2025 22:18:40 +0000",
-    "content": "Notion used OpenAI's GPT-4.1 and Anthropic's Claude 3.7 for its new AI features for enterprises, moving away from reasoning models."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "What your tools miss at 2:13 AM: How gen AI attack chains exploit telemetry lag – Part 2",
-    "link": "https://venturebeat.com/ai/what-your-tools-miss-at-213-am-how-gen-ai-attack-chains-exploit-telemetry-lag-part-2/",
-    "date": "Tue, 13 May 2025 22:05:32 +0000",
-    "content": "Explore a strategic 2025 roadmap for cybersecurity leaders to tackle GenAI, insider risks, and team burnout with actionable guidance."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "AI power rankings upended: OpenAI, Google rise as Anthropic falls, Poe report finds",
-    "link": "https://venturebeat.com/ai/ai-power-rankings-upended-openai-google-rise-as-anthropic-falls-poe-report-finds/",
-    "date": "Tue, 13 May 2025 19:13:46 +0000",
-    "content": "New Poe data reveals major shifts in AI market share as OpenAI and Google gain ground while specialized reasoning models surge to 10% of usage in 2025."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "SimilarWeb’s new AI usage report reveals 5 surprising findings, including explosive growth in coding tools",
-    "link": "https://venturebeat.com/ai/similarwebs-new-ai-usage-report-reveals-5-surprising-findings-including-explosive-growth-in-coding-tools/",
-    "date": "Tue, 13 May 2025 17:22:27 +0000",
-    "content": "The signs point to early-stage AI disruption beginning to erode the utility of some legacy platforms. It also offers a hint to enterprises..."
-  },
-  {
     "source": "MIT Technology Review AI",
     "title": "The Download: CRISPR in court, and the police’s ban-skirting AI",
     "link": "https://www.technologyreview.com/2025/05/13/1116357/the-download-crispr-in-court-and-the-polices-ban-skirting-ai/",
     "date": "Tue, 13 May 2025 12:10:00 +0000",
     "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A US court just put ownership of CRISPR back in play The CRISPR patents are back in play. Yesterday, the US Court of Appeals for the Federal Circuit said scientists Jennifer Doudna and…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "Police tech can sidestep facial recognition bans now",
-    "link": "https://www.technologyreview.com/2025/05/13/1116321/police-tech-can-sidestep-facial-recognition-bans-now/",
-    "date": "Tue, 13 May 2025 09:00:00 +0000",
-    "content": "Six months ago I attended the largest gathering of chiefs of police in the US to see how they’re using AI. I found some big developments, like officers getting AI to write their police reports. Today, I published a new story that shows just how far AI for police has developed since then.  It’s about…"
   }
 ]

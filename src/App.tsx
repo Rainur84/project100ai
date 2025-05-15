@@ -17,8 +17,9 @@ import SearchPage from './pages/SearchPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import PromptsPage from './pages/PromptsPage';
-import NewsPage from './pages/NewsPage';
-import GlossaryPage from './pages/GlossaryPage'; // ✅ импорт Glossary
+import NewsFeedPage from './pages/NewsFeedPage'; // ✅ правильное имя
+import GlossaryPage from './pages/GlossaryPage';
+import AICalendarPage from './pages/AICalendarPage'; // ✅ добавлено
 
 function App() {
   return (
@@ -35,8 +36,9 @@ function App() {
                 <Route path="/model/:id" element={<ModelDetailPage />} />
                 <Route path="/compare" element={<ComparePage />} />
                 <Route path="/prompts" element={<PromptsPage />} />
-                <Route path="/news" element={<NewsPage />} />
-                <Route path="/glossary" element={<GlossaryPage />} /> {/* ✅ маршрут Glossary */}
+                <Route path="/news" element={<NewsFeedPage />} /> {/* ✅ обновлено */}
+                <Route path="/calendar" element={<AICalendarPage />} /> {/* ✅ новый маршрут */}
+                <Route path="/glossary" element={<GlossaryPage />} />
                 <Route path="/donate" element={<DonatePage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/search" element={<SearchPage />} />

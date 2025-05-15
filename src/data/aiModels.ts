@@ -1,9 +1,10 @@
-import { AIModel } from '../types';
+import { AIModel } from '../types'; // или './types', в зависимости от уровня вложенности
 
 export const aiModels: AIModel[] = [
   {
     id: '1',
     name: 'GPT-4',
+    slug: 'gpt-4',
     category: 'Large Language Model',
     description: "GPT-4 is OpenAI's most advanced system, producing safer and more useful responses.",
     capabilities: ['Text generation', 'Content summarization', 'Code generation', 'Creative writing'],
@@ -25,8 +26,9 @@ export const aiModels: AIModel[] = [
     ]
   },
   {
-    id: '2',
+     id: '2',
     name: 'Claude 3',
+    slug: 'claude-3',
     category: 'Large Language Model',
     description: 'Claude is a family of AI assistants created by Anthropic, known for safety and reasoning.',
     capabilities: ['Conversational AI', 'Content generation', 'Data analysis', 'Complex reasoning'],
@@ -49,6 +51,7 @@ export const aiModels: AIModel[] = [
   {
     id: '3',
     name: 'DALL-E 3',
+    slug: 'dall-e-3',
     category: 'Image Generation',
     description: 'DALL-E 3 generates images from natural language prompts with high accuracy and detail.',
     capabilities: ['Image generation', 'Style transfer', 'Concept visualization', 'Creative design'],
@@ -71,6 +74,7 @@ export const aiModels: AIModel[] = [
   {
     id: '4',
     name: 'Gemini',
+    slug: 'gemini',
     category: 'Multimodal Model',
     description: "Gemini by Google handles text, images, audio, and video with advanced reasoning.",
     capabilities: ['Multimodal reasoning', 'Code generation', 'Planning', 'Summarization'],
@@ -93,6 +97,7 @@ export const aiModels: AIModel[] = [
   {
     id: '5',
     name: 'Stable Diffusion XL',
+    slug: 'stable-diffusion-xl',
     category: 'Image Generation',
     description: 'Stable Diffusion XL produces photorealistic images from text prompts using open-source models.',
     capabilities: ['Text-to-image generation', 'Image editing', 'Concept visualization', 'Art creation'],
@@ -116,6 +121,7 @@ export const aiModels: AIModel[] = [
   {
     id: '6',
     name: 'Llama 3',
+    slug: 'llama-3',
     category: 'Large Language Model',
     description: "Llama 3 is Meta's open-source LLM with multilingual capabilities and strong reasoning.",
     capabilities: ['Conversational AI', 'Content generation', 'Reasoning', 'Multilingual support'],
@@ -137,8 +143,9 @@ export const aiModels: AIModel[] = [
     ]
   },
   {
-    id: '7',
+     id: '7',
     name: 'Midjourney V6',
+    slug: 'midjourney-v6',
     category: 'Image Generation',
     description: 'Midjourney is known for artistic AI images. Version 6 offers improved realism and detail.',
     capabilities: ['Artistic image generation', 'Style consistency', 'Detailed rendering', 'Creative visualization'],
@@ -161,6 +168,7 @@ export const aiModels: AIModel[] = [
   {
     id: '8',
     name: 'Sora',
+    slug: 'sora',
     category: 'Video Generation',
     description: 'Sora is OpenAI’s model that creates short videos from textual descriptions.',
     capabilities: ['Text-to-video generation', 'Scene composition', 'Character animation', 'Dynamic environments'],
@@ -183,6 +191,7 @@ export const aiModels: AIModel[] = [
   {
     id: '9',
     name: 'DeepSeek AI',
+    slug: 'deepseek-ai',
     category: 'Ideas',
     description: 'DeepSeek AI is a search and reasoning engine that combines web data with LLM capabilities.',
     capabilities: ['Search', 'Web data integration', 'Reasoning'],
@@ -205,6 +214,7 @@ export const aiModels: AIModel[] = [
   {
     id: '10',
     name: 'YOU.com',
+    slug: 'you-com',
     category: 'Ideas',
     description: 'YOU.com is a privacy-focused AI-powered search engine that generates real-time summarized results.',
     capabilities: ['AI summarization', 'Code generation', 'Real-time web search'],
@@ -227,6 +237,7 @@ export const aiModels: AIModel[] = [
   {
     id: '11',
     name: 'Perplexity',
+    slug: 'perplexity',
     category: 'Ideas',
     description: 'Perplexity is an AI-powered answer engine that provides cited, concise responses to complex questions.',
     capabilities: ['Web search', 'Cited answers', 'AI summarization'],
@@ -247,325 +258,340 @@ export const aiModels: AIModel[] = [
     ]
   },
   {
-    id: '12',
-    name: 'Claude',
-    category: 'Ideas',
-    description: 'Claude is an advanced conversational model by Anthropic with a focus on helpful, honest, harmless AI.',
-    capabilities: ['Conversational AI', 'Summarization', 'Creative writing'],
-    releaseDate: '2023-07-11',
-    company: 'Anthropic',
-    imageUrl: 'https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg',
-    featured: false,
-    demoUrl: 'https://claude.ai',
-    usage: `1. Go to claude.ai and log in.
+  id: '12',
+  name: 'Claude',
+  slug: 'claude',
+  category: 'Ideas',
+  description: 'Claude is an advanced conversational model by Anthropic with a focus on helpful, honest, harmless AI.',
+  capabilities: ['Conversational AI', 'Summarization', 'Creative writing'],
+  releaseDate: '2023-07-11',
+  company: 'Anthropic',
+  imageUrl: 'https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg',
+  featured: false,
+  demoUrl: 'https://claude.ai',
+  usage: `1. Go to claude.ai and log in.
 2. Type your query in the message box.
 3. Interact with Claude in a conversational manner.
 4. Use context continuation for longer threads.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Write a short story about space exploration.',
-      'Summarize a PDF report in natural language.',
-      'Explain recursion to a 10-year-old.'
-    ]
-  },
+  accessType: 'Partially Free',
+  examples: [
+    'Write a short story about space exploration.',
+    'Summarize a PDF report in natural language.',
+    'Explain recursion to a 10-year-old.'
+  ]
+},
+{
+  id: '13',
+  name: 'Decktopus',
+  slug: 'decktopus',
+  category: 'Presentations',
+  description: 'Decktopus is an AI-powered presentation builder that creates professional slides in seconds.',
+  capabilities: ['AI slide generation', 'Design automation', 'Content suggestion'],
+  releaseDate: '2021-06-20',
+  company: 'Decktopus Inc.',
+  imageUrl: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg',
+  featured: false,
+  demoUrl: 'https://www.decktopus.com',
+  usage: `1. Visit decktopus.com and sign up.
+2. Choose a presentation type or template.
+3. Enter your topic or brief.
+4. Let the AI generate a structured slide deck.
+5. Customize slides with content, images, and themes.`,
+  accessType: 'Partially Free',
+  examples: [
+    'Create a sales pitch deck for a tech startup.',
+    'Generate an educational presentation on climate change.',
+    'Design a portfolio showcase for a designer.'
+  ]
+},
+{
+  id: '14',
+  name: 'Pitch',
+  slug: 'pitch',
+  category: 'Presentations',
+  description: 'Pitch is a collaborative presentation software that supports real-time editing and smart design tools.',
+  capabilities: ['Collaboration', 'Templates', 'Live editing'],
+  releaseDate: '2020-10-12',
+  company: 'Pitch',
+  imageUrl: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg',
+  featured: false,
+  demoUrl: 'https://pitch.com',
+  usage: `1. Go to pitch.com and create an account.
+2. Start a new presentation from scratch or a template.
+3. Invite team members to collaborate.
+4. Add AI-assisted visuals and smart layouts.`,
+  accessType: 'Free',
+  examples: [
+    'Collaborate on a Q2 business review presentation.',
+    'Use design templates for a marketing pitch.',
+    'Track changes made by different team members.'
+  ]
+},
+{
+  id: '15',
+  name: 'Popai.pro',
+  slug: 'popai-pro',
+  category: 'Presentations',
+  description: 'Popai.pro is an AI assistant for making modern, stylish presentations quickly and intuitively.',
+  capabilities: ['Quick deck creation', 'Stylish themes', 'Content generation'],
+  releaseDate: '2023-01-08',
+  company: 'Popai',
+  imageUrl: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg',
+  featured: false,
+  demoUrl: 'https://popai.pro',
+  usage: `1. Visit popai.pro and log in.
+2. Select a topic or presentation goal.
+3. Let the AI build your slide deck.
+4. Customize text, visuals, and flow.`,
+  accessType: 'Free',
+  examples: [
+    'Generate a pitch for a mobile app.',
+    'Design a report on social media trends.',
+    'Make a sleek presentation for investors.'
+  ]
+},
+{
+  id: '16',
+  name: 'Slides AI',
+  slug: 'slides-ai',
+  category: 'Presentations',
+  description: 'Slides AI turns plain text into professional slides using AI-powered design and layout logic.',
+  capabilities: ['Text to slides', 'Design enhancement', 'Export to Google Slides'],
+  releaseDate: '2022-06-15',
+  company: 'SlidesAI.io',
+  imageUrl: 'https://images.pexels.com/photos/6476597/pexels-photo-6476597.jpeg',
+  featured: false,
+  demoUrl: 'https://www.slidesai.io',
+  usage: `1. Open slidesai.io.
+2. Paste your content or ideas into the editor.
+3. Select a design theme.
+4. Export to Google Slides or download as PDF.`,
+  accessType: 'Partially Free',
+  examples: [
+    'Turn a blog article into a visual presentation.',
+    'Create an investor pitch from bullet points.',
+    'Design slides for a team meeting summary.'
+  ]
+},
+{
+  id: '17',
+  name: 'Slidebean',
+  slug: 'slidebean',
+  category: 'Presentations',
+  description: 'Slidebean helps startups and businesses create investor-ready presentations with AI layout assistance.',
+  capabilities: ['AI layout', 'Financial slides', 'Pitch deck templates'],
+  releaseDate: '2016-11-04',
+  company: 'Slidebean',
+  imageUrl: 'https://images.pexels.com/photos/6476598/pexels-photo-6476598.jpeg',
+  featured: false,
+  demoUrl: 'https://slidebean.com',
+  usage: `1. Go to slidebean.com and sign up.
+2. Choose from a variety of pitch deck templates.
+3. Enter your company data and goals.
+4. Use the AI to auto-arrange content visually.`,
+  accessType: 'Partially Free',
+  examples: [
+    'Build a seed funding pitch deck.',
+    'Create slides for a business plan.',
+    'Design slides for a startup competition.'
+  ]
+},
+{
+  id: '18',
+  name: 'Dora',
+  slug: 'dora',
+  category: 'Websites',
+  description: 'Dora is a no-code website builder powered by AI, enabling users to design responsive 3D and animated websites.',
+  capabilities: ['No-code website builder', '3D design', 'Responsive layout'],
+  releaseDate: '2023-02-12',
+  company: 'Dora',
+  imageUrl: 'https://images.pexels.com/photos/11035396/pexels-photo-11035396.jpeg',
+  featured: false,
+  demoUrl: 'https://www.dora.run',
+  usage: `1. Visit dora.run and sign up for an account.
+2. Start a new project from the dashboard.
+3. Use drag-and-drop tools to create your layout.
+4. Add animations and 3D elements using the built-in editor.
+5. Publish or export your site.`,
+  accessType: 'Partially Free',
+  examples: [
+    'Build a 3D portfolio website.',
+    'Design a landing page with animations.',
+    'Create a product showcase site without code.'
+  ]
+},
   {
-    id: '13',
-    name: 'Decktopus',
-    category: 'Presentations',
-    description: 'Decktopus is an AI-powered presentation builder that creates professional slides in seconds.',
-    capabilities: ['AI slide generation', 'Design automation', 'Content suggestion'],
-    releaseDate: '2021-06-20',
-    company: 'Decktopus Inc.',
-    imageUrl: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg',
-    featured: false,
-    demoUrl: 'https://www.decktopus.com',
-    usage: `1. Visit decktopus.com and sign up.
-  2. Choose a presentation type or template.
-  3. Enter your topic or brief.
-  4. Let the AI generate a structured slide deck.
-  5. Customize slides with content, images, and themes.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Create a sales pitch deck for a tech startup.',
-      'Generate an educational presentation on climate change.',
-      'Design a portfolio showcase for a designer.'
-    ]
-  },
-  {
-    id: '14',
-    name: 'Pitch',
-    category: 'Presentations',
-    description: 'Pitch is a collaborative presentation software that supports real-time editing and smart design tools.',
-    capabilities: ['Collaboration', 'Templates', 'Live editing'],
-    releaseDate: '2020-10-12',
-    company: 'Pitch',
-    imageUrl: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg',
-    featured: false,
-    demoUrl: 'https://pitch.com',
-    usage: `1. Go to pitch.com and create an account.
-  2. Start a new presentation from scratch or a template.
-  3. Invite team members to collaborate.
-  4. Add AI-assisted visuals and smart layouts.`,
-    accessType: 'Free',
-    examples: [
-      'Collaborate on a Q2 business review presentation.',
-      'Use design templates for a marketing pitch.',
-      'Track changes made by different team members.'
-    ]
-  },
-  {
-    id: '15',
-    name: 'Popai.pro',
-    category: 'Presentations',
-    description: 'Popai.pro is an AI assistant for making modern, stylish presentations quickly and intuitively.',
-    capabilities: ['Quick deck creation', 'Stylish themes', 'Content generation'],
-    releaseDate: '2023-01-08',
-    company: 'Popai',
-    imageUrl: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg',
-    featured: false,
-    demoUrl: 'https://popai.pro',
-    usage: `1. Visit popai.pro and log in.
-  2. Select a topic or presentation goal.
-  3. Let the AI build your slide deck.
-  4. Customize text, visuals, and flow.`,
-    accessType: 'Free',
-    examples: [
-      'Generate a pitch for a mobile app.',
-      'Design a report on social media trends.',
-      'Make a sleek presentation for investors.'
-    ]
-  },
-  {
-    id: '16',
-    name: 'Slides AI',
-    category: 'Presentations',
-    description: 'Slides AI turns plain text into professional slides using AI-powered design and layout logic.',
-    capabilities: ['Text to slides', 'Design enhancement', 'Export to Google Slides'],
-    releaseDate: '2022-06-15',
-    company: 'SlidesAI.io',
-    imageUrl: 'https://images.pexels.com/photos/6476597/pexels-photo-6476597.jpeg',
-    featured: false,
-    demoUrl: 'https://www.slidesai.io',
-    usage: `1. Open slidesai.io.
-  2. Paste your content or ideas into the editor.
-  3. Select a design theme.
-  4. Export to Google Slides or download as PDF.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Turn a blog article into a visual presentation.',
-      'Create an investor pitch from bullet points.',
-      'Design slides for a team meeting summary.'
-    ]
-  },
-  {
-    id: '17',
-    name: 'Slidebean',
-    category: 'Presentations',
-    description: 'Slidebean helps startups and businesses create investor-ready presentations with AI layout assistance.',
-    capabilities: ['AI layout', 'Financial slides', 'Pitch deck templates'],
-    releaseDate: '2016-11-04',
-    company: 'Slidebean',
-    imageUrl: 'https://images.pexels.com/photos/6476598/pexels-photo-6476598.jpeg',
-    featured: false,
-    demoUrl: 'https://slidebean.com',
-    usage: `1. Go to slidebean.com and sign up.
-  2. Choose from a variety of pitch deck templates.
-  3. Enter your company data and goals.
-  4. Use the AI to auto-arrange content visually.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Build a seed funding pitch deck.',
-      'Create slides for a business plan.',
-      'Design slides for a startup competition.'
-    ]
-  },
-  {
-    id: '18',
-    name: 'Dora',
-    category: 'Websites',
-    description: 'Dora is a no-code website builder powered by AI, enabling users to design responsive 3D and animated websites.',
-    capabilities: ['No-code website builder', '3D design', 'Responsive layout'],
-    releaseDate: '2023-02-12',
-    company: 'Dora',
-    imageUrl: 'https://images.pexels.com/photos/11035396/pexels-photo-11035396.jpeg',
-    featured: false,
-    demoUrl: 'https://www.dora.run',
-    usage: `1. Visit dora.run and sign up for an account.
-  2. Start a new project from the dashboard.
-  3. Use drag-and-drop tools to create your layout.
-  4. Add animations and 3D elements using the built-in editor.
-  5. Publish or export your site.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Build a 3D portfolio website.',
-      'Design a landing page with animations.',
-      'Create a product showcase site without code.'
-    ]
-  },
-  {
-    id: '19',
-    name: 'Durable',
-    category: 'Websites',
-    description: 'Durable is an AI-powered website builder that generates a complete website in under a minute.',
-    capabilities: ['Instant website generation', 'AI content', 'Business tools'],
-    releaseDate: '2022-11-01',
-    company: 'Durable.co',
-    imageUrl: 'https://images.pexels.com/photos/3182822/pexels-photo-3182822.jpeg',
-    featured: false,
-    demoUrl: 'https://durable.co',
-    usage: `1. Go to durable.co and click "Get Started".
+  id: '19',
+  name: 'Durable',
+  slug: 'durable',
+  category: 'Websites',
+  description: 'Durable is an AI-powered website builder that generates a complete website in under a minute.',
+  capabilities: ['Instant website generation', 'AI content', 'Business tools'],
+  releaseDate: '2022-11-01',
+  company: 'Durable.co',
+  imageUrl: 'https://images.pexels.com/photos/3182822/pexels-photo-3182822.jpeg',
+  featured: false,
+  demoUrl: 'https://durable.co',
+  usage: `1. Go to durable.co and click "Get Started".
   2. Answer a few questions about your business.
   3. Durable generates a full website instantly.
   4. Edit text, images, and layout if needed.
   5. Publish your site with one click.`,
-    accessType: 'Free',
-    examples: [
-      'Generate a portfolio site for a freelancer.',
-      'Create a business page for a new café.',
-      'Launch a simple e-commerce storefront.'
-    ]
-  },
-  {
-    id: '20',
-    name: 'Wegic',
-    category: 'Websites',
-    description: 'Wegic helps users build modern websites by describing what they want in plain language.',
-    capabilities: ['Natural language input', 'Website generation', 'AI layout'],
-    releaseDate: '2023-04-10',
-    company: 'Wegic',
-    imageUrl: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg',
-    featured: false,
-    demoUrl: 'https://wegic.ai',
-    usage: `1. Visit wegic.ai and create an account.
+  accessType: 'Free',
+  examples: [
+    'Generate a portfolio site for a freelancer.',
+    'Create a business page for a new café.',
+    'Launch a simple e-commerce storefront.'
+  ]
+},
+{
+  id: '20',
+  name: 'Wegic',
+  slug: 'wegic',
+  category: 'Websites',
+  description: 'Wegic helps users build modern websites by describing what they want in plain language.',
+  capabilities: ['Natural language input', 'Website generation', 'AI layout'],
+  releaseDate: '2023-04-10',
+  company: 'Wegic',
+  imageUrl: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg',
+  featured: false,
+  demoUrl: 'https://wegic.ai',
+  usage: `1. Visit wegic.ai and create an account.
   2. Describe your desired website in natural language.
   3. Let the AI interpret and build the layout.
   4. Customize the design and content using the editor.
   5. Publish your website.`,
-    accessType: 'Free',
-    examples: [
-      'Say "I want a personal blog with 3 sections" to generate structure.',
-      'Describe an online portfolio and watch it build instantly.',
-      'Use plain English to adjust style and theme.'
-    ]
-  },
-  {
-    id: '21',
-    name: 'Framer',
-    category: 'Websites',
-    description: 'Framer is a high-performance website builder combining design and development into one powerful platform.',
-    capabilities: ['Design-to-site', 'Interactive elements', 'SEO tools'],
-    releaseDate: '2019-06-15',
-    company: 'Framer B.V.',
-    imageUrl: 'https://images.pexels.com/photos/11035546/pexels-photo-11035546.jpeg',
-    featured: false,
-    demoUrl: 'https://www.framer.com',
-    usage: `1. Go to framer.com and sign in.
+  accessType: 'Free',
+  examples: [
+    'Say "I want a personal blog with 3 sections" to generate structure.',
+    'Describe an online portfolio and watch it build instantly.',
+    'Use plain English to adjust style and theme.'
+  ]
+},
+{
+  id: '21',
+  name: 'Framer',
+  slug: 'framer',
+  category: 'Websites',
+  description: 'Framer is a high-performance website builder combining design and development into one powerful platform.',
+  capabilities: ['Design-to-site', 'Interactive elements', 'SEO tools'],
+  releaseDate: '2019-06-15',
+  company: 'Framer B.V.',
+  imageUrl: 'https://images.pexels.com/photos/11035546/pexels-photo-11035546.jpeg',
+  featured: false,
+  demoUrl: 'https://www.framer.com',
+  usage: `1. Go to framer.com and sign in.
   2. Start with a template or a blank canvas.
   3. Design your website visually with drag-and-drop.
   4. Use built-in animations and responsive controls.
   5. Publish directly from Framer to the web.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Create a product marketing site.',
-      'Design an interactive homepage for a brand.',
-      'Export fully responsive code from your design.'
-    ]
-  },
-  {
-    id: '22',
-    name: '10Web',
-    category: 'Websites',
-    description: '10Web is an AI-driven WordPress website builder that automates hosting, design, and optimization.',
-    capabilities: ['AI WordPress builder', 'PageSpeed optimization', 'Auto content creation'],
-    releaseDate: '2021-05-27',
-    company: '10Web Inc.',
-    imageUrl: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg',
-    featured: false,
-    demoUrl: 'https://10web.io',
-    usage: `1. Go to 10web.io and sign up.
+  accessType: 'Partially Free',
+  examples: [
+    'Create a product marketing site.',
+    'Design an interactive homepage for a brand.',
+    'Export fully responsive code from your design.'
+  ]
+},
+{
+  id: '22',
+  name: '10Web',
+  slug: '10web',
+  category: 'Websites',
+  description: '10Web is an AI-driven WordPress website builder that automates hosting, design, and optimization.',
+  capabilities: ['AI WordPress builder', 'PageSpeed optimization', 'Auto content creation'],
+  releaseDate: '2021-05-27',
+  company: '10Web Inc.',
+  imageUrl: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg',
+  featured: false,
+  demoUrl: 'https://10web.io',
+  usage: `1. Go to 10web.io and sign up.
   2. Choose to create a new website or recreate an existing one.
   3. Use the AI builder to generate content and structure.
   4. Customize with Elementor or block editor.
   5. Host and optimize your site automatically.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Rebuild an existing website using AI.',
-      'Generate a WordPress site for a local business.',
-      'Optimize a blog with PageSpeed boost and security.'
-    ]
-  },
-  {
-    id: '23',
-    name: 'Fastread.io',
-    category: 'Texts',
-    description: 'Fastread.io is an AI tool that summarizes long articles, documents, or web pages into concise summaries in seconds.',
-    capabilities: ['Text summarization', 'Reading speed boost', 'URL-based processing'],
-    releaseDate: '2023-06-10',
-    company: 'Fastread',
-    imageUrl: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg',
-    featured: false,
-    demoUrl: 'https://fastread.io',
-    usage: `1. Go to fastread.io.
+  accessType: 'Partially Free',
+  examples: [
+    'Rebuild an existing website using AI.',
+    'Generate a WordPress site for a local business.',
+    'Optimize a blog with PageSpeed boost and security.'
+  ]
+},
+{
+  id: '23',
+  name: 'Fastread.io',
+  slug: 'fastread-io',
+  category: 'Texts',
+  description: 'Fastread.io is an AI tool that summarizes long articles, documents, or web pages into concise summaries in seconds.',
+  capabilities: ['Text summarization', 'Reading speed boost', 'URL-based processing'],
+  releaseDate: '2023-06-10',
+  company: 'Fastread',
+  imageUrl: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg',
+  featured: false,
+  demoUrl: 'https://fastread.io',
+  usage: `1. Go to fastread.io.
   2. Paste a URL or upload a document.
   3. Click "Summarize" to get an AI-generated summary.
   4. Adjust the summary length if needed.
   5. Copy or download the summary.`,
-    accessType: 'Free',
-    examples: [
-      'Summarize a news article in 3 bullet points.',
-      'Get a quick overview of a research paper.',
-      'Speed-read lengthy blog posts with concise extracts.'
-    ]
-  },
-  {
-    id: '24',
-    name: 'Jasper',
-    category: 'Texts',
-    description: 'Jasper is a powerful AI content generation tool for marketers, bloggers, and businesses to create high-quality written content.',
-    capabilities: ['Blog writing', 'Ad copy', 'SEO content'],
-    releaseDate: '2021-02-01',
-    company: 'Jasper.ai',
-    imageUrl: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg',
-    featured: false,
-    demoUrl: 'https://www.jasper.ai',
-    usage: `1. Visit jasper.ai and create an account.
+  accessType: 'Free',
+  examples: [
+    'Summarize a news article in 3 bullet points.',
+    'Get a quick overview of a research paper.',
+    'Speed-read lengthy blog posts with concise extracts.'
+  ]
+},
+{
+  id: '24',
+  name: 'Jasper',
+  slug: 'jasper',
+  category: 'Texts',
+  description: 'Jasper is a powerful AI content generation tool for marketers, bloggers, and businesses to create high-quality written content.',
+  capabilities: ['Blog writing', 'Ad copy', 'SEO content'],
+  releaseDate: '2021-02-01',
+  company: 'Jasper.ai',
+  imageUrl: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg',
+  featured: false,
+  demoUrl: 'https://www.jasper.ai',
+  usage: `1. Visit jasper.ai and create an account.
   2. Choose a content type: blog, email, social post, etc.
   3. Input your topic, keywords, and tone of voice.
   4. Let Jasper generate your content in seconds.
   5. Edit and export your text.`,
-    accessType: 'Paid',
-    examples: [
-      'Write a blog post about AI in education.',
-      'Generate Facebook ad copy for a clothing brand.',
-      'Create SEO-optimized content for a tech website.'
-    ]
-  },
-  {
-    id: '25',
-    name: 'Copy AI',
-    category: 'Texts',
-    description: 'Copy AI is a writing assistant that helps create marketing copy, emails, social media content, and more using artificial intelligence.',
-    capabilities: ['Email generation', 'Social media posts', 'Sales copy'],
-    releaseDate: '2020-09-15',
-    company: 'Copy AI Inc.',
-    imageUrl: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg',
-    featured: false,
-    demoUrl: 'https://www.copy.ai',
-    usage: `1. Go to copy.ai and sign up.
+  accessType: 'Paid',
+  examples: [
+    'Write a blog post about AI in education.',
+    'Generate Facebook ad copy for a clothing brand.',
+    'Create SEO-optimized content for a tech website.'
+  ]
+},
+{
+  id: '25',
+  name: 'Copy AI',
+  slug: 'copy-ai',
+  category: 'Texts',
+  description: 'Copy AI is a writing assistant that helps create marketing copy, emails, social media content, and more using artificial intelligence.',
+  capabilities: ['Email generation', 'Social media posts', 'Sales copy'],
+  releaseDate: '2020-09-15',
+  company: 'Copy AI Inc.',
+  imageUrl: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg',
+  featured: false,
+  demoUrl: 'https://www.copy.ai',
+  usage: `1. Go to copy.ai and sign up.
   2. Select the type of content you need.
   3. Enter a few details about your product or topic.
   4. Generate copy suggestions with one click.
   5. Copy, refine, and use the results.`,
-    accessType: 'Partially Free',
-    examples: [
-      'Write an engaging tweet for a product launch.',
-      'Create a cold outreach email to clients.',
-      'Generate landing page content for a startup.'
-    ]
-  },
+  accessType: 'Partially Free',
+  examples: [
+    'Write an engaging tweet for a product launch.',
+    'Create a cold outreach email to clients.',
+    'Generate landing page content for a startup.'
+  ]
+},
   {
     id: '26',
     name: 'TextBlaze',
+    slug: 'textBlaze',
     category: 'Texts',
     description: 'TextBlaze is a productivity tool that allows you to insert text snippets and templates using shortcuts, powered by smart AI.',
     capabilities: ['Text expansion', 'Templates', 'AI writing'],
@@ -589,6 +615,7 @@ export const aiModels: AIModel[] = [
   {
     id: '27',
     name: 'Writesonic',
+    slug: 'writesonic',
     category: 'Texts',
     description: 'Writesonic is an AI writing tool that helps users create SEO-optimized content, blog posts, and ads at scale.',
     capabilities: ['SEO content', 'Product descriptions', 'AI article writing'],
@@ -612,6 +639,7 @@ export const aiModels: AIModel[] = [
   {
     id: '28',
     name: 'Rendernet.ai',
+    slug: 'rendernet.ai',
     category: 'AI Models',
     description: 'Rendernet.ai is a generative AI platform focused on 3D content generation, including avatars, environments, and props.',
     capabilities: ['3D asset generation', 'Virtual environments', 'Avatar creation'],
@@ -635,6 +663,7 @@ export const aiModels: AIModel[] = [
   {
     id: '29',
     name: 'Glambase AppAI',
+    slug: 'glambase AppAI',
     category: 'AI Models',
     description: 'Glambase AppAI is an AI-driven tool for generating high-quality portraits and stylized glam photos.',
     capabilities: ['Portrait generation', 'Glamour style editing', 'Facial enhancement'],
@@ -657,6 +686,7 @@ export const aiModels: AIModel[] = [
   {
     id: '30',
     name: 'APOB',
+    slug: 'APOB',
     category: 'AI Models',
     description: 'APOB (AI Power of Beauty) is a model designed for fashion and beauty applications including virtual try-ons and look generation.',
     capabilities: ['Virtual try-on', 'Beauty filter generation', 'Style suggestions'],
@@ -679,6 +709,7 @@ export const aiModels: AIModel[] = [
   {
     id: '31',
     name: 'Deepmade',
+    slug: 'deepmade',
     category: 'AI Models',
     description: 'Deepmade is a generative AI tool for creating deepfake-style videos and face swaps for entertainment or production use.',
     capabilities: ['Face swapping', 'AI video generation', 'Voice matching'],
@@ -701,6 +732,7 @@ export const aiModels: AIModel[] = [
   {
     id: '32',
     name: 'AI Hentai',
+    slug: 'AI Hentai',
     category: 'AI Models',
     description: 'AI Hentai is a niche generative AI tool for creating stylized adult anime images using deep learning.',
     capabilities: ['Anime character generation', 'NSFW art creation', 'Style customization'],
@@ -723,6 +755,7 @@ export const aiModels: AIModel[] = [
   {
     id: '33',
     name: 'Tidv',
+    slug: 'tidv',
     category: 'For calls',
     description: 'Tidv is an AI-powered meeting assistant that records, transcribes, and summarizes your voice or video calls.',
     capabilities: ['Call recording', 'Live transcription', 'Meeting summarization'],
@@ -745,6 +778,7 @@ export const aiModels: AIModel[] = [
   {
     id: '34',
     name: 'Krisp',
+    slug: 'krisp',
     category: 'For calls',
     description: 'Krisp uses AI to remove background noise, echo, and voice interruptions in real-time calls.',
     capabilities: ['Noise cancellation', 'Echo removal', 'Voice enhancement'],
@@ -767,6 +801,7 @@ export const aiModels: AIModel[] = [
   {
     id: '35',
     name: 'Otter',
+    slug: 'otter',
     category: 'For calls',
     description: 'Otter is a popular transcription tool that captures and syncs meeting notes with audio from Zoom, Teams, and Google Meet.',
     capabilities: ['Real-time transcription', 'Meeting highlights', 'Speaker identification'],
@@ -789,6 +824,7 @@ export const aiModels: AIModel[] = [
   {
     id: '36',
     name: 'Avoma',
+    slug: 'avoma',
     category: 'For calls',
     description: 'Avoma is an AI meeting assistant that automates note-taking, call analysis, and follow-ups for sales and customer success teams.',
     capabilities: ['AI note-taking', 'CRM integration', 'Call analytics'],
@@ -811,6 +847,7 @@ export const aiModels: AIModel[] = [
   {
     id: '37',
     name: 'Fireflies',
+    slug: 'fireflies',
     category: 'For calls',
     description: 'Fireflies is an AI assistant that captures voice conversations, transcribes, and analyzes meetings across platforms.',
     capabilities: ['Call recording', 'Transcription', 'Meeting insights'],
@@ -833,6 +870,7 @@ export const aiModels: AIModel[] = [
   {
     id: '38',
     name: 'Poe',
+    slug: 'poe',
     category: 'Chatbots',
     description: 'Poe is a multi-AI chatbot platform developed by Quora, offering access to various language models in a single interface.',
     capabilities: ['Multi-model chatting', 'Fast responses', 'Cross-AI comparison'],
@@ -855,6 +893,7 @@ export const aiModels: AIModel[] = [
   {
     id: '39',
     name: 'Claude',
+    slug: 'claude',
     category: 'Chatbots',
     description: 'Claude is an AI chatbot developed by Anthropic, designed to be helpful, honest, and harmless.',
     capabilities: ['Conversational AI', 'Helpful Q&A', 'Code assistance'],
@@ -877,6 +916,7 @@ export const aiModels: AIModel[] = [
   {
     id: '40',
     name: 'Gemini',
+    slug: 'gemini',
     category: 'Chatbots',
     description: 'Gemini is Google’s conversational AI, integrated with search, code, and image tools for enhanced interactions.',
     capabilities: ['Code generation', 'Search-integrated answers', 'Image analysis'],
@@ -899,6 +939,7 @@ export const aiModels: AIModel[] = [
   {
     id: '41',
     name: 'ChatGPT',
+    slug: 'ChatGPT',
     category: 'Chatbots',
     description: 'ChatGPT is OpenAI’s chatbot based on GPT models, capable of natural conversations, writing, and coding.',
     capabilities: ['Natural conversation', 'Creative writing', 'Code generation'],
@@ -921,6 +962,7 @@ export const aiModels: AIModel[] = [
   {
     id: '42',
     name: 'HuggingChat',
+    slug: 'huggingChat',
     category: 'Chatbots',
     description: 'HuggingChat is an open-source chatbot by Hugging Face using open-access large language models.',
     capabilities: ['Open-source chatbot', 'Model customization', 'Conversational AI'],
@@ -943,6 +985,7 @@ export const aiModels: AIModel[] = [
   {
     id: '43',
     name: 'Katteb',
+    slug: 'katteb',
     category: 'Blogging',
     description: 'Katteb is an AI-powered writing tool for creating fact-checked, SEO-friendly blog content.',
     capabilities: ['Article writing', 'SEO optimization', 'Fact-checking'],
@@ -965,6 +1008,7 @@ export const aiModels: AIModel[] = [
   {
     id: '44',
     name: 'Reword',
+    slug: 'reword',
     category: 'Blogging',
     description: 'Reword helps bloggers write better content using AI-assisted drafts, suggestions, and team collaboration.',
     capabilities: ['Draft assistance', 'Content improvement', 'Collaboration tools'],
@@ -987,6 +1031,7 @@ export const aiModels: AIModel[] = [
   {
     id: '45',
     name: 'Elephas',
+    slug: 'elephas',
     category: 'Blogging',
     description: 'Elephas is an AI writing assistant designed for Mac users, with smart templates and context-aware suggestions.',
     capabilities: ['Smart templates', 'Contextual writing', 'Blog creation'],
@@ -1009,6 +1054,7 @@ export const aiModels: AIModel[] = [
   {
     id: '46',
     name: 'Junia AI',
+    slug: 'junia AI',
     category: 'Blogging',
     description: 'Junia AI is a blog automation platform that uses AI to plan, write, and optimize content at scale.',
     capabilities: ['AI writing', 'Content scheduling', 'SEO optimization'],
@@ -1031,6 +1077,7 @@ export const aiModels: AIModel[] = [
   {
     id: '47',
     name: 'Journalist AI',
+    slug: 'journalist AI',
     category: 'Blogging',
     description: 'Journalist AI is an AI-powered tool that generates ready-to-publish blog content, tailored to your audience.',
     capabilities: ['Audience targeting', 'Content generation', 'Style adaptation'],
@@ -1053,6 +1100,7 @@ export const aiModels: AIModel[] = [
   {
     id: '48',
     name: 'Galileo AI',
+    slug: 'galileo AI',
     category: 'UI/UX',
     description: 'Galileo AI generates delightful UI designs from simple text prompts.',
     capabilities: ['UI generation', 'Text-to-design', 'Rapid prototyping'],
@@ -1075,6 +1123,7 @@ export const aiModels: AIModel[] = [
   {
     id: '49',
     name: 'Khroma',
+    slug: 'khroma',
     category: 'UI/UX',
     description: 'Khroma uses AI to help you discover and save unique color palettes.',
     capabilities: ['Color palette generation', 'Design inspiration', 'Color learning AI'],
@@ -1097,6 +1146,7 @@ export const aiModels: AIModel[] = [
   {
     id: '50',
     name: 'Uizard',
+    slug: 'uizard',
     category: 'UI/UX',
     description: 'Uizard turns hand-drawn sketches and text prompts into real UI prototypes.',
     capabilities: ['Wireframing', 'Text-to-design', 'Sketch-to-design'],
@@ -1119,6 +1169,7 @@ export const aiModels: AIModel[] = [
   {
     id: '51',
     name: 'Visily',
+    slug: 'visily',
     category: 'UI/UX',
     description: 'Visily enables teams to design wireframes and mockups using AI-assisted tools.',
     capabilities: ['Wireframing', 'Collaboration', 'AI design suggestion'],
@@ -1141,6 +1192,7 @@ export const aiModels: AIModel[] = [
   {
     id: '52',
     name: 'VisualEyes',
+    slug: 'visualEyes',
     category: 'UI/UX',
     description: 'VisualEyes predicts user attention and engagement with your UI designs using AI.',
     capabilities: ['Attention prediction', 'UX testing', 'Design analytics'],
@@ -1163,6 +1215,7 @@ export const aiModels: AIModel[] = [
   {
     id: '53',
     name: 'Dzine',
+    slug: 'dzine',
     category: 'Pictures',
     description: 'Dzine is an AI design assistant that helps generate visuals for branding, social media, and more.',
     capabilities: ['Graphic generation', 'Social media visuals', 'Design automation'],
@@ -1186,6 +1239,7 @@ export const aiModels: AIModel[] = [
   {
     id: '54',
     name: 'Freepik',
+    slug: 'freepik',
     category: 'Pictures',
     description: 'Freepik offers AI-generated graphics, photos, and templates for creative projects.',
     capabilities: ['Stock images', 'AI illustrations', 'Template access'],
@@ -1208,6 +1262,7 @@ export const aiModels: AIModel[] = [
   {
     id: '55',
     name: 'Phygital+',
+    slug: 'phygital+',
     category: 'Pictures',
     description: 'Phygital+ blends AI art generation with physical world aesthetics for unique visuals.',
     capabilities: ['AI-generated art', 'Style blending', 'Concept visuals'],
@@ -1230,6 +1285,7 @@ export const aiModels: AIModel[] = [
   {
     id: '56',
     name: 'Stockimg.ai',
+    slug: 'stockimg.ai',
     category: 'Pictures',
     description: 'Stockimg.ai generates high-quality stock images and illustrations based on your prompt.',
     capabilities: ['Prompt-based image generation', 'Stock photo generation', 'Poster & book cover creation'],
@@ -1252,6 +1308,7 @@ export const aiModels: AIModel[] = [
   {
     id: '57',
     name: 'Bing Create',
+    slug: 'bing Create',
     category: 'Pictures',
     description: 'Bing Create uses DALL·E to generate AI art from text prompts, integrated with Microsoft tools.',
     capabilities: ['Text-to-image generation', 'DALL·E integration', 'Microsoft account access'],
@@ -1275,6 +1332,7 @@ export const aiModels: AIModel[] = [
   {
     id: '58',
     name: 'Looka',
+    slug: 'looka',
     category: 'Design',
     description: 'Looka is an AI-powered logo maker that helps you design a brand identity in minutes.',
     capabilities: ['Logo generation', 'Brand kit creation', 'Business card design'],
@@ -1297,6 +1355,7 @@ export const aiModels: AIModel[] = [
   {
     id: '59',
     name: 'Clipdrop',
+    slug: 'clipdrop',
     category: 'Design',
     description: 'Clipdrop offers AI tools for image enhancement, background removal, and relighting.',
     capabilities: ['Background removal', 'Image relighting', 'Upscaling', 'Object cleanup'],
@@ -1319,6 +1378,7 @@ export const aiModels: AIModel[] = [
   {
     id: '60',
     name: 'Autodraw',
+    slug: 'autodraw',
     category: 'Design',
     description: 'Autodraw uses AI to match your sketches with professional icons and drawings.',
     capabilities: ['Sketch recognition', 'Icon suggestion', 'Drag-and-drop drawing'],
@@ -1341,6 +1401,7 @@ export const aiModels: AIModel[] = [
   {
     id: '61',
     name: 'Vance AI',
+    slug: 'vance AI',
     category: 'Design',
     description: 'Vance AI provides tools for image enhancement, denoising, sharpening, and more.',
     capabilities: ['Image upscaling', 'Face enhancer', 'Old photo restoration'],
@@ -1363,6 +1424,7 @@ export const aiModels: AIModel[] = [
   {
     id: '62',
     name: 'Design AI',
+    slug: 'design AI',
     category: 'Design',
     description: 'Designs.ai helps you create logos, videos, and banners with AI-driven automation.',
     capabilities: ['Logo maker', 'Video generator', 'Banner design', 'Mockups'],
@@ -1385,6 +1447,7 @@ export const aiModels: AIModel[] = [
   {
     id: '63',
     name: 'Syllaby',
+    slug: 'syllaby',
     category: 'Video',
     description: 'Syllaby helps you generate scripts and schedule videos for social media marketing.',
     capabilities: ['Script generation', 'Social media scheduling', 'Video marketing'],
@@ -1407,6 +1470,7 @@ export const aiModels: AIModel[] = [
   {
     id: '64',
     name: 'HeyGen',
+    slug: 'heyGen',
     category: 'Video',
     description: 'HeyGen allows you to create AI-generated videos with avatars and voice cloning.',
     capabilities: ['AI avatars', 'Voice cloning', 'Text-to-video'],
@@ -1429,6 +1493,7 @@ export const aiModels: AIModel[] = [
   {
     id: '65',
     name: 'Nullface.ai',
+    slug: 'nullface.ai',
     category: 'Video',
     description: 'Nullface.ai offers tools for face-swapping and deepfake video creation.',
     capabilities: ['Face swapping', 'AI video generation', 'Character animation'],
@@ -1451,6 +1516,7 @@ export const aiModels: AIModel[] = [
   {
     id: '66',
     name: 'Decohere',
+    slug: 'decohere',
     category: 'Video',
     description: 'Decohere uses AI to generate abstract and creative videos from text prompts.',
     capabilities: ['AI-generated visuals', 'Abstract storytelling', 'Music syncing'],
@@ -1473,6 +1539,7 @@ export const aiModels: AIModel[] = [
   {
     id: '67',
     name: 'Ssnthesia',
+    slug: 'ssnthesia',
     category: 'Video',
     description: 'Ssnthesia helps you create professional videos with AI avatars and voiceovers.',
     capabilities: ['AI presenters', 'Voiceover generation', 'Multilingual videos'],
@@ -1495,6 +1562,7 @@ export const aiModels: AIModel[] = [
   {
     id: '68',
     name: 'Phrasee',
+    slug: 'phrasee',
     category: 'Automation',
     description: 'Phrasee uses AI to generate and optimize marketing copy for emails, push notifications, and more.',
     capabilities: ['AI copywriting', 'Email subject line optimization', 'A/B testing automation'],
@@ -1517,6 +1585,7 @@ export const aiModels: AIModel[] = [
   {
     id: '69',
     name: 'Outreach',
+    slug: 'outreach',
     category: 'Automation',
     description: 'Outreach automates and optimizes the sales engagement process using AI insights.',
     capabilities: ['Sales automation', 'Lead scoring', 'Email sequencing', 'Pipeline management'],
@@ -1539,6 +1608,7 @@ export const aiModels: AIModel[] = [
   {
     id: '70',
     name: 'ClickUp',
+    slug: 'clickUp',
     category: 'Automation',
     description: 'ClickUp is a productivity platform with AI features for task management and workflow automation.',
     capabilities: ['Task automation', 'Team collaboration', 'Docs & wikis', 'AI assistant'],
@@ -1561,6 +1631,7 @@ export const aiModels: AIModel[] = [
   {
     id: '71',
     name: 'Drift',
+    slug: 'drift',
     category: 'Automation',
     description: 'Drift uses AI chatbots to automate lead qualification and sales conversations.',
     capabilities: ['AI chatbots', 'Lead routing', 'Conversational marketing', 'CRM integration'],
@@ -1583,6 +1654,7 @@ export const aiModels: AIModel[] = [
   {
     id: '72',
     name: 'Emplifi',
+    slug: 'emplifi',
     category: 'Automation',
     description: 'Emplifi provides AI-powered tools for customer engagement, including social media automation and analytics.',
     capabilities: ['Social media automation', 'Customer analytics', 'AI insights', 'Omnichannel engagement'],
@@ -1605,6 +1677,7 @@ export const aiModels: AIModel[] = [
   {
     id: '73',
     name: 'AdCopy',
+    slug: 'adCopy',
     category: 'Marketing',
     description: 'AdCopy generates high-converting ad copy using AI for various platforms like Google, Facebook, and Instagram.',
     capabilities: ['Ad copy generation', 'A/B testing', 'Performance optimization'],
@@ -1627,6 +1700,7 @@ export const aiModels: AIModel[] = [
   {
     id: '74',
     name: 'Predis AI',
+    slug: 'predis AI',
     category: 'Marketing',
     description: 'Predis AI helps create social media content, captions, and creatives automatically with AI.',
     capabilities: ['Social media content generation', 'Hashtag suggestions', 'AI video generation'],
@@ -1649,6 +1723,7 @@ export const aiModels: AIModel[] = [
   {
     id: '75',
     name: 'Howler AI',
+    slug: 'howler AI',
     category: 'Marketing',
     description: 'Howler AI crafts compelling cold emails and outreach campaigns using natural language AI.',
     capabilities: ['Cold email writing', 'Campaign automation', 'Lead engagement'],
@@ -1671,6 +1746,7 @@ export const aiModels: AIModel[] = [
   {
     id: '76',
     name: 'Blaze AI',
+    slug: 'blaze AI',
     category: 'Marketing',
     description: 'Blaze AI is a social media assistant that generates viral content and captions in seconds.',
     capabilities: ['AI caption writing', 'Viral trend analysis', 'Content planner'],
@@ -1693,6 +1769,7 @@ export const aiModels: AIModel[] = [
   {
     id: '77',
     name: 'AdCreative',
+    slug: 'adCreative',
     category: 'Marketing',
     description: 'AdCreative.ai generates ad creatives and banners using AI for multiple ad platforms.',
     capabilities: ['Creative design', 'Banner generation', 'Conversion tracking'],
@@ -1715,6 +1792,7 @@ export const aiModels: AIModel[] = [
   {
     id: '78',
     name: 'Metricool',
+    slug: 'metricool',
     category: 'Social Networks',
     description: 'Metricool is an all-in-one social media analytics and planning tool with automation and AI insights.',
     capabilities: ['Social media analytics', 'Post scheduling', 'Competitor tracking'],
@@ -1737,6 +1815,7 @@ export const aiModels: AIModel[] = [
   {
     id: '79',
     name: 'Postwise',
+    slug: 'postwise',
     category: 'Social Networks',
     description: 'Postwise is an AI writer for Twitter that helps you grow and engage your audience with optimized tweets.',
     capabilities: ['Tweet generation', 'Thread creation', 'Growth analytics'],
@@ -1759,6 +1838,7 @@ export const aiModels: AIModel[] = [
   {
     id: '80',
     name: 'Tribescaler',
+    slug: 'tribescaler',
     category: 'Social Networks',
     description: 'Tribescaler helps you write viral hooks and improve your tweets for better reach and engagement.',
     capabilities: ['Hook generation', 'Viral content rewriting', 'Engagement boosting'],
@@ -1781,6 +1861,7 @@ export const aiModels: AIModel[] = [
   {
     id: '81',
     name: 'TweetHunter',
+    slug: 'tweetHunter',
     category: 'Social Networks',
     description: 'TweetHunter is a Twitter growth tool that helps create, schedule, and optimize tweets with AI.',
     capabilities: ['Tweet scheduling', 'Content inspiration', 'AI replies'],
@@ -1803,6 +1884,7 @@ export const aiModels: AIModel[] = [
   {
     id: '82',
     name: 'Typefully',
+    slug: 'typefully',
     category: 'Social Networks',
     description: 'Typefully is a powerful tool for writing and publishing Twitter threads with real-time collaboration.',
     capabilities: ['Thread writing', 'Real-time editing', 'Engagement metrics'],
@@ -1825,6 +1907,7 @@ export const aiModels: AIModel[] = [
   {
     id: '83',
     name: 'Codeium',
+    slug: 'codeium',
     category: 'Coding',
     description: 'Codeium is a free AI-powered code completion tool supporting multiple programming languages.',
     capabilities: ['Code completion', 'Intelligent suggestions', 'IDE integration'],
@@ -1847,6 +1930,7 @@ export const aiModels: AIModel[] = [
   {
     id: '84',
     name: 'Continue',
+    slug: 'continue',
     category: 'Coding',
     description: 'Continue is an open-source Copilot alternative for code generation and auto-suggestions.',
     capabilities: ['Inline code suggestions', 'Multi-language support', 'Self-hosting available'],
@@ -1869,6 +1953,7 @@ export const aiModels: AIModel[] = [
   {
     id: '85',
     name: 'V0.dev',
+    slug: 'V0.dev',
     category: 'Coding',
     description: 'V0.dev by Vercel lets you generate React/Next.js UI components using natural language prompts.',
     capabilities: ['UI component generation', 'React/Next.js support', 'Tailwind integration'],
@@ -1891,6 +1976,7 @@ export const aiModels: AIModel[] = [
   {
     id: '86',
     name: 'CadeWP',
+    slug: 'cadeWP',
     category: 'Coding',
     description: 'CadeWP is an AI-based WordPress code assistant that helps automate PHP, JS, and CSS development.',
     capabilities: ['WordPress plugin coding', 'Theme customization', 'Code suggestions'],
@@ -1913,6 +1999,7 @@ export const aiModels: AIModel[] = [
   {
     id: '87',
     name: 'Refraction',
+    slug: 'refraction',
     category: 'Coding',
     description: 'Refraction is an AI tool that generates and refactors code based on natural language instructions.',
     capabilities: ['Code generation', 'Bug fixing', 'Language translation'],
@@ -1935,6 +2022,7 @@ export const aiModels: AIModel[] = [
   {
     id: '88',
     name: 'FluentlyAI',
+    slug: 'fluentlyAI',
     category: 'Speech to Text',
     description: 'FluentlyAI offers real-time transcription and AI summaries for meetings and calls.',
     capabilities: ['Real-time transcription', 'Meeting summaries', 'Multi-language support'],
@@ -1957,6 +2045,7 @@ export const aiModels: AIModel[] = [
   {
     id: '89',
     name: 'Cockatoo',
+    slug: 'cockatoo',
     category: 'Speech to Text',
     description: 'Cockatoo provides fast, accurate voice transcription powered by AI and deep learning.',
     capabilities: ['Audio transcription', 'File uploads', 'Speaker separation'],
@@ -1979,6 +2068,7 @@ export const aiModels: AIModel[] = [
   {
     id: '90',
     name: 'WhisperUI',
+    slug: 'whisperUI',
     category: 'Speech to Text',
     description: 'WhisperUI is a user-friendly interface for OpenAI’s Whisper model, enabling high-accuracy speech transcription.',
     capabilities: ['Whisper integration', 'Offline processing', 'Batch transcription'],
@@ -2001,6 +2091,7 @@ export const aiModels: AIModel[] = [
   {
     id: '91',
     name: 'AddemblyAI',
+    slug: 'addemblyAI',
     category: 'Speech to Text',
     description: 'AddemblyAI provides accurate speech recognition and transcription with powerful APIs.',
     capabilities: ['API access', 'Keyword detection', 'Real-time transcription'],
@@ -2023,6 +2114,7 @@ export const aiModels: AIModel[] = [
   {
     id: '92',
     name: 'SpeechPulse',
+    slug: 'speechPulse',
     category: 'Speech to Text',
     description: 'SpeechPulse offers accurate speech-to-text for enterprise use, with speaker diarization and analytics.',
     capabilities: ['Enterprise-grade transcription', 'Speaker diarization', 'Analytics dashboard'],
@@ -2045,6 +2137,7 @@ export const aiModels: AIModel[] = [
   {
     id: '93',
     name: 'GPTZero',
+    slug: 'GPTZero',
     category: 'AI Detector',
     description: 'GPTZero detects AI-generated text with high accuracy and is widely used by educators.',
     capabilities: ['AI text detection', 'Highlight AI-written parts', 'Batch analysis'],
@@ -2067,6 +2160,7 @@ export const aiModels: AIModel[] = [
   {
     id: '94',
     name: 'Wordtune',
+    slug: 'wordtune',
     category: 'AI Detector',
     description: 'Wordtune is a writing assistant that also includes AI content detection and rewriting features.',
     capabilities: ['AI rewriter', 'Tone control', 'AI content suggestions'],
@@ -2089,6 +2183,7 @@ export const aiModels: AIModel[] = [
   {
     id: '95',
     name: 'Copyleaks',
+    slug: 'copyleaks',
     category: 'AI Detector',
     description: 'Copyleaks offers advanced plagiarism and AI-generated content detection tools for institutions and publishers.',
     capabilities: ['AI content detection', 'Plagiarism scan', 'LMS integration'],
@@ -2111,6 +2206,7 @@ export const aiModels: AIModel[] = [
   {
     id: '96',
     name: 'BypassGPT',
+    slug: 'bypassGPT',
     category: 'AI Detector',
     description: 'BypassGPT detects and rewrites AI-generated text to make it undetectable by common detectors.',
     capabilities: ['AI detection', 'Bypass AI detectors', 'Text rewriting'],
@@ -2133,6 +2229,7 @@ export const aiModels: AIModel[] = [
   {
     id: '97',
     name: 'Grammarly',
+    slug: 'grammarly',
     category: 'AI Detector',
     description: 'Grammarly helps with grammar and clarity while detecting AI-written content in premium plans.',
     capabilities: ['Grammar checking', 'Tone analysis', 'AI content insight'],
@@ -2155,6 +2252,7 @@ export const aiModels: AIModel[] = [
   {
     id: '98',
     name: 'Udio',
+    slug: 'udio',
     category: 'Voice',
     description: 'Udio is an AI music generation tool that allows users to create full songs with vocals from text prompts.',
     capabilities: ['AI music generation', 'Custom vocals', 'Genre selection'],
@@ -2177,6 +2275,7 @@ export const aiModels: AIModel[] = [
   {
     id: '99',
     name: 'Suno AI',
+    slug: 'suno AI',
     category: 'Voice',
     description: 'Suno AI is a platform for generating realistic singing voices and complete songs using AI.',
     capabilities: ['Voice synthesis', 'AI singing', 'Multilingual vocals'],
@@ -2199,6 +2298,7 @@ export const aiModels: AIModel[] = [
   {
     id: '100',
     name: 'VEED.IO',
+    slug: 'VEED.IO',
     category: 'Voice',
     description: 'VEED.IO offers a wide range of video editing tools, including AI voiceovers and audio transcription.',
     capabilities: ['AI voiceover', 'Video editing', 'Speech-to-text'],
@@ -2221,6 +2321,7 @@ export const aiModels: AIModel[] = [
   {
     id: '101',
     name: 'Speechtify',
+    slug: 'speechtify',
     category: 'Voice',
     description: 'Speechtify is an AI-powered text-to-speech platform with realistic voices for multiple languages.',
     capabilities: ['Text-to-speech', 'Voice cloning', 'Multilingual support'],
@@ -2243,6 +2344,7 @@ export const aiModels: AIModel[] = [
   {
     id: '102',
     name: 'ElevenLabs',
+    slug: 'elevenLabs',
     category: 'Voice',
     description: 'ElevenLabs provides advanced AI voice synthesis with ultra-realistic speech and voice cloning features.',
     capabilities: ['Voice cloning', 'Realistic TTS', 'Emotional speech synthesis'],
@@ -2265,6 +2367,7 @@ export const aiModels: AIModel[] = [
   {
     id: '103',
     name: 'Alva',
+    slug: 'alva',
     category: 'WEB3',
     description: 'Alva is a Web3-native AI assistant that helps users navigate decentralized applications and protocols.',
     capabilities: ['Web3 assistant', 'Smart contract interaction', 'DeFi support'],
@@ -2287,6 +2390,7 @@ export const aiModels: AIModel[] = [
   {
     id: '104',
     name: 'Alethea',
+    slug: 'alethea',
     category: 'WEB3',
     description: 'Alethea is a decentralized protocol for creating and trading interactive AI characters on the blockchain.',
     capabilities: ['AI character creation', 'NFT integration', 'Conversational agents'],
@@ -2309,6 +2413,7 @@ export const aiModels: AIModel[] = [
   {
     id: '105',
     name: 'Adot AI',
+    slug: 'adot AI',
     category: 'WEB3',
     description: 'Adot AI enables on-chain governance and analytics using AI to support DAO decision-making.',
     capabilities: ['DAO analytics', 'Governance automation', 'Proposal insights'],
@@ -2331,6 +2436,7 @@ export const aiModels: AIModel[] = [
   {
     id: '106',
     name: 'Spice AI',
+    slug: 'spice AI',
     category: 'WEB3',
     description: 'Spice AI helps developers build data-driven Web3 apps with integrated AI models and blockchain datasets.',
     capabilities: ['AI for Web3 devs', 'Blockchain data indexing', 'Time-series analysis'],
@@ -2353,6 +2459,7 @@ export const aiModels: AIModel[] = [
   {
     id: '107',
     name: 'LIKN',
+    slug: 'LIKN',
     category: 'WEB3',
     description: 'LIKN is an AI-integrated Web3 identity layer, enabling personalized interactions and on-chain identity.',
     capabilities: ['Web3 identity', 'Personalized UX', 'Data sovereignty'],
@@ -2375,6 +2482,7 @@ export const aiModels: AIModel[] = [
   {
     id: '108',
     name: 'Khanmigo',
+    slug: 'khanmigo',
     category: 'Education',
     description: "Khanmigo is Khan Academy's AI-powered tutor and teaching assistant, built on GPT-4.",
     capabilities: ['Interactive tutoring', 'Homework help', 'Lesson explanations'],
@@ -2398,6 +2506,7 @@ export const aiModels: AIModel[] = [
   {
     id: '109',
     name: 'Socratic by Google',
+    slug: 'socratic by Google',
     category: 'Education',
     description: "Socratic is a Google-powered AI app that helps students solve problems and understand concepts via AI explanations.",
     capabilities: ['Homework solver', 'Concept breakdowns', 'Visual explanations'],
@@ -2421,6 +2530,7 @@ export const aiModels: AIModel[] = [
   {
     id: '110',
     name: 'Querium',
+    slug: 'querium',
     category: 'Education',
     description: "Querium uses AI to deliver personalized STEM tutoring and skills development for students and professionals.",
     capabilities: ['STEM tutoring', 'Skills assessment', 'Step-by-step coaching'],
@@ -2444,6 +2554,7 @@ export const aiModels: AIModel[] = [
   {
     id: '111',
     name: 'Knowji',
+    slug: 'knowji',
     category: 'Education',
     description: "Knowji is an AI-powered vocabulary learning app using spaced repetition and intelligent tracking.",
     capabilities: ['Vocabulary learning', 'Spaced repetition', 'Pronunciation training'],
@@ -2467,6 +2578,7 @@ export const aiModels: AIModel[] = [
   {
     id: '112',
     name: 'TutorAI',
+    slug: 'tutorAI',
     category: 'Education',
     description: "TutorAI is a virtual tutor that helps users learn any subject by generating customized, readable lessons using AI.",
     capabilities: ['Lesson generation', 'Subject guidance', 'Conversational teaching'],
@@ -2490,6 +2602,7 @@ export const aiModels: AIModel[] = [
   {
     id: '113',
     name: 'Obviously AI',
+    slug: 'obviously AI',
     category: 'Data Analysis',
     description: "Obviously AI enables non-technical users to run machine learning predictions on their data using natural language.",
     capabilities: ['No-code predictions', 'Data import & analysis', 'Automated ML modeling'],
@@ -2513,6 +2626,7 @@ export const aiModels: AIModel[] = [
   {
     id: '114',
     name: 'MonkeyLearn',
+    slug: 'monkeyLearn',
     category: 'Data Analysis',
     description: "MonkeyLearn helps users extract insights from text data using AI-powered no-code tools and dashboards.",
     capabilities: ['Text classification', 'Sentiment analysis', 'Custom AI models'],
@@ -2536,6 +2650,7 @@ export const aiModels: AIModel[] = [
   {
     id: '115',
     name: 'Polymer',
+    slug: 'polymer',
     category: 'Data Analysis',
     description: "Polymer AI turns spreadsheets into dynamic dashboards and searchable databases using AI.",
     capabilities: ['Data visualization', 'Dashboard generation', 'Searchable interfaces'],
@@ -2559,6 +2674,7 @@ export const aiModels: AIModel[] = [
   {
     id: '116',
     name: 'Tangent Works',
+    slug: 'tangent Works',
     category: 'Data Analysis',
     description: "Tangent Works offers InstantML, an AI engine for time series forecasting and anomaly detection with minimal configuration.",
     capabilities: ['Time series forecasting', 'Anomaly detection', 'AutoML'],
@@ -2582,6 +2698,7 @@ export const aiModels: AIModel[] = [
   {
     id: '117',
     name: 'IBM Watson Studio',
+    slug: 'IBM Watson Studio',
     category: 'Data Analysis',
     description: "IBM Watson Studio is a powerful AI platform for building, training, and deploying models across enterprise data.",
     capabilities: ['Model training', 'Data visualization', 'Collaboration tools'],
@@ -2605,6 +2722,7 @@ export const aiModels: AIModel[] = [
   {
     id: '118',
     name: 'Tidio',
+    slug: 'tidio',
     category: 'Customer Support',
     description: "Tidio combines live chat and AI chatbots to improve customer support and boost sales.",
     capabilities: ['AI chatbot', 'Live chat', 'Helpdesk automation'],
@@ -2628,6 +2746,7 @@ export const aiModels: AIModel[] = [
   {
     id: '119',
     name: 'Zendesk AI',
+    slug: 'zendesk AI',
     category: 'Customer Support',
     description: "Zendesk AI helps automate ticket triaging, provide answer suggestions, and streamline customer support operations.",
     capabilities: ['Ticket automation', 'AI suggestions', 'Multichannel support'],
@@ -2651,6 +2770,7 @@ export const aiModels: AIModel[] = [
   {
     id: '120',
     name: 'Forethought',
+    slug: 'forethought',
     category: 'Customer Support',
     description: "Forethought uses generative AI to understand, prioritize, and resolve support tickets before agents step in.",
     capabilities: ['Generative AI', 'Ticket resolution', 'Predictive analytics'],
@@ -2674,6 +2794,7 @@ export const aiModels: AIModel[] = [
   {
     id: '121',
     name: 'Freshdesk Freddy AI',
+    slug: 'freshdesk Freddy AI',
     category: 'Customer Support',
     description: "Freddy AI by Freshdesk offers smart ticketing, agent assistance, and customer self-service tools.",
     capabilities: ['AI agent assist', 'Smart ticketing', 'Chatbots'],
@@ -2697,6 +2818,7 @@ export const aiModels: AIModel[] = [
   {
     id: '122',
     name: 'SupportLogic',
+    slug: 'supportLogic',
     category: 'Customer Support',
     description: "SupportLogic provides proactive support operations using NLP to surface signals from customer interactions.",
     capabilities: ['Sentiment analysis', 'Escalation prediction', 'Voice-of-customer insights'],
@@ -2720,6 +2842,7 @@ export const aiModels: AIModel[] = [
   {
     id: '123',
     name: 'PromptHero',
+    slug: 'promptHero',
     category: 'Prompt Engineering',
     description: "PromptHero is a platform to find, create, and share high-quality AI prompts for tools like Midjourney, DALL·E, and ChatGPT.",
     capabilities: ['Prompt sharing', 'Prompt marketplace', 'Search engine for prompts'],
@@ -2743,6 +2866,7 @@ export const aiModels: AIModel[] = [
   {
     id: '124',
     name: 'PromptBase',
+    slug: 'promptBase',
     category: 'Prompt Engineering',
     description: "PromptBase is a marketplace to buy and sell prompts for AI models like GPT, Midjourney, and DALL·E.",
     capabilities: ['Prompt marketplace', 'Prompt monetization', 'Prompt templates'],
@@ -2766,6 +2890,7 @@ export const aiModels: AIModel[] = [
   {
     id: '125',
     name: 'FlowGPT',
+    slug: 'flowGPT',
     category: 'Prompt Engineering',
     description: "FlowGPT is a community-driven platform where users discover and share powerful ChatGPT prompts.",
     capabilities: ['Prompt discovery', 'Prompt sharing', 'Community reviews'],
@@ -2789,6 +2914,7 @@ export const aiModels: AIModel[] = [
   {
     id: '126',
     name: 'AIPRM',
+    slug: 'AIPRM',
     category: 'Prompt Engineering',
     description: "AIPRM is a browser extension that adds a prompt library directly to ChatGPT, offering ready-made prompts for SEO, marketing, and more.",
     capabilities: ['Prompt library', 'Browser integration', 'Prompt sharing'],
@@ -2812,6 +2938,7 @@ export const aiModels: AIModel[] = [
   {
     id: '127',
     name: 'PromptPerfect',
+    slug: 'promptPerfect',
     category: 'Prompt Engineering',
     description: "PromptPerfect helps you refine and optimize prompts for better results with GPT, Claude, Midjourney, and other AI tools.",
     capabilities: ['Prompt optimization', 'Multimodel support', 'Prompt analysis'],
@@ -2835,6 +2962,7 @@ export const aiModels: AIModel[] = [
   {
     id: '128',
     name: 'MindMeister',
+    slug: 'mindMeister',
     category: 'Mind Mapping',
     description: "MindMeister is a collaborative online mind mapping tool that helps users visually organize ideas and projects.",
     capabilities: ['Collaborative mind mapping', 'Real-time editing', 'Presentation mode'],
@@ -2858,6 +2986,7 @@ export const aiModels: AIModel[] = [
   {
     id: '129',
     name: 'Xmind',
+    slug: 'xmind',
     category: 'Mind Mapping',
     description: "Xmind is a professional mind mapping and brainstorming tool designed for clarity, creativity, and productivity.",
     capabilities: ['Tree chart', 'Logic chart', 'Zen mode', 'Export to PDF/PNG'],
@@ -2881,6 +3010,7 @@ export const aiModels: AIModel[] = [
   {
     id: '130',
     name: 'Whimsical',
+    slug: 'whimsical',
     category: 'Mind Mapping',
     description: "Whimsical offers a visual workspace combining mind maps, flowcharts, wireframes, and docs to support creative and collaborative thinking.",
     capabilities: ['Mind mapping', 'Flowcharts', 'Wireframes', 'Real-time collaboration'],
@@ -2904,6 +3034,7 @@ export const aiModels: AIModel[] = [
   {
     id: '131',
     name: 'Coggle',
+    slug: 'coggle',
     category: 'Mind Mapping',
     description: "Coggle is an easy-to-use mind mapping tool designed for taking notes, planning, and collaborative idea development.",
     capabilities: ['Infinite branches', 'Collaboration', 'Markdown support', 'Image embedding'],
@@ -2927,6 +3058,7 @@ export const aiModels: AIModel[] = [
   {
     id: '132',
     name: 'MindNode',
+    slug: 'mindNode',
     category: 'Mind Mapping',
     description: "MindNode is a user-friendly mind mapping app for macOS and iOS that helps you capture, organize, and visualize your thoughts.",
     capabilities: ['Quick entry', 'Focus mode', 'Visual tags', 'iCloud sync'],
@@ -2950,6 +3082,7 @@ export const aiModels: AIModel[] = [
   {
     id: '133',
     name: 'MagickPen',
+    slug: 'magickPen',
     category: 'Texts',
     description: 'MagickPen is an AI-powered writing assistant that helps create articles, emails, essays, and more in a clean interface.',
     capabilities: ['Text generation', 'Blog writing', 'Email drafting', 'Idea development'],
@@ -2972,6 +3105,7 @@ export const aiModels: AIModel[] = [
   {
     id: '134',
     name: 'Gamma.app',
+    slug: 'gamma.app',
     category: 'Presentations',
     description: 'Gamma turns your ideas into beautiful presentations, docs, or web pages with the help of AI.',
     capabilities: ['Presentation generation', 'Interactive slides', 'Design templates', 'Content summarization'],
@@ -2993,6 +3127,7 @@ export const aiModels: AIModel[] = [
   {
     id: '135',
     name: 'TalkPal',
+    slug: 'talkPal',
     category: 'Education',
     description: 'TalkPal is an AI language partner that helps you practice English conversation through chat or voice.',
     capabilities: ['English speaking practice', 'Grammar correction', 'Vocabulary improvement', 'Real-time chat'],
@@ -3015,6 +3150,7 @@ export const aiModels: AIModel[] = [
   {
     id: '136',
     name: 'Bardeen',
+    slug: 'bardeen',
     category: 'Automation',
     description: 'Bardeen is a powerful AI tool to automate repetitive tasks in your browser using simple workflows.',
     capabilities: ['Workflow automation', 'Browser task automation', 'Data transfer', 'Custom integrations'],
