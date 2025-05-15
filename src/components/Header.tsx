@@ -54,12 +54,15 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+        <Link to="/" className="flex items-center space-x-2 min-w-0 overflow-hidden">
+          <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center shrink-0">
             <span className="text-white font-bold text-lg">N</span>
           </div>
-          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-            Neurobox
+          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 whitespace-nowrap max-w-full">
+            <span className="sr-only">Site name:</span>
+            <span style={{ WebkitTextFillColor: 'currentColor' }} className="text-blue-700 dark:text-purple-400">
+              NeuroBox
+            </span>
           </span>
         </Link>
 
