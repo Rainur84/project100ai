@@ -54,18 +54,28 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-2 min-w-0 overflow-hidden">
-          <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center shrink-0">
-            <span className="text-white font-bold text-lg">N</span>
-          </div>
+        <Link to="/" className="flex items-center min-w-0 overflow-hidden space-x-2">
+          {/* SVG логотип */}
+          <svg
+            className="w-7 h-7 text-blue-600 dark:text-purple-400"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            viewBox="0 0 24 24"
+          >
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.73z" />
+            <path d="M3.3 7L12 12.01 20.7 7" />
+            <path d="M12 22V12" />
+          </svg>
+          {/* Название сайта */}
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 whitespace-nowrap max-w-full">
-            <span className="sr-only">Site name:</span>
             <span style={{ WebkitTextFillColor: 'currentColor' }} className="text-blue-700 dark:text-purple-400">
               NeuroBox
             </span>
           </span>
         </Link>
 
+        {/* Навигация для десктопа */}
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Home</Link>
           <Link to="/models" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">AI Models</Link>
@@ -76,6 +86,7 @@ const Header: React.FC = () => {
           <Link to="/about" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">About</Link>
         </nav>
 
+        {/* Поиск и переключатели темы */}
         <div className="hidden md:flex items-center space-x-4 relative" ref={searchRef}>
           <input
             type="text"
@@ -124,6 +135,7 @@ const Header: React.FC = () => {
           </Link>
         </div>
 
+        {/* Мобильное меню */}
         <button
           className="md:hidden p-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
