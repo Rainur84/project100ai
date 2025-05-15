@@ -38,7 +38,10 @@ const Header: React.FC = () => {
 
   const highlightMatch = (name: string) => {
     const regex = new RegExp(`(${searchTerm})`, 'gi');
-    return name.replace(regex, '<mark class="bg-yellow-200 dark:bg-yellow-600 rounded px-1">$1</mark>');
+    return name.replace(
+      regex,
+      '<mark class="bg-yellow-200 dark:bg-yellow-600 rounded px-1">$1</mark>'
+    );
   };
 
   const handleSelectModel = (slug: string) => {
@@ -55,13 +58,14 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center min-w-0 overflow-hidden space-x-2">
-          {/* SVG логотип */}
+          {/* Анимированный SVG логотип - куб */}
           <svg
-            className="w-7 h-7 text-blue-600 dark:text-purple-400"
+            className="w-7 h-7 text-blue-600 dark:text-purple-400 animate-spin-slow"
             fill="none"
             stroke="currentColor"
             strokeWidth={2}
             viewBox="0 0 24 24"
+            style={{ filter: 'drop-shadow(0 0 5px rgba(59, 130, 246, 0.6))' }}
           >
             <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.73z" />
             <path d="M3.3 7L12 12.01 20.7 7" />
@@ -77,13 +81,48 @@ const Header: React.FC = () => {
 
         {/* Навигация для десктопа */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link to="/" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Home</Link>
-          <Link to="/models" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">AI Models</Link>
-          <Link to="/news" className="text-blue-600 dark:text-blue-400 font-semibold underline underline-offset-4">AI News</Link>
-          <Link to="/compare" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Compare</Link>
-          <Link to="/prompts" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Prompts</Link>
-          <Link to="/donate" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Donate</Link>
-          <Link to="/about" className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">About</Link>
+          <Link
+            to="/"
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+          >
+            Home
+          </Link>
+          <Link
+            to="/models"
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+          >
+            AI Models
+          </Link>
+          <Link
+            to="/news"
+            className="text-blue-600 dark:text-blue-400 font-semibold underline underline-offset-4"
+          >
+            AI News
+          </Link>
+          <Link
+            to="/compare"
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+          >
+            Compare
+          </Link>
+          <Link
+            to="/prompts"
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+          >
+            Prompts
+          </Link>
+          <Link
+            to="/donate"
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+          >
+            Donate
+          </Link>
+          <Link
+            to="/about"
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+          >
+            About
+          </Link>
         </nav>
 
         {/* Поиск и переключатели темы */}
@@ -174,6 +213,15 @@ const Header: React.FC = () => {
           </div>
         </div>
       )}
+      <style>{`
+        @keyframes spin-slow {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+        .animate-spin-slow {
+          animation: spin-slow 10s linear infinite;
+        }
+      `}</style>
     </header>
   );
 };
