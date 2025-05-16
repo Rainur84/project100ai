@@ -1,24 +1,45 @@
 [
   {
+    "source": "VentureBeat AI",
+    "title": "Elon Musk’s xAI tries to explain Grok’s South African race relations freakout the other day",
+    "link": "https://venturebeat.com/ai/elon-musks-xai-tries-to-explain-groks-south-african-race-relations-freakout-the-other-day/",
+    "date": "Fri, 16 May 2025 02:47:22 +0000",
+    "content": "With its prompts now public and a team of human babysitters on call, Grok is supposedly back on script. But the incident underscores..."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Software engineering-native AI models have arrived: What Windsurf’s SWE-1 means for technical decision-makers",
+    "link": "https://venturebeat.com/ai/software-engineering-native-ai-models-have-arrived-what-windsurfs-swe-1-means-for-technical-decision-makers/",
+    "date": "Fri, 16 May 2025 00:30:35 +0000",
+    "content": "Windsurf's new SWE-1 AI models tackle the complete software engineering workflow, potentially reducing development cycles and technical debt."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Reduce model integration costs while scaling AI: LangChain’s open ecosystem delivers where closed vendors can’t",
+    "link": "https://venturebeat.com/ai/reduce-model-integration-costs-while-scaling-ai-langchains-open-ecosystem-delivers-where-closed-vendors-cant/",
+    "date": "Thu, 15 May 2025 23:16:24 +0000",
+    "content": "Through the LangGraph Platform, organizations can deploy agents with one-click deployment, horizontal scaling to handle “bursty, long-running traffic.\""
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "The $1 Billion database bet: What Databricks’ Neon acquisition means for your AI strategy",
+    "link": "https://venturebeat.com/data-infrastructure/the-1-billion-database-bet-what-databricks-neon-acquisition-means-for-your-ai-strategy/",
+    "date": "Thu, 15 May 2025 22:54:06 +0000",
+    "content": "Databricks' $1 billion acquisition of Neon highlights how serverless PostgreSQL has become essential for agentic AI development."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "From OAuth bottleneck to AI acceleration: How CIAM solutions are removing the top integration barrier in enterprise AI agent deployment",
+    "link": "https://venturebeat.com/ai/from-oauth-bottleneck-to-ai-acceleration-how-ciam-solutions-are-removing-the-top-integration-barrier-in-enterprise-ai-agent-deployment/",
+    "date": "Thu, 15 May 2025 21:43:49 +0000",
+    "content": "New CIAM platforms are addressing a significant barrier to enterprise AI adoption: identity management for autonomous agents."
+  },
+  {
     "source": "MIT Technology Review AI",
     "title": "This baby boy was treated with the first personalized gene-editing drug",
     "link": "https://www.technologyreview.com/2025/05/15/1116524/this-baby-boy-was-treated-with-the-first-personalized-gene-editing-drug/",
     "date": "Thu, 15 May 2025 17:00:00 +0000",
     "content": "Doctors say they constructed a bespoke gene-editing treatment in less than seven months and used it to treat a baby with a deadly metabolic condition. The rapid-fire attempt to rewrite the child’s DNA marks the first time gene editing has been tailored to treat a single individual, according to a report published in the New…"
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Arm is rebranding its system-on-a-chip product designs to showcase power savings for AI workloads, targeting a surprising sector",
-    "link": "https://venturebeat.com/ai/arm-is-rebranding-its-system-on-a-chip-product-designs-to-showcase-power-savings-for-ai-workloads-targeting-a-surprising-sector/",
-    "date": "Thu, 15 May 2025 16:17:52 +0000",
-    "content": "For engineers orchestrating AI pipelines across environments, the modularity and performance tiering within Arm’s new architecture..."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "You.com’s ARI Enterprise crushes OpenAI in head-to-head tests, aims at deep research market",
-    "link": "https://venturebeat.com/ai/you-coms-ari-enterprise-crushes-openai-in-head-to-head-tests-aims-at-deep-research-market/",
-    "date": "Thu, 15 May 2025 13:00:00 +0000",
-    "content": "You.com launches ARI Enterprise, an AI research platform that outperforms OpenAI in 76% of head-to-head tests and integrates with enterprise data sources to transform business intelligence with 400+ source analysis."
   },
   {
     "source": "MIT Technology Review AI",
@@ -33,27 +54,6 @@
     "link": "https://www.technologyreview.com/2025/05/15/1116485/climate-data/",
     "date": "Thu, 15 May 2025 09:00:00 +0000",
     "content": "Over the last few months, and especially the last few weeks, there’s been an explosion of news about proposed budget cuts to science in the US. One trend I’ve noticed: Researchers and civil servants are sounding the alarm that those cuts mean we might lose key data that helps us understand our world and how…"
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "OpenAI brings GPT-4.1 and 4.1 mini to ChatGPT — what enterprises should know",
-    "link": "https://venturebeat.com/ai/openai-brings-gpt-4-1-and-4-1-mini-to-chatgpt-what-enterprises-should-know/",
-    "date": "Wed, 14 May 2025 23:46:50 +0000",
-    "content": "As OpenAI continues to evolve its model offerings, GPT-4.1 represents a step forward in democratizing advanced AI for enterprise environments"
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Beyond sycophancy: DarkBench exposes six hidden ‘dark patterns’ lurking in today’s top LLMs",
-    "link": "https://venturebeat.com/ai/darkness-rising-the-hidden-dangers-of-ai-sycophancy-and-dark-patterns/",
-    "date": "Wed, 14 May 2025 23:14:08 +0000",
-    "content": "Without a strong push from AI companies to combat sycophancy and other dark patterns, the default trajectory is more engagement optimization, more manipulation and fewer checks."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Elon Musk’s Grok AI is spamming X users about South African race relations now, for some reason",
-    "link": "https://venturebeat.com/ai/elon-musks-grok-ai-is-spamming-x-users-about-south-african-race-relations-now-for-some-reason/",
-    "date": "Wed, 14 May 2025 19:08:41 +0000",
-    "content": "Grok was caught earlier this year censoring results critical of President Trump and Musk himself, sowing more doubt of its factual integrity."
   },
   {
     "source": "MIT Technology Review AI",

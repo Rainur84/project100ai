@@ -12,6 +12,7 @@
     "deploy-news": "npm run news && git add . && git commit -m \"update: fresh AI news\" && git push"
   },
   "dependencies": {
+    "axios": "^1.9.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "file-saver": "^2.0.5",
