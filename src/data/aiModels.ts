@@ -1,6 +1,142 @@
 import { AIModel } from '../types'; // или './types', в зависимости от уровня вложенности
 
 export const aiModels: AIModel[] = [
+    {
+    id: "b7297537-91bf-47fd-bf02-46a9224a9f01",
+    name: "AI: Flattening Engineering Bureaucracy and Accelerating Innovation",
+    category: "New", // Обнови позже вручную
+    description: "As engineering organizations scale, they inevitably accumulate layers of processes that slow down development. Any engineering leader who has grown an organization beyond a certain size knows the pattern: first comes basic Scrum, soon cross-team dependencies require coordination meetings, and eventually, you find yourself considering frameworks like SAFe to manage it all. I once found […] The post AI: Flattening Engineering Bureaucracy and Accelerating Innovation appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/ai-flattening-engineering-bureaucracy-and-accelerating-innovation/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "fad74120-b5b1-4d5e-a740-3545f2368d7a",
+    name: "Is Perplexity AI Really Worth $14 Billion?",
+    category: "New", // Обнови позже вручную
+    description: "The AI startup Perplexity AI is reportedly in late-stage talks to raise $500 million at a staggering $14 billion valuation. That figure – first highlighted by The Wall Street Journal – would mark a meteoric rise for a company barely three years old, valuing it on par with well-established tech firms. Is this sky-high valuation […] The post Is Perplexity AI Really Worth $14 Billion? appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/is-perplexity-ai-really-worth-14-billion/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "4f1b7668-3252-48db-a331-e155c67e0f21",
+    name: "How AI Is Reshaping M&A Strategy Amid Trade Tensions and Global Volatility",
+    category: "New", // Обнови позже вручную
+    description: "As we head into summer 2025, mergers and acquisitions (M&A) stands at a crossroads. Geopolitical tensions, economic headwinds, and rapid advances in technology are forcing dealmakers to rethink how they source, structure, and close transactions. Trade policy is emerging as a major variable. Unpredictable tariffs, shifting alliances, and growing regulatory scrutiny have pushed global deal […] The post How AI Is Reshaping M&A Strategy Amid Trade Tensions and Global Volatility appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/how-ai-is-reshaping-ma-strategy-amid-trade-tensions-and-global-volatility/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "0c49962c-b0b7-4f27-8772-9481ec9a08f2",
+    name: "Forging a Sustainable Partnership Between AI Innovators and News Publishers",
+    category: "New", // Обнови позже вручную
+    description: "The rise of generative AI has already transformed how we consume news, from AI-powered summarization to chat-based Q&A incorporating real time journalism. These innovations promise unprecedented access to information and new ways for audiences to engage with current events. However, the technological leap brought about by generative AI has strained the traditional news ecosystem as […] The post Forging a Sustainable Partnership Between AI Innovators and News Publishers appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/forging-a-sustainable-partnership-between-ai-innovators-and-news-publishers/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "593ecdb7-41ab-489d-83ec-bd51304424bf",
+    name: "Hedra Raises $32M to Power the Future of Generative Video with Lifelike Digital Characters",
+    category: "New", // Обнови позже вручную
+    description: "The global digital video content market is projected to surge from $214 billion in 2024 to over $574 billion by 2033, driven by insatiable demand across entertainment, marketing, and education sectors. Within this boom, the enterprise video platform segment alone is forecasted to triple, growing from $25.11 billion in 2025 to $76.08 billion by 2032. […] The post Hedra Raises $32M to Power the Future of Generative Video with Lifelike Digital Characters appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/hedra-raises-32m-to-power-the-future-of-generative-video-with-lifelike-digital-characters/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "888a25c6-b5f7-4462-9a99-1ae0fe55e5e0",
+    name: "The AI Feedback Loop: When Machines Amplify Their Own Mistakes by Trusting Each Other’s Lies",
+    category: "New", // Обнови позже вручную
+    description: "As businesses increasingly rely on Artificial Intelligence (AI) to improve operations and customer experiences, a growing concern is emerging. While AI has proven to be a powerful tool, it also brings with it a hidden risk: the AI feedback loop. This occurs when AI systems are trained on data that includes outputs from other AI […] The post The AI Feedback Loop: When Machines Amplify Their Own Mistakes by Trusting Each Other’s Lies appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/the-ai-feedback-loop-when-machines-amplify-their-own-mistakes-by-trusting-each-others-lies/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "b8fcaa9f-c32b-4382-8919-79f93bcbbd34",
+    name: "AI Is Giving Pets a Voice: The Future of Feline Healthcare Begins with a Single Photo",
+    category: "New", // Обнови позже вручную
+    description: "Artificial intelligence is revolutionizing the way we care for animals. Once limited to reactive treatments at vet clinics, animal healthcare is evolving into a proactive, data-driven field where AI can detect pain, monitor emotional states, and even forecast disease risk—all before symptoms become visible to the human eye. From wearable sensors to smartphone-based visual diagnostics, […] The post AI Is Giving Pets a Voice: The Future of Feline Healthcare Begins with a Single Photo appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-15",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/ai-is-giving-pets-a-voice-the-future-of-feline-healthcare-begins-with-a-single-photo/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "c7cbaeeb-8271-4ef2-bc3e-1501e6fd59df",
+    name: "Scite AI Review: Instantly Spot Trustworthy Studies",
+    category: "New", // Обнови позже вручную
+    description: "What if you could instantly tell whether a study was trustworthy without reading hundreds of pages? Academic research can be a real struggle: wading through endless PDFs, trying to make sense of conflicting studies, and wondering if a citation means support or just a casual mention. Scite AI is not just another AI tool. It […] The post Scite AI Review: Instantly Spot Trustworthy Studies appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-14",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/scite-ai-review/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+  {
+    id: "18760225-1095-4d2d-8f9b-9b293390a3d2",
+    name: "Locking Up Phones, Logging Into AI: Classrooms Navigate New Tech Amid Public Debate",
+    category: "New", // Обнови позже вручную
+    description: "School policies around phone use are changing—and fast. In Ontario, Canada students are already being asked to keep their phones out of sight during class. Several European countries have taken steps in that direction, and now discussion is building in the U.S. as well. Lawmakers are pushing similar restrictions, with two senators introducing a bill […] The post Locking Up Phones, Logging Into AI: Classrooms Navigate New Tech Amid Public Debate appeared first on Unite.AI.",
+    capabilities: [],
+    releaseDate: "2025-05-14",
+    company: "Unknown",
+    imageUrl: "", // Добавь позже
+    featured: false,
+    demoUrl: "https://www.unite.ai/locking-up-phones-logging-into-ai-classrooms-navigate-new-tech-amid-public-debate/",
+    usage: "",
+    accessType: "free",
+    examples: []
+  },
+// __AUTO_INSERT_MODELS__
   {
     id: '1',
     name: 'GPT-4',

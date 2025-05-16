@@ -1,6 +1,34 @@
 [
   {
     "source": "VentureBeat AI",
+    "title": "OpenAI launches research preview of Codex AI software engineering agent for developers — with parallel tasking",
+    "link": "https://venturebeat.com/programming-development/openai-launches-research-preview-of-codex-ai-software-engineering-agent-for-developers-with-parallel-tasking/",
+    "date": "Fri, 16 May 2025 15:00:00 +0000",
+    "content": "Starting today it will be available as a research preview for ChatGPT Pro, Enterprise, and Team users, with support later for Plus and Edu."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Acer unveils AI-powered wearables at Computex 2025",
+    "link": "https://venturebeat.com/games/acer-unveils-ai-powered-wearables-at-computex-2025/",
+    "date": "Fri, 16 May 2025 13:00:00 +0000",
+    "content": "Acer Gadget, a subsidiary of Acer, unveiled AI-powered wearables at the Computex 2025 trade show in Taiwan."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "The Download: the first personalized gene-editing drug, and Montana’s Right to Try experiment",
+    "link": "https://www.technologyreview.com/2025/05/16/1116619/the-download-the-first-personalized-gene-editing-drug-and-montanas-right-to-try-experiment/",
+    "date": "Fri, 16 May 2025 12:10:00 +0000",
+    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This baby boy was treated with the first personalized gene-editing drug Doctors say they constructed a bespoke gene-editing treatment in less than seven months and used it to treat a baby with a…"
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "Access to experimental medical treatments is expanding across the US",
+    "link": "https://www.technologyreview.com/2025/05/16/1116526/access-to-experimental-medical-treatments-expanding-us/",
+    "date": "Fri, 16 May 2025 09:00:00 +0000",
+    "content": "A couple of weeks ago I was in Washington, DC, for a gathering of scientists, policymakers, and longevity enthusiasts. They had come together to discuss ways to speed along the development of drugs and other treatments that might extend the human lifespan. One approach that came up was to simply make experimental drugs more easily…"
+  },
+  {
+    "source": "VentureBeat AI",
     "title": "Elon Musk’s xAI tries to explain Grok’s South African race relations freakout the other day",
     "link": "https://venturebeat.com/ai/elon-musks-xai-tries-to-explain-groks-south-african-race-relations-freakout-the-other-day/",
     "date": "Fri, 16 May 2025 02:47:22 +0000",
@@ -19,20 +47,6 @@
     "link": "https://venturebeat.com/ai/reduce-model-integration-costs-while-scaling-ai-langchains-open-ecosystem-delivers-where-closed-vendors-cant/",
     "date": "Thu, 15 May 2025 23:16:24 +0000",
     "content": "Through the LangGraph Platform, organizations can deploy agents with one-click deployment, horizontal scaling to handle “bursty, long-running traffic.\""
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "The $1 Billion database bet: What Databricks’ Neon acquisition means for your AI strategy",
-    "link": "https://venturebeat.com/data-infrastructure/the-1-billion-database-bet-what-databricks-neon-acquisition-means-for-your-ai-strategy/",
-    "date": "Thu, 15 May 2025 22:54:06 +0000",
-    "content": "Databricks' $1 billion acquisition of Neon highlights how serverless PostgreSQL has become essential for agentic AI development."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "From OAuth bottleneck to AI acceleration: How CIAM solutions are removing the top integration barrier in enterprise AI agent deployment",
-    "link": "https://venturebeat.com/ai/from-oauth-bottleneck-to-ai-acceleration-how-ciam-solutions-are-removing-the-top-integration-barrier-in-enterprise-ai-agent-deployment/",
-    "date": "Thu, 15 May 2025 21:43:49 +0000",
-    "content": "New CIAM platforms are addressing a significant barrier to enterprise AI adoption: identity management for autonomous agents."
   },
   {
     "source": "MIT Technology Review AI",
@@ -54,19 +68,5 @@
     "link": "https://www.technologyreview.com/2025/05/15/1116485/climate-data/",
     "date": "Thu, 15 May 2025 09:00:00 +0000",
     "content": "Over the last few months, and especially the last few weeks, there’s been an explosion of news about proposed budget cuts to science in the US. One trend I’ve noticed: Researchers and civil servants are sounding the alarm that those cuts mean we might lose key data that helps us understand our world and how…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "Google DeepMind’s new AI agent cracks real-world problems better than humans can",
-    "link": "https://www.technologyreview.com/2025/05/14/1116438/google-deepminds-new-ai-uses-large-language-models-to-crack-real-world-problems/",
-    "date": "Wed, 14 May 2025 15:00:08 +0000",
-    "content": "Google DeepMind has once again used large language models to discover new solutions to long-standing problems in math and computer science. This time the firm has shown that its approach can not only tackle unsolved theoretical puzzles, but improve a range of important real-world processes as well. Google DeepMind’s new tool, called AlphaEvolve, uses the…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "The first US hub for experimental medical treatments is coming",
-    "link": "https://www.technologyreview.com/2025/05/14/1116428/first-us-hub-for-experimental-medical-treatments/",
-    "date": "Wed, 14 May 2025 12:30:00 +0000",
-    "content": "A bill that allows medical clinics to sell unproven treatments has been passed in Montana.  Under the legislation, doctors can apply for a license to open an experimental treatment clinic and recommend and sell therapies not approved by the Food and Drug Administration (FDA) to their patients. Once it’s signed by the governor, the law…"
   }
 ]
