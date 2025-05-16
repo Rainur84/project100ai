@@ -24,7 +24,6 @@ async function updateModels() {
   const formattedModels = newModels.map(formatModel);
   const aiModelsContent = fs.readFileSync(aiModelsPath, 'utf-8');
 
-  // Используем якорный комментарий для вставки (добавь его вручную 1 раз в aiModels.ts!)
   const anchor = '// __AUTO_INSERT_MODELS__';
   if (!aiModelsContent.includes(anchor)) {
     console.error(`❌ В файле не найден якорь ${anchor}`);

@@ -11,12 +11,32 @@ interface NewsItem {
   content: string;
 }
 
+// Если позже используешь в этом же скрипте добавление ИИ-моделей:
+type AccessType = 'Free' | 'Paid' | 'Partially Free' | 'Not Yet Public';
+
 const parser = new Parser();
 
 const sources = [
   { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/' },
   { name: 'MIT Technology Review AI', url: 'https://www.technologyreview.com/feed/' },
 ];
+
+// ✅ Функция для нормализации accessType
+function normalizeAccessType(type: string): AccessType | undefined {
+  const mapping: Record<string, AccessType> = {
+    free: 'Free',
+    paid: 'Paid',
+    'partially free': 'Partially Free',
+    'not yet public': 'Not Yet Public',
+  };
+  return mapping[type.toLowerCase()] || undefined;
+}
+
+// Если позже будешь обрабатывать модели:
+// const model = {
+//   ...другие поля,
+//   accessType: normalizeAccessType(raw.accessType),
+// }
 
 async function updateNews(): Promise<NewsItem[]> {
   const allNews: NewsItem[] = [];
