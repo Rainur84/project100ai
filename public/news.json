@@ -1,6 +1,20 @@
 [
   {
     "source": "VentureBeat AI",
+    "title": "Google’s AlphaEvolve: The AI agent that reclaimed 0.7% of Google’s compute – and how to copy it",
+    "link": "https://venturebeat.com/ai/googles-alphaevolve-the-ai-agent-that-reclaimed-0-7-of-googles-compute-and-how-to-copy-it/",
+    "date": "Sat, 17 May 2025 00:31:12 +0000",
+    "content": "Google's AlphaEvolve is the epitome of a best-practice AI agent orchestration. It offers a lesson in production-grade agent engineering. Discover its architecture & essential takeaways for your enterprise AI strategy."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Shrink exploit windows, slash MTTP: Why ring deployment is now a must for enterprise defense",
+    "link": "https://venturebeat.com/security/slash-mttp-block-exploits-ring-deployment-now-essential/",
+    "date": "Fri, 16 May 2025 20:48:14 +0000",
+    "content": "Ring deployment slashes MTTP and legacy CVE risk. Learn how Ivanti and Southstar Bank are modernizing patch strategy with real-time intel."
+  },
+  {
+    "source": "VentureBeat AI",
     "title": "OpenAI launches research preview of Codex AI software engineering agent for developers — with parallel tasking",
     "link": "https://venturebeat.com/programming-development/openai-launches-research-preview-of-codex-ai-software-engineering-agent-for-developers-with-parallel-tasking/",
     "date": "Fri, 16 May 2025 15:00:00 +0000",
@@ -33,20 +47,6 @@
     "link": "https://venturebeat.com/ai/elon-musks-xai-tries-to-explain-groks-south-african-race-relations-freakout-the-other-day/",
     "date": "Fri, 16 May 2025 02:47:22 +0000",
     "content": "With its prompts now public and a team of human babysitters on call, Grok is supposedly back on script. But the incident underscores..."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Software engineering-native AI models have arrived: What Windsurf’s SWE-1 means for technical decision-makers",
-    "link": "https://venturebeat.com/ai/software-engineering-native-ai-models-have-arrived-what-windsurfs-swe-1-means-for-technical-decision-makers/",
-    "date": "Fri, 16 May 2025 00:30:35 +0000",
-    "content": "Windsurf's new SWE-1 AI models tackle the complete software engineering workflow, potentially reducing development cycles and technical debt."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Reduce model integration costs while scaling AI: LangChain’s open ecosystem delivers where closed vendors can’t",
-    "link": "https://venturebeat.com/ai/reduce-model-integration-costs-while-scaling-ai-langchains-open-ecosystem-delivers-where-closed-vendors-cant/",
-    "date": "Thu, 15 May 2025 23:16:24 +0000",
-    "content": "Through the LangGraph Platform, organizations can deploy agents with one-click deployment, horizontal scaling to handle “bursty, long-running traffic.\""
   },
   {
     "source": "MIT Technology Review AI",

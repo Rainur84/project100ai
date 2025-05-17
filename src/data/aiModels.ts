@@ -2,7 +2,7 @@ import { AIModel } from '../types'; // или './types', в зависимост
 
 export const aiModels: AIModel[] = [
   
-// __AUTO_INSERT_MODELS__
+  
   {
     id: '1',
     name: 'GPT-4',
