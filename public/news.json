@@ -1,72 +1,72 @@
 [
   {
     "source": "VentureBeat AI",
-    "title": "Google’s AlphaEvolve: The AI agent that reclaimed 0.7% of Google’s compute – and how to copy it",
-    "link": "https://venturebeat.com/ai/googles-alphaevolve-the-ai-agent-that-reclaimed-0-7-of-googles-compute-and-how-to-copy-it/",
-    "date": "Sat, 17 May 2025 00:31:12 +0000",
-    "content": "Google's AlphaEvolve is the epitome of a best-practice AI agent orchestration. It offers a lesson in production-grade agent engineering. Discover its architecture & essential takeaways for your enterprise AI strategy."
+    "title": "Reddit, Webflow, and Superhuman are already customers—now GrowthX has $12M to grow",
+    "link": "https://venturebeat.com/ai/reddit-webflow-and-superhuman-are-already-customers-now-growthx-has-12m-to-grow/",
+    "date": "Mon, 19 May 2025 15:00:00 +0000",
+    "content": "GrowthX secures $12M in funding for its \"service-as-software\" platform that combines AI with human expertise to boost content marketing results by up to 300%."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "AI can do a better job of persuading people than we do",
+    "link": "https://www.technologyreview.com/2025/05/19/1116779/ai-can-do-a-better-job-of-persuading-people-than-we-do/",
+    "date": "Mon, 19 May 2025 15:00:00 +0000",
+    "content": "Millions of people argue with each other online every day, but remarkably few of them change someone’s mind. New research suggests that large language models (LLMs) might do a better job. The finding suggests that AI could become a powerful tool for persuading people, for better or worse.   A multi-university team of researchers found that…"
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "The real impact of AI on your organization",
+    "link": "https://www.technologyreview.com/2025/05/19/1116456/the-real-impact-of-ai-on-your-organization/",
+    "date": "Mon, 19 May 2025 13:26:31 +0000",
+    "content": "AI technologies are reshaping work, but not all workflows or roles will be equally transformed. Discover how AI is changing the way we work, given the technical capabilities and limitations of today’s systems. Through real-world use cases and strategic insights, this session equips business leaders with the knowledge to prioritize investments and identify the technologies…"
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "AI strategies from the front lines",
+    "link": "https://www.technologyreview.com/2025/05/19/1116452/ai-strategies-from-the-front-lines/",
+    "date": "Mon, 19 May 2025 13:23:48 +0000",
+    "content": "AI’s potential to transform business is undeniable, but realizing tangible value remains a challenge. This session explores where AI is driving the greatest returns today, how to set and manage realistic expectations, and approaches to overcome cultural and operational inertia. Attendees will gain practical guidance and actionable insights to inform their AI strategies and guide…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "Shrink exploit windows, slash MTTP: Why ring deployment is now a must for enterprise defense",
-    "link": "https://venturebeat.com/security/slash-mttp-block-exploits-ring-deployment-now-essential/",
-    "date": "Fri, 16 May 2025 20:48:14 +0000",
-    "content": "Ring deployment slashes MTTP and legacy CVE risk. Learn how Ivanti and Southstar Bank are modernizing patch strategy with real-time intel."
+    "title": "Quantum Machines launches Qualibrate open source framework to speed quantum computer calibration",
+    "link": "https://venturebeat.com/games/quantum-machines-launches-qualibrate-open-source-framework-to-speed-quantum-computer-calibration/",
+    "date": "Mon, 19 May 2025 13:00:00 +0000",
+    "content": "Quantum Machines, a provider of advanced hybrid quantum-classical control solutions, announced today the release of Qualibrate."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "The Download: chaos at OpenAI, and the spa heated by bitcoin mining",
+    "link": "https://www.technologyreview.com/2025/05/19/1116740/the-download-chaos-at-openai-and-the-spa-heated-by-bitcoin-mining/",
+    "date": "Mon, 19 May 2025 12:10:00 +0000",
+    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the story that enraged OpenAI —Niall Firth, executive editor, MIT Technology Review In 2019, Karen Hao, a senior reporter with MIT Technology Review, pitched me a story about a then little-known company,…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "OpenAI launches research preview of Codex AI software engineering agent for developers — with parallel tasking",
-    "link": "https://venturebeat.com/programming-development/openai-launches-research-preview-of-codex-ai-software-engineering-agent-for-developers-with-parallel-tasking/",
-    "date": "Fri, 16 May 2025 15:00:00 +0000",
-    "content": "Starting today it will be available as a research preview for ChatGPT Pro, Enterprise, and Team users, with support later for Plus and Edu."
+    "title": "Samsung boosts OLED TV gaming with Nvidia G-Sync compatibility",
+    "link": "https://venturebeat.com/games/samsung-boosts-oled-tv-gaming-with-nvidia-g-sync-compatibility/",
+    "date": "Mon, 19 May 2025 12:00:00 +0000",
+    "content": "Samsung said its 2025 OLED TV lineup will feature Nvidia G-Sync compatibility, delivering smooth gameplay, low latency, and more."
   },
   {
     "source": "VentureBeat AI",
-    "title": "Acer unveils AI-powered wearables at Computex 2025",
-    "link": "https://venturebeat.com/games/acer-unveils-ai-powered-wearables-at-computex-2025/",
-    "date": "Fri, 16 May 2025 13:00:00 +0000",
-    "content": "Acer Gadget, a subsidiary of Acer, unveiled AI-powered wearables at the Computex 2025 trade show in Taiwan."
+    "title": "Salesforce just unveiled AI ‘digital teammates’ in Slack — and they’re coming for Microsoft Copilot",
+    "link": "https://venturebeat.com/ai/salesforce-just-unveiled-ai-digital-teammates-in-slack-and-theyre-coming-for-microsoft-copilot/",
+    "date": "Mon, 19 May 2025 12:00:00 +0000",
+    "content": "Salesforce launches Agentforce in Slack, transforming workplace productivity with specialized AI agents that operate as digital teammates, replacing one-size-fits-all AI assistants with purpose-built solutions."
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "The Download: the first personalized gene-editing drug, and Montana’s Right to Try experiment",
-    "link": "https://www.technologyreview.com/2025/05/16/1116619/the-download-the-first-personalized-gene-editing-drug-and-montanas-right-to-try-experiment/",
-    "date": "Fri, 16 May 2025 12:10:00 +0000",
-    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This baby boy was treated with the first personalized gene-editing drug Doctors say they constructed a bespoke gene-editing treatment in less than seven months and used it to treat a baby with a…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "Access to experimental medical treatments is expanding across the US",
-    "link": "https://www.technologyreview.com/2025/05/16/1116526/access-to-experimental-medical-treatments-expanding-us/",
-    "date": "Fri, 16 May 2025 09:00:00 +0000",
-    "content": "A couple of weeks ago I was in Washington, DC, for a gathering of scientists, policymakers, and longevity enthusiasts. They had come together to discuss ways to speed along the development of drugs and other treatments that might extend the human lifespan. One approach that came up was to simply make experimental drugs more easily…"
+    "title": "Can crowdsourced fact-checking curb misinformation on social media?",
+    "link": "https://www.technologyreview.com/2025/05/19/1116367/can-crowdsourced-fact-checking-curb-misinformation-on-social-media/",
+    "date": "Mon, 19 May 2025 10:20:27 +0000",
+    "content": "In a 2019 speech at Georgetown University, Mark Zuckerberg famously declared that he didn’t want Facebook to be an “arbiter of truth.” And yet, in the years since, his company, Meta, has used several methods to moderate content and identify misleading posts across its social media apps, which include Facebook, Instagram, and Threads. These methods…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "Elon Musk’s xAI tries to explain Grok’s South African race relations freakout the other day",
-    "link": "https://venturebeat.com/ai/elon-musks-xai-tries-to-explain-groks-south-african-race-relations-freakout-the-other-day/",
-    "date": "Fri, 16 May 2025 02:47:22 +0000",
-    "content": "With its prompts now public and a team of human babysitters on call, Grok is supposedly back on script. But the incident underscores..."
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "This baby boy was treated with the first personalized gene-editing drug",
-    "link": "https://www.technologyreview.com/2025/05/15/1116524/this-baby-boy-was-treated-with-the-first-personalized-gene-editing-drug/",
-    "date": "Thu, 15 May 2025 17:00:00 +0000",
-    "content": "Doctors say they constructed a bespoke gene-editing treatment in less than seven months and used it to treat a baby with a deadly metabolic condition. The rapid-fire attempt to rewrite the child’s DNA marks the first time gene editing has been tailored to treat a single individual, according to a report published in the New…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "The Download: Montana’s experimental treatments, and Google DeepMind’s new AI agent",
-    "link": "https://www.technologyreview.com/2025/05/15/1116516/the-download-montanas-experimental-treatments-and-google-deepminds-new-ai-agent/",
-    "date": "Thu, 15 May 2025 12:10:00 +0000",
-    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The first US hub for experimental medical treatments is coming The news: A bill that allows clinics to sell unproven treatments has been passed in Montana. Under the legislation, doctors can apply for…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "How US research cuts are threatening crucial climate data",
-    "link": "https://www.technologyreview.com/2025/05/15/1116485/climate-data/",
-    "date": "Thu, 15 May 2025 09:00:00 +0000",
-    "content": "Over the last few months, and especially the last few weeks, there’s been an explosion of news about proposed budget cuts to science in the US. One trend I’ve noticed: Researchers and civil servants are sounding the alarm that those cuts mean we might lose key data that helps us understand our world and how…"
+    "title": "Foxconn builds AI factory in partnership with Taiwan and Nvidia",
+    "link": "https://venturebeat.com/games/foxconn-builds-ai-factory-in-partnership-with-taiwan-and-nvidia/",
+    "date": "Mon, 19 May 2025 07:14:00 +0000",
+    "content": "Nvidia and Foxconn announced they are working with the Taiwan government to build an AI factory supercomputer."
   }
 ]
