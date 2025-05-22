@@ -1,72 +1,72 @@
 [
   {
-    "source": "VentureBeat AI",
-    "title": "Reddit, Webflow, and Superhuman are already customers—now GrowthX has $12M to grow",
-    "link": "https://venturebeat.com/ai/reddit-webflow-and-superhuman-are-already-customers-now-growthx-has-12m-to-grow/",
-    "date": "Mon, 19 May 2025 15:00:00 +0000",
-    "content": "GrowthX secures $12M in funding for its \"service-as-software\" platform that combines AI with human expertise to boost content marketing results by up to 300%."
+    "source": "MIT Technology Review AI",
+    "title": "Three takeaways about AI’s energy use and climate impacts",
+    "link": "https://www.technologyreview.com/2025/05/22/1117277/ai-energy-three-takeaways/",
+    "date": "Thu, 22 May 2025 09:00:00 +0000",
+    "content": "This week, we published Power Hungry, a package all about AI and energy. At the center of this package is the most comprehensive look yet at AI’s growing power demand, if I do say so myself.  This data-heavy story is the result of over six months of reporting by me and my colleague James O’Donnell…"
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "AI can do a better job of persuading people than we do",
-    "link": "https://www.technologyreview.com/2025/05/19/1116779/ai-can-do-a-better-job-of-persuading-people-than-we-do/",
-    "date": "Mon, 19 May 2025 15:00:00 +0000",
-    "content": "Millions of people argue with each other online every day, but remarkably few of them change someone’s mind. New research suggests that large language models (LLMs) might do a better job. The finding suggests that AI could become a powerful tool for persuading people, for better or worse.   A multi-university team of researchers found that…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "The real impact of AI on your organization",
-    "link": "https://www.technologyreview.com/2025/05/19/1116456/the-real-impact-of-ai-on-your-organization/",
-    "date": "Mon, 19 May 2025 13:26:31 +0000",
-    "content": "AI technologies are reshaping work, but not all workflows or roles will be equally transformed. Discover how AI is changing the way we work, given the technical capabilities and limitations of today’s systems. Through real-world use cases and strategic insights, this session equips business leaders with the knowledge to prioritize investments and identify the technologies…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "AI strategies from the front lines",
-    "link": "https://www.technologyreview.com/2025/05/19/1116452/ai-strategies-from-the-front-lines/",
-    "date": "Mon, 19 May 2025 13:23:48 +0000",
-    "content": "AI’s potential to transform business is undeniable, but realizing tangible value remains a challenge. This session explores where AI is driving the greatest returns today, how to set and manage realistic expectations, and approaches to overcome cultural and operational inertia. Attendees will gain practical guidance and actionable insights to inform their AI strategies and guide…"
+    "title": "A new atomic clock in space could help us measure elevations on Earth",
+    "link": "https://www.technologyreview.com/2025/05/22/1117294/a-new-atomic-clock-in-space-could-help-us-measure-elevations-on-earth/",
+    "date": "Thu, 22 May 2025 09:00:00 +0000",
+    "content": "In 2003, engineers from Germany and Switzerland began building a bridge across the Rhine River simultaneously from both sides. Months into construction, they found that the two sides did not meet. The German side hovered 54 centimeters above the Swiss side. The misalignment occurred because the German engineers had measured elevation with a historic level…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "Quantum Machines launches Qualibrate open source framework to speed quantum computer calibration",
-    "link": "https://venturebeat.com/games/quantum-machines-launches-qualibrate-open-source-framework-to-speed-quantum-computer-calibration/",
-    "date": "Mon, 19 May 2025 13:00:00 +0000",
-    "content": "Quantum Machines, a provider of advanced hybrid quantum-classical control solutions, announced today the release of Qualibrate."
+    "title": "At Google I/O, Sergey Brin makes surprise appearance — and declares Google will build the first AGI",
+    "link": "https://venturebeat.com/ai/at-google-i-o-sergey-brin-makes-surprise-appearance-and-declares-google-will-build-the-first-agi/",
+    "date": "Wed, 21 May 2025 22:20:36 +0000",
+    "content": "Google co-founder Sergey Brin makes surprise appearance at Google I/O, declaring \"Gemini will be the very first AGI,\" revealing philosophical tensions with DeepMind CEO Hassabis who urges scientific caution in the high-stakes AI race."
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "The Download: chaos at OpenAI, and the spa heated by bitcoin mining",
-    "link": "https://www.technologyreview.com/2025/05/19/1116740/the-download-chaos-at-openai-and-the-spa-heated-by-bitcoin-mining/",
-    "date": "Mon, 19 May 2025 12:10:00 +0000",
-    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the story that enraged OpenAI —Niall Firth, executive editor, MIT Technology Review In 2019, Karen Hao, a senior reporter with MIT Technology Review, pitched me a story about a then little-known company,…"
+    "title": "Roundtables: A New Look at AI’s Energy Use",
+    "link": "https://www.technologyreview.com/2025/05/21/1117287/roundtables-a-new-look-at-ais-energy-use-2/",
+    "date": "Wed, 21 May 2025 19:45:00 +0000",
+    "content": "Recorded on May 21, 2025 Big Tech’s appetite for energy is growing rapidly as adoption of AI accelerates. But just how much energy does even a single AI query use? And what does it mean for the climate? Hear from MIT Technology Review editor in chief Mat Honan, senior climate reporter Casey Crownhart, and AI reporter James…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "Samsung boosts OLED TV gaming with Nvidia G-Sync compatibility",
-    "link": "https://venturebeat.com/games/samsung-boosts-oled-tv-gaming-with-nvidia-g-sync-compatibility/",
-    "date": "Mon, 19 May 2025 12:00:00 +0000",
-    "content": "Samsung said its 2025 OLED TV lineup will feature Nvidia G-Sync compatibility, delivering smooth gameplay, low latency, and more."
+    "title": "OpenAI updates its new Responses API rapidly with MCP support, GPT-4o native image gen, and more enterprise features",
+    "link": "https://venturebeat.com/programming-development/openai-updates-its-new-responses-api-rapidly-with-mcp-support-gpt-4o-native-image-gen-and-more-enterprise-features/",
+    "date": "Wed, 21 May 2025 15:30:22 +0000",
+    "content": "Support for remote Model Context Protocol servers, integration of image generation and Code Interpreter tools, and upgrades to file search..."
   },
   {
     "source": "VentureBeat AI",
-    "title": "Salesforce just unveiled AI ‘digital teammates’ in Slack — and they’re coming for Microsoft Copilot",
-    "link": "https://venturebeat.com/ai/salesforce-just-unveiled-ai-digital-teammates-in-slack-and-theyre-coming-for-microsoft-copilot/",
-    "date": "Mon, 19 May 2025 12:00:00 +0000",
-    "content": "Salesforce launches Agentforce in Slack, transforming workplace productivity with specialized AI agents that operate as digital teammates, replacing one-size-fits-all AI assistants with purpose-built solutions."
+    "title": "Mistral AI launches Devstral, powerful new open source SWE agent model that runs on laptops",
+    "link": "https://venturebeat.com/ai/mistral-ai-launches-devstral-powerful-new-open-source-swe-agent-model-that-runs-on-laptops/",
+    "date": "Wed, 21 May 2025 14:57:15 +0000",
+    "content": "Beyond performance and portability, its Apache 2.0 license offers a compelling proposition for commercial applications."
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "Can crowdsourced fact-checking curb misinformation on social media?",
-    "link": "https://www.technologyreview.com/2025/05/19/1116367/can-crowdsourced-fact-checking-curb-misinformation-on-social-media/",
-    "date": "Mon, 19 May 2025 10:20:27 +0000",
-    "content": "In a 2019 speech at Georgetown University, Mark Zuckerberg famously declared that he didn’t want Facebook to be an “arbiter of truth.” And yet, in the years since, his company, Meta, has used several methods to moderate content and identify misleading posts across its social media apps, which include Facebook, Instagram, and Threads. These methods…"
+    "title": "The Download: Google’s AI mission, and America’s reliance on natural gas",
+    "link": "https://www.technologyreview.com/2025/05/21/1117249/the-download-googles-ai-mission-and-americas-reliance-on-natural-gas/",
+    "date": "Wed, 21 May 2025 12:20:00 +0000",
+    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. By putting AI into everything, Google wants to make it invisible If you want to know where AI is headed, this year’s Google I/O has you covered. The company’s annual showcase of next-gen…"
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "By putting AI into everything, Google wants to make it invisible ",
+    "link": "https://www.technologyreview.com/2025/05/21/1117251/by-putting-ai-into-everything-google-wants-to-make-it-invisible/",
+    "date": "Wed, 21 May 2025 11:49:03 +0000",
+    "content": "If you want to know where AI is headed, this year’s Google I/O has you covered. The company’s annual showcase of next-gen products, which kicked off yesterday, has all of the pomp and pizzazz, the sizzle reels and celebrity walk-ons, that you’d expect from a multimillion-dollar marketing event. But it also shows us just how…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "Foxconn builds AI factory in partnership with Taiwan and Nvidia",
-    "link": "https://venturebeat.com/games/foxconn-builds-ai-factory-in-partnership-with-taiwan-and-nvidia/",
-    "date": "Mon, 19 May 2025 07:14:00 +0000",
-    "content": "Nvidia and Foxconn announced they are working with the Taiwan government to build an AI factory supercomputer."
+    "title": "AMD unveils new Threadripper CPUs and Radeon GPUs for gamers at Computex 2025",
+    "link": "https://venturebeat.com/games/amd-unveils-new-threadripper-cpus-and-radeon-gpus-for-gamers-at-computex-2025/",
+    "date": "Wed, 21 May 2025 03:00:00 +0000",
+    "content": "AMD held a Computex press event to introduce its Radeon RX 9060 XT graphics cards and Threadripper CPUs for next-gen gaming and workstations."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Google finally launches NotebookLM mobile app at I/O: hands-on, first impressions",
+    "link": "https://venturebeat.com/ai/google-finally-launches-notebooklm-mobile-app-at-i-o-hands-on-first-impressions/",
+    "date": "Tue, 20 May 2025 19:29:14 +0000",
+    "content": "As NotebookLM matures, its emerging business-tier capabilities suggest growing alignment with the productivity and compliance..."
   }
 ]
