@@ -1,72 +1,72 @@
 [
   {
-    "source": "MIT Technology Review AI",
-    "title": "Three takeaways about AI’s energy use and climate impacts",
-    "link": "https://www.technologyreview.com/2025/05/22/1117277/ai-energy-three-takeaways/",
-    "date": "Thu, 22 May 2025 09:00:00 +0000",
-    "content": "This week, we published Power Hungry, a package all about AI and energy. At the center of this package is the most comprehensive look yet at AI’s growing power demand, if I do say so myself.  This data-heavy story is the result of over six months of reporting by me and my colleague James O’Donnell…"
-  },
-  {
-    "source": "MIT Technology Review AI",
-    "title": "A new atomic clock in space could help us measure elevations on Earth",
-    "link": "https://www.technologyreview.com/2025/05/22/1117294/a-new-atomic-clock-in-space-could-help-us-measure-elevations-on-earth/",
-    "date": "Thu, 22 May 2025 09:00:00 +0000",
-    "content": "In 2003, engineers from Germany and Switzerland began building a bridge across the Rhine River simultaneously from both sides. Months into construction, they found that the two sides did not meet. The German side hovered 54 centimeters above the Swiss side. The misalignment occurred because the German engineers had measured elevation with a historic level…"
-  },
-  {
     "source": "VentureBeat AI",
-    "title": "At Google I/O, Sergey Brin makes surprise appearance — and declares Google will build the first AGI",
-    "link": "https://venturebeat.com/ai/at-google-i-o-sergey-brin-makes-surprise-appearance-and-declares-google-will-build-the-first-agi/",
-    "date": "Wed, 21 May 2025 22:20:36 +0000",
-    "content": "Google co-founder Sergey Brin makes surprise appearance at Google I/O, declaring \"Gemini will be the very first AGI,\" revealing philosophical tensions with DeepMind CEO Hassabis who urges scientific caution in the high-stakes AI race."
+    "title": "Why enterprise RAG systems fail: Google study introduces ‘sufficient context’ solution",
+    "link": "https://venturebeat.com/ai/why-enterprise-rag-systems-fail-google-study-introduces-sufficient-context-solution/",
+    "date": "Fri, 23 May 2025 13:00:00 +0000",
+    "content": "Google's \"sufficient context\" helps refine RAG systems, reduce LLM hallucinations, and boost AI reliability for business applications."
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "Roundtables: A New Look at AI’s Energy Use",
-    "link": "https://www.technologyreview.com/2025/05/21/1117287/roundtables-a-new-look-at-ais-energy-use-2/",
-    "date": "Wed, 21 May 2025 19:45:00 +0000",
-    "content": "Recorded on May 21, 2025 Big Tech’s appetite for energy is growing rapidly as adoption of AI accelerates. But just how much energy does even a single AI query use? And what does it mean for the climate? Hear from MIT Technology Review editor in chief Mat Honan, senior climate reporter Casey Crownhart, and AI reporter James…"
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "OpenAI updates its new Responses API rapidly with MCP support, GPT-4o native image gen, and more enterprise features",
-    "link": "https://venturebeat.com/programming-development/openai-updates-its-new-responses-api-rapidly-with-mcp-support-gpt-4o-native-image-gen-and-more-enterprise-features/",
-    "date": "Wed, 21 May 2025 15:30:22 +0000",
-    "content": "Support for remote Model Context Protocol servers, integration of image generation and Code Interpreter tools, and upgrades to file search..."
-  },
-  {
-    "source": "VentureBeat AI",
-    "title": "Mistral AI launches Devstral, powerful new open source SWE agent model that runs on laptops",
-    "link": "https://venturebeat.com/ai/mistral-ai-launches-devstral-powerful-new-open-source-swe-agent-model-that-runs-on-laptops/",
-    "date": "Wed, 21 May 2025 14:57:15 +0000",
-    "content": "Beyond performance and portability, its Apache 2.0 license offers a compelling proposition for commercial applications."
+    "title": "The Download: meet Cathy Tie, and Anthropic’s new AI models",
+    "link": "https://www.technologyreview.com/2025/05/23/1117399/the-download-meet-cathy-tie-and-anthropics-new-ai-models/",
+    "date": "Fri, 23 May 2025 12:10:00 +0000",
+    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet Cathy Tie, Bride of “China’s Frankenstein” Since the Chinese biophysicist He Jiankui was released from prison in 2022, he has sought to make a scientific comeback and to repair his reputation after…"
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "The Download: Google’s AI mission, and America’s reliance on natural gas",
-    "link": "https://www.technologyreview.com/2025/05/21/1117249/the-download-googles-ai-mission-and-americas-reliance-on-natural-gas/",
-    "date": "Wed, 21 May 2025 12:20:00 +0000",
-    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. By putting AI into everything, Google wants to make it invisible If you want to know where AI is headed, this year’s Google I/O has you covered. The company’s annual showcase of next-gen…"
+    "title": "The FDA plans to limit access to covid vaccines. Here’s why that’s not all bad.",
+    "link": "https://www.technologyreview.com/2025/05/23/1117329/fda-limit-access-covid-vaccines/",
+    "date": "Fri, 23 May 2025 09:00:00 +0000",
+    "content": "This week, two new leaders at the US Food and Drug Administration announced plans to limit access to covid vaccines, arguing that there is not much evidence to support the value of annual shots in healthy people. New vaccines will be made available only to the people who are most vulnerable—namely, those over 65 and…"
   },
   {
     "source": "MIT Technology Review AI",
-    "title": "By putting AI into everything, Google wants to make it invisible ",
-    "link": "https://www.technologyreview.com/2025/05/21/1117251/by-putting-ai-into-everything-google-wants-to-make-it-invisible/",
-    "date": "Wed, 21 May 2025 11:49:03 +0000",
-    "content": "If you want to know where AI is headed, this year’s Google I/O has you covered. The company’s annual showcase of next-gen products, which kicked off yesterday, has all of the pomp and pizzazz, the sizzle reels and celebrity walk-ons, that you’d expect from a multimillion-dollar marketing event. But it also shows us just how…"
+    "title": "Meet Cathy Tie, Bride of “China’s Frankenstein”",
+    "link": "https://www.technologyreview.com/2025/05/23/1117373/cathy-tie-he-jiankui-china-crispr-x-twitter-feed/",
+    "date": "Fri, 23 May 2025 09:00:00 +0000",
+    "content": "Since the Chinese biophysicist He Jiankui was released from prison in 2022, he has sought to make a scientific comeback and to repair his reputation after a three-year incarceration for illegally creating the world’s first gene-edited children.  While he has bounced between cities, jobs, and meetings with investors, one area of visible success on his…"
   },
   {
     "source": "VentureBeat AI",
-    "title": "AMD unveils new Threadripper CPUs and Radeon GPUs for gamers at Computex 2025",
-    "link": "https://venturebeat.com/games/amd-unveils-new-threadripper-cpus-and-radeon-gpus-for-gamers-at-computex-2025/",
-    "date": "Wed, 21 May 2025 03:00:00 +0000",
-    "content": "AMD held a Computex press event to introduce its Radeon RX 9060 XT graphics cards and Threadripper CPUs for next-gen gaming and workstations."
+    "title": "After GPT-4o backlash, researchers benchmark models on moral endorsement—Find sycophancy persists across the board",
+    "link": "https://venturebeat.com/ai/after-gpt-4o-backlash-researchers-benchmark-models-on-moral-endorsement-find-sycophancy-persists-across-the-board/",
+    "date": "Thu, 22 May 2025 23:46:40 +0000",
+    "content": "A new benchmark can test how much LLMs become sycophants, and found that GPT-4o was the most sycophantic of the models tested."
   },
   {
     "source": "VentureBeat AI",
-    "title": "Google finally launches NotebookLM mobile app at I/O: hands-on, first impressions",
-    "link": "https://venturebeat.com/ai/google-finally-launches-notebooklm-mobile-app-at-i-o-hands-on-first-impressions/",
-    "date": "Tue, 20 May 2025 19:29:14 +0000",
-    "content": "As NotebookLM matures, its emerging business-tier capabilities suggest growing alignment with the productivity and compliance..."
+    "title": "Anthropic faces backlash to Claude 4 Opus behavior that contacts authorities, press if it thinks you’re doing something ‘egregiously immoral’",
+    "link": "https://venturebeat.com/ai/anthropic-faces-backlash-to-claude-4-opus-behavior-that-contacts-authorities-press-if-it-thinks-youre-doing-something-immoral/",
+    "date": "Thu, 22 May 2025 19:12:32 +0000",
+    "content": "Bowman later edited his tweet and the following one in a thread to read as follows, but it still didn't convince the naysayers."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "Anthropic’s new hybrid AI model can work on tasks autonomously for hours at a time",
+    "link": "https://www.technologyreview.com/2025/05/22/1117338/anthropics-new-hybrid-ai-model-can-work-on-tasks-autonomously-for-hours-at-a-time/",
+    "date": "Thu, 22 May 2025 16:51:05 +0000",
+    "content": "Anthropic has announced two new AI models that it claims represent a major step toward making AI agents truly useful. AI agents trained on Claude Opus 4, the company’s most powerful model to date, raise the bar for what such systems are capable of by tackling difficult tasks over extended periods of time and responding…"
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Anthropic overtakes OpenAI: Claude Opus 4 codes seven hours nonstop, sets record SWE-Bench score and reshapes enterprise AI",
+    "link": "https://venturebeat.com/ai/anthropic-claude-opus-4-can-code-for-7-hours-straight-and-its-about-to-change-how-we-work-with-ai/",
+    "date": "Thu, 22 May 2025 16:45:00 +0000",
+    "content": "Anthropic's Claude Opus 4 outperforms OpenAI's GPT-4.1 with unprecedented seven-hour autonomous coding sessions and record-breaking 72.5% SWE-bench score, transforming AI from quick-response tool to day-long collaborator."
+  },
+  {
+    "source": "VentureBeat AI",
+    "title": "Time Magazine appears to accidentally publish embargoed story confirming new Anthropic model",
+    "link": "https://venturebeat.com/ai/time-magazine-appears-to-accidentally-publish-embargoed-story-confirming-anthropic-claude-4-opus/",
+    "date": "Thu, 22 May 2025 15:26:30 +0000",
+    "content": "Someone also appears to have published a full scrape of the Time article online on the news aggregator app Newsbreak."
+  },
+  {
+    "source": "MIT Technology Review AI",
+    "title": "The Download: the desert data center boom, and how to measure Earth’s elevations",
+    "link": "https://www.technologyreview.com/2025/05/22/1117300/the-download-the-desert-data-center-boom-and-how-to-measure-earths-elevations/",
+    "date": "Thu, 22 May 2025 12:10:00 +0000",
+    "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The data center boom in the desert In the high desert east of Reno, Nevada, construction crews are flattening the golden foothills of the Virginia Range, laying the foundations of a data center…"
   }
 ]
