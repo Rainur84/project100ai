@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://project100ai-bay.vercel.app/sitemap.xml
+Sitemap: https://neurobox.site/sitemap.xml
