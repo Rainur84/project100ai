@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "news": "tsx scripts/update-news.ts",
-    "deploy-news": "npm run news && git add . && git commit -m \"update: fresh AI news\" && git push"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.9.0",
@@ -23,7 +21,6 @@
     "react-helmet": "^6.1.0",
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.22.3",
-    "rss-parser": "^3.13.0",
     "sonner": "^2.0.3",
     "uuid": "^11.1.0"
   },
