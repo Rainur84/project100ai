@@ -20,6 +20,15 @@
           "value": "text/plain"
         }
       ]
+    },
+    {
+      "source": "/ai-news.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        }
+      ]
     }
   ]
 }
