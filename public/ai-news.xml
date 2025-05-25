@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[AI News — NeuroBox]]></title>
-        <description><![CDATA[Latest AI news from OpenAI, Google, and more.]]></description>
+        <title><![CDATA[NeuroBox AI News]]></title>
+        <description><![CDATA[Latest AI news from trusted sources]]></description>
         <link>https://neurobox.site</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 May 2025 10:42:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 May 2025 10:45:39 GMT</lastBuildDate>
         <atom:link href="https://neurobox.site/ai-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 25 May 2025 10:42:12 GMT</pubDate>
+        <pubDate>Sun, 25 May 2025 10:45:39 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Beyond single-model AI: How architectural design drives reliable multi-agent orchestration]]></title>
-            <description><![CDATA[VentureBeat AI — Published on Sat, 24 May 2025 22:35:00 GMT]]></description>
+            <description><![CDATA[VentureBeat AI - 2025-05-24T22:35:00.000Z]]></description>
             <link>https://venturebeat.com/ai/beyond-single-model-ai-how-architectural-design-drives-reliable-multi-agent-orchestration/</link>
             <guid isPermaLink="false">https://venturebeat.com/ai/beyond-single-model-ai-how-architectural-design-drives-reliable-multi-agent-orchestration/</guid>
             <pubDate>Sat, 24 May 2025 22:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI updates Operator to o3, making its $200 monthly ChatGPT Pro subscription more enticing]]></title>
-            <description><![CDATA[VentureBeat AI — Published on Fri, 23 May 2025 21:51:51 GMT]]></description>
+            <description><![CDATA[VentureBeat AI - 2025-05-23T21:51:51.000Z]]></description>
             <link>https://venturebeat.com/ai/openai-updates-operator-to-o3-making-its-200-monthly-chatgpt-subscription-more-enticing/</link>
             <guid isPermaLink="false">https://venturebeat.com/ai/openai-updates-operator-to-o3-making-its-200-monthly-chatgpt-subscription-more-enticing/</guid>
             <pubDate>Fri, 23 May 2025 21:51:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The battle to AI-enable the web: NLweb and what enterprises need to know]]></title>
-            <description><![CDATA[VentureBeat AI — Published on Fri, 23 May 2025 21:05:53 GMT]]></description>
+            <description><![CDATA[VentureBeat AI - 2025-05-23T21:05:53.000Z]]></description>
             <link>https://venturebeat.com/ai/the-battle-to-ai-enable-the-web-nlweb-and-what-enterprises-need-to-know/</link>
             <guid isPermaLink="false">https://venturebeat.com/ai/the-battle-to-ai-enable-the-web-nlweb-and-what-enterprises-need-to-know/</guid>
             <pubDate>Fri, 23 May 2025 21:05:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The 3 biggest bombshells from this week’s AI extravaganza]]></title>
-            <description><![CDATA[VentureBeat AI — Published on Fri, 23 May 2025 20:29:55 GMT]]></description>
+            <description><![CDATA[VentureBeat AI - 2025-05-23T20:29:55.000Z]]></description>
             <link>https://venturebeat.com/ai/the-3-biggest-bombshells-from-this-weeks-ai-extravaganza/</link>
             <guid isPermaLink="false">https://venturebeat.com/ai/the-3-biggest-bombshells-from-this-weeks-ai-extravaganza/</guid>
             <pubDate>Fri, 23 May 2025 20:29:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Watch how our Android XR glasses work with Gemini in the real world.]]></title>
-            <description><![CDATA[The Keyword — Published on Fri, 23 May 2025 16:00:00 GMT]]></description>
+            <description><![CDATA[The Keyword - 2025-05-23T16:00:00.000Z]]></description>
             <link>https://blog.google/products/android/android-xr-glasses-demo-io-2025/</link>
             <guid isPermaLink="false">https://blog.google/products/android/android-xr-glasses-demo-io-2025/</guid>
             <pubDate>Fri, 23 May 2025 16:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why enterprise RAG systems fail: Google study introduces ‘sufficient context’ solution]]></title>
-            <description><![CDATA[VentureBeat AI — Published on Fri, 23 May 2025 13:00:00 GMT]]></description>
+            <description><![CDATA[VentureBeat AI - 2025-05-23T13:00:00.000Z]]></description>
             <link>https://venturebeat.com/ai/why-enterprise-rag-systems-fail-google-study-introduces-sufficient-context-solution/</link>
             <guid isPermaLink="false">https://venturebeat.com/ai/why-enterprise-rag-systems-fail-google-study-introduces-sufficient-context-solution/</guid>
             <pubDate>Fri, 23 May 2025 13:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Download: meet Cathy Tie, and Anthropic’s new AI models]]></title>
-            <description><![CDATA[MIT Technology Review — Published on Fri, 23 May 2025 12:10:00 GMT]]></description>
+            <description><![CDATA[MIT Technology Review - 2025-05-23T12:10:00.000Z]]></description>
             <link>https://www.technologyreview.com/2025/05/23/1117399/the-download-meet-cathy-tie-and-anthropics-new-ai-models/</link>
             <guid isPermaLink="false">https://www.technologyreview.com/2025/05/23/1117399/the-download-meet-cathy-tie-and-anthropics-new-ai-models/</guid>
             <pubDate>Fri, 23 May 2025 12:10:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The FDA plans to limit access to covid vaccines. Here’s why that’s not all bad.]]></title>
-            <description><![CDATA[MIT Technology Review — Published on Fri, 23 May 2025 09:00:00 GMT]]></description>
+            <description><![CDATA[MIT Technology Review - 2025-05-23T09:00:00.000Z]]></description>
             <link>https://www.technologyreview.com/2025/05/23/1117329/fda-limit-access-covid-vaccines/</link>
             <guid isPermaLink="false">https://www.technologyreview.com/2025/05/23/1117329/fda-limit-access-covid-vaccines/</guid>
             <pubDate>Fri, 23 May 2025 09:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Meet Cathy Tie, Bride of “China’s Frankenstein”]]></title>
-            <description><![CDATA[MIT Technology Review — Published on Fri, 23 May 2025 09:00:00 GMT]]></description>
+            <description><![CDATA[MIT Technology Review - 2025-05-23T09:00:00.000Z]]></description>
             <link>https://www.technologyreview.com/2025/05/23/1117373/cathy-tie-he-jiankui-china-crispr-x-twitter-feed/</link>
             <guid isPermaLink="false">https://www.technologyreview.com/2025/05/23/1117373/cathy-tie-he-jiankui-china-crispr-x-twitter-feed/</guid>
             <pubDate>Fri, 23 May 2025 09:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator]]></title>
-            <description><![CDATA[OpenAI News — Published on Fri, 23 May 2025 00:00:00 GMT]]></description>
+            <description><![CDATA[OpenAI News - 2025-05-23T00:00:00.000Z]]></description>
             <link>https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3</link>
             <guid isPermaLink="false">https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3</guid>
             <pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate>
