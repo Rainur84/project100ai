@@ -17,8 +17,8 @@ export const videoList: VideoItem[] = [
   {
     id: '2',
     title: 'How to Use ChatGPT Like a Pro',
-    url: 'https://www.youtube.com/embed/VIDEO_ID_2',
-    description: 'Tips and tricks for using ChatGPT effectively.',
+    url: 'https://www.youtube.com/embed/OYH2RpmUQgs',
+    description: 'Top 3 AI Tools for Designers.',
   },
   {
     id: '3',
