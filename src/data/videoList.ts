@@ -23,7 +23,7 @@ export const videoList: VideoItem[] = [
   {
     id: '3',
     title: 'AI in 2025: What’s Coming Next',
-    url: 'https://www.youtube.com/embed/VIDEO_ID_3',
-    description: 'A look at the future of AI and upcoming innovations.',
+    url: 'https://www.youtube.com/embed/MJjGCfR1omE',
+    description: 'Top 3 AI Tools in 2025 You Must Try (part 2).',
   },
 ];
