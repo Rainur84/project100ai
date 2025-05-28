@@ -38,4 +38,10 @@ export const videoList: VideoItem[] = [
     url: 'https://www.youtube.com/embed/fbGoroJRblY',
     description: 'This AI Can Speak in Any Voice.',
   },
+  {
+    id: '6',
+    title: 'Welcome to NeuroBox',
+    url: 'https://www.youtube.com/embed/a_yNLbkPn1w',
+    description: '3 powerful AI tools you can use today (and most are free!.',
+  },
 ];
