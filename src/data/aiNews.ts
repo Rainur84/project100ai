@@ -8,63 +8,63 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
-    "title": "Beyond single-model AI: How architectural design drives reliable multi-agent orchestration",
-    "link": "https://venturebeat.com/ai/beyond-single-model-ai-how-architectural-design-drives-reliable-multi-agent-orchestration/",
-    "pubDate": "Sat, 24 May 2025 22:35:00 +0000",
-    "source": "VentureBeat AI"
+    "title": "OpenAI: The power and the pride",
+    "link": "https://www.technologyreview.com/2025/05/28/1117486/openai-the-power-and-the-pride/",
+    "pubDate": "Wed, 28 May 2025 10:07:09 +0000",
+    "source": "MIT Technology Review"
   },
   {
-    "title": "OpenAI updates Operator to o3, making its $200 monthly ChatGPT Pro subscription more enticing",
-    "link": "https://venturebeat.com/ai/openai-updates-operator-to-o3-making-its-200-monthly-chatgpt-subscription-more-enticing/",
-    "pubDate": "Fri, 23 May 2025 21:51:51 +0000",
-    "source": "VentureBeat AI"
+    "title": "This startup wants to make more climate-friendly metal in the US",
+    "link": "https://www.technologyreview.com/2025/05/28/1117481/metal-magrathea/",
+    "pubDate": "Wed, 28 May 2025 10:00:00 +0000",
+    "source": "MIT Technology Review"
   },
   {
-    "title": "The battle to AI-enable the web: NLweb and what enterprises need to know",
-    "link": "https://venturebeat.com/ai/the-battle-to-ai-enable-the-web-nlweb-and-what-enterprises-need-to-know/",
-    "pubDate": "Fri, 23 May 2025 21:05:53 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "The 3 biggest bombshells from this week’s AI extravaganza",
-    "link": "https://venturebeat.com/ai/the-3-biggest-bombshells-from-this-weeks-ai-extravaganza/",
-    "pubDate": "Fri, 23 May 2025 20:29:55 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Watch how our Android XR glasses work with Gemini in the real world.",
-    "link": "https://blog.google/products/android/android-xr-glasses-demo-io-2025/",
-    "pubDate": "Fri, 23 May 2025 16:00:00 +0000",
+    "title": "Industry leaders gather to discuss tackling fraud together.",
+    "link": "https://blog.google/technology/safety-security/industry-leaders-gather-to-discuss-tackling-fraud-together/",
+    "pubDate": "Wed, 28 May 2025 09:00:00 +0000",
     "source": "The Keyword"
   },
   {
-    "title": "Why enterprise RAG systems fail: Google study introduces ‘sufficient context’ solution",
-    "link": "https://venturebeat.com/ai/why-enterprise-rag-systems-fail-google-study-introduces-sufficient-context-solution/",
-    "pubDate": "Fri, 23 May 2025 13:00:00 +0000",
+    "title": "Everyone’s looking to get in on vibe coding — and Google is no different with Stitch, its follow-up to Jules",
+    "link": "https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/",
+    "pubDate": "Wed, 28 May 2025 00:49:33 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "The Download: meet Cathy Tie, and Anthropic’s new AI models",
-    "link": "https://www.technologyreview.com/2025/05/23/1117399/the-download-meet-cathy-tie-and-anthropics-new-ai-models/",
-    "pubDate": "Fri, 23 May 2025 12:10:00 +0000",
-    "source": "MIT Technology Review"
+    "title": "Spott’s AI-native recruiting platform scores $3.2M to end hiring software chaos",
+    "link": "https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/",
+    "pubDate": "Wed, 28 May 2025 00:07:05 +0000",
+    "source": "VentureBeat AI"
   },
   {
-    "title": "The FDA plans to limit access to covid vaccines. Here’s why that’s not all bad.",
-    "link": "https://www.technologyreview.com/2025/05/23/1117329/fda-limit-access-covid-vaccines/",
-    "pubDate": "Fri, 23 May 2025 09:00:00 +0000",
-    "source": "MIT Technology Review"
+    "title": "Anthropic debuts Claude conversational voice mode on mobile that searches your Google Docs, Drive, Calendar",
+    "link": "https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/",
+    "pubDate": "Tue, 27 May 2025 23:23:21 +0000",
+    "source": "VentureBeat AI"
   },
   {
-    "title": "Meet Cathy Tie, Bride of “China’s Frankenstein”",
-    "link": "https://www.technologyreview.com/2025/05/23/1117373/cathy-tie-he-jiankui-china-crispr-x-twitter-feed/",
-    "pubDate": "Fri, 23 May 2025 09:00:00 +0000",
-    "source": "MIT Technology Review"
+    "title": "We used Gemini to make a web app with stats from the I/O keynote.",
+    "link": "https://blog.google/feed/gemini-canvas-stats-io-2025/",
+    "pubDate": "Tue, 27 May 2025 23:00:00 +0000",
+    "source": "The Keyword"
   },
   {
-    "title": "Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator",
-    "link": "https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3",
-    "pubDate": "Fri, 23 May 2025 00:00:00 GMT",
-    "source": "OpenAI News"
+    "title": "Security leaders lose visibility as consultants deploy shadow AI copilots to stay employed",
+    "link": "https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/",
+    "pubDate": "Tue, 27 May 2025 22:15:44 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Our latest fraud and scams advisory",
+    "link": "https://blog.google/technology/safety-security/fraud-and-scams-advisory-may-2025/",
+    "pubDate": "Tue, 27 May 2025 21:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Mistral launches API for building AI agents that run Python, generate images, perform RAG and more",
+    "link": "https://venturebeat.com/ai/mistral-launches-api-for-building-ai-agents-that-run-python-generate-images-perform-rag-and-more/",
+    "pubDate": "Tue, 27 May 2025 18:52:44 +0000",
+    "source": "VentureBeat AI"
   }
 ];

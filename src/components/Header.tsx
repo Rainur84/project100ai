@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
@@ -32,9 +32,11 @@ const Header: React.FC = () => {
     };
   }, []);
 
-  const filteredModels = aiModels.filter((model) =>
-    model.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredModels = useMemo(() => {
+    return aiModels.filter((model) =>
+      model.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }, [searchTerm]);
 
   const highlightMatch = (name: string) => {
     const regex = new RegExp(`(${searchTerm})`, 'gi');
@@ -52,13 +54,14 @@ const Header: React.FC = () => {
 
   return (
     <header
+      role="banner"
+      aria-label="Main site header"
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white dark:bg-gray-900 shadow-md py-2' : 'bg-transparent py-4'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center min-w-0 overflow-hidden space-x-2">
-          {/* Анимированный SVG логотип - куб */}
           <svg
             className="w-7 h-7 text-blue-600 dark:text-purple-400 animate-spin-slow"
             fill="none"
@@ -71,7 +74,6 @@ const Header: React.FC = () => {
             <path d="M3.3 7L12 12.01 20.7 7" />
             <path d="M12 22V12" />
           </svg>
-          {/* Название сайта */}
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 whitespace-nowrap max-w-full">
             <span style={{ WebkitTextFillColor: 'currentColor' }} className="text-blue-700 dark:text-purple-400">
               NeuroBox
@@ -79,56 +81,37 @@ const Header: React.FC = () => {
           </span>
         </Link>
 
-        {/* Навигация для десктопа */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link
-            to="/"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
-          >
-            Home
-          </Link>
-          <Link
-            to="/models"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
-          >
-            AI Models
-          </Link>
-          <Link
-            to="/news"
-            className="text-blue-600 dark:text-blue-400 font-semibold underline underline-offset-4"
-          >
-            AI News
-          </Link>
-          <Link
-            to="/compare"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
-          >
-            Compare
-          </Link>
-          <Link
-            to="/prompts"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
-          >
-            Prompts
-          </Link>
-          <Link
-            to="/donate"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
-          >
-            Donate
-          </Link>
-          <Link
-            to="/about"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
-          >
-            About
-          </Link>
+          {[
+            { to: '/', label: 'Home' },
+            { to: '/models', label: 'AI Models' },
+            { to: '/news', label: 'AI News', highlight: true },
+            { to: '/compare', label: 'Compare' },
+            { to: '/prompts', label: 'Prompts' },
+            { to: '/donate', label: 'Donate' },
+            { to: '/about', label: 'About' },
+            { to: '/video', label: 'Video' },
+          ].map(({ to, label, highlight }) => (
+            <Link
+              key={to}
+              to={to}
+              className={`text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium ${
+                highlight ? 'text-blue-600 dark:text-blue-400 font-semibold underline underline-offset-4' : ''
+              }`}
+              onClick={() => {
+                setSearchTerm('');
+                setShowResults(false);
+              }}
+            >
+              {label}
+            </Link>
+          ))}
         </nav>
 
-        {/* Поиск и переключатели темы */}
         <div className="hidden md:flex items-center space-x-4 relative" ref={searchRef}>
           <input
             type="text"
+            aria-label="Search AI models"
             placeholder="Search models like GPT-4, Claude, etc..."
             className="px-3 py-1 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-sm text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={searchTerm}
@@ -137,19 +120,28 @@ const Header: React.FC = () => {
               setShowResults(true);
             }}
             onFocus={() => setShowResults(true)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && filteredModels.length > 0) {
+                handleSelectModel(filteredModels[0].slug);
+              }
+            }}
           />
           {showResults && searchTerm && (
-            <div className="absolute top-10 left-0 w-72 bg-white dark:bg-gray-800 shadow-lg rounded-md z-50 max-h-80 overflow-y-auto border dark:border-gray-700">
+            <div
+              className="absolute top-10 left-0 w-72 bg-white dark:bg-gray-800 shadow-lg rounded-md z-50 max-h-80 overflow-y-auto border dark:border-gray-700 transition-all duration-200"
+              role="listbox"
+            >
               {filteredModels.length > 0 ? (
                 filteredModels.map((model) => (
                   <div
                     key={model.slug}
+                    role="option"
+                    aria-selected="false"
                     onClick={() => handleSelectModel(model.slug)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') handleSelectModel(model.slug);
                     }}
                     tabIndex={0}
-                    role="button"
                     className="cursor-pointer px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
                     dangerouslySetInnerHTML={{ __html: highlightMatch(model.name) }}
                   />
@@ -174,7 +166,6 @@ const Header: React.FC = () => {
           </Link>
         </div>
 
-        {/* Мобильное меню */}
         <button
           className="md:hidden p-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -213,6 +204,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       )}
+
       <style>{`
         @keyframes spin-slow {
           from { transform: rotate(0deg); }

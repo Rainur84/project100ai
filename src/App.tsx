@@ -17,9 +17,10 @@ import SearchPage from './pages/SearchPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import PromptsPage from './pages/PromptsPage';
-import NewsFeedPage from './pages/NewsFeedPage'; // ✅ правильное имя
+import NewsFeedPage from './pages/NewsFeedPage';
 import GlossaryPage from './pages/GlossaryPage';
-import AICalendarPage from './pages/AICalendarPage'; // ✅ добавлено
+import AICalendarPage from './pages/AICalendarPage';
+import VideoPage from './pages/VideoPage'; // ✅ добавлен импорт
 
 function App() {
   return (
@@ -36,14 +37,15 @@ function App() {
                 <Route path="/model/:id" element={<ModelDetailPage />} />
                 <Route path="/compare" element={<ComparePage />} />
                 <Route path="/prompts" element={<PromptsPage />} />
-                <Route path="/news" element={<NewsFeedPage />} /> {/* ✅ обновлено */}
-                <Route path="/calendar" element={<AICalendarPage />} /> {/* ✅ новый маршрут */}
+                <Route path="/news" element={<NewsFeedPage />} />
+                <Route path="/calendar" element={<AICalendarPage />} />
                 <Route path="/glossary" element={<GlossaryPage />} />
                 <Route path="/donate" element={<DonatePage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/search" element={<SearchPage />} />
                 <Route path="/privacy" element={<PrivacyPage />} />
                 <Route path="/terms" element={<TermsPage />} />
+                <Route path="/video" element={<VideoPage />} /> {/* ✅ новый маршрут */}
               </Routes>
             </main>
             <Footer />
