@@ -11,8 +11,8 @@ export const videoList: VideoItem[] = [
   {
     id: '1',
     title: 'Top 5 AI Tools You Must Try',
-    url: 'https://www.youtube.com/embed/VIDEO_ID_1',
-    description: 'Discover the best AI tools to boost your productivity.',
+    url: 'https://www.youtube.com/embed/WbTxnIUS7tw',
+    description: 'Top 3 AI Tools for Business Owners.',
   },
   {
     id: '2',
