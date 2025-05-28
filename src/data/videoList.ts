@@ -26,4 +26,10 @@ export const videoList: VideoItem[] = [
     url: 'https://www.youtube.com/embed/MJjGCfR1omE',
     description: 'Top 3 AI Tools in 2025 You Must Try (part 2).',
   },
+  {
+    id: '4',
+    title: 'You Need in 2025',
+    url: 'https://www.youtube.com/embed/I30mkhn0EYs',
+    description: 'Top 3 Free AI Tools You Need in 2025.',
+  },
 ];
