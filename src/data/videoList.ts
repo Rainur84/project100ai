@@ -32,4 +32,10 @@ export const videoList: VideoItem[] = [
     url: 'https://www.youtube.com/embed/I30mkhn0EYs',
     description: 'Top 3 Free AI Tools You Need in 2025.',
   },
+  {
+    id: '5',
+    title: 'Welcome to NeuroBox',
+    url: 'https://www.youtube.com/embed/fbGoroJRblY',
+    description: 'This AI Can Speak in Any Voice.',
+  },
 ];
