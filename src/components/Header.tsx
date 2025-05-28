@@ -179,7 +179,7 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-white dark:bg-gray-900 shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
-              {['/', '/models', '/news', '/compare', '/prompts', '/donate', '/about'].map((path, index) => (
+              {['/', '/models', '/news', '/compare', '/prompts', '/donate', '/about', '/video'].map((path, index) => (
                 <Link
                   key={index}
                   to={path}
