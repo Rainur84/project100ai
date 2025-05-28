@@ -10,7 +10,7 @@ export interface VideoItem {
 export const videoList: VideoItem[] = [
   {
     id: '1',
-    title: 'Top 5 AI Tools You Must Try',
+    title: 'Top 3 AI Tools You Must Try',
     url: 'https://www.youtube.com/embed/WbTxnIUS7tw',
     description: 'Top 3 AI Tools for Business Owners.',
   },
