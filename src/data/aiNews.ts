@@ -8,6 +8,48 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
+    "title": "Less is more: Meta study shows shorter reasoning improves AI accuracy by 34%",
+    "link": "https://venturebeat.com/ai/less-is-more-meta-study-shows-shorter-reasoning-improves-ai-accuracy-by-34/",
+    "pubDate": "Wed, 28 May 2025 19:17:56 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "10 tips for 10 years of Google Photos",
+    "link": "https://blog.google/products/photos/google-photos-10-years-tips-tricks/",
+    "pubDate": "Wed, 28 May 2025 17:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Highlights from the Dialogues stage at I/O 2025",
+    "link": "https://blog.google/technology/developers/google-io-2025-dialogues-ai-quantum-storytelling/",
+    "pubDate": "Wed, 28 May 2025 16:14:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Rumi raises $4.7M to change passive media into interactive AI experiences",
+    "link": "https://venturebeat.com/games/rumi-raises-4-7m-to-change-passive-media-into-interactive-ai-experiences/",
+    "pubDate": "Wed, 28 May 2025 15:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "The AI Hype Index: College students are hooked on ChatGPT",
+    "link": "https://www.technologyreview.com/2025/05/28/1117468/ai-hype-index-college-students-chatgpt-meta-apple-anthropic-grok/",
+    "pubDate": "Wed, 28 May 2025 14:13:29 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "Akool Live Camera can translate video calls in real time, swap faces, and get live virtual avatars to mimic human movements",
+    "link": "https://venturebeat.com/games/akool-live-camera-can-translate-video-calls-in-real-time-swap-faces-and-get-virtual-avatars-to-mimic-human-movements/",
+    "pubDate": "Wed, 28 May 2025 13:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "The Download: the story of OpenAI, and making magnesium",
+    "link": "https://www.technologyreview.com/2025/05/28/1117492/the-download-the-story-of-openai-and-making-magnesium/",
+    "pubDate": "Wed, 28 May 2025 12:10:00 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
     "title": "OpenAI: The power and the pride",
     "link": "https://www.technologyreview.com/2025/05/28/1117486/openai-the-power-and-the-pride/",
     "pubDate": "Wed, 28 May 2025 10:07:09 +0000",
@@ -24,47 +66,5 @@ export const aiNews: AINewsItem[] = [
     "link": "https://blog.google/technology/safety-security/industry-leaders-gather-to-discuss-tackling-fraud-together/",
     "pubDate": "Wed, 28 May 2025 09:00:00 +0000",
     "source": "The Keyword"
-  },
-  {
-    "title": "Everyone’s looking to get in on vibe coding — and Google is no different with Stitch, its follow-up to Jules",
-    "link": "https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/",
-    "pubDate": "Wed, 28 May 2025 00:49:33 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Spott’s AI-native recruiting platform scores $3.2M to end hiring software chaos",
-    "link": "https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/",
-    "pubDate": "Wed, 28 May 2025 00:07:05 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Anthropic debuts Claude conversational voice mode on mobile that searches your Google Docs, Drive, Calendar",
-    "link": "https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/",
-    "pubDate": "Tue, 27 May 2025 23:23:21 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "We used Gemini to make a web app with stats from the I/O keynote.",
-    "link": "https://blog.google/feed/gemini-canvas-stats-io-2025/",
-    "pubDate": "Tue, 27 May 2025 23:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Security leaders lose visibility as consultants deploy shadow AI copilots to stay employed",
-    "link": "https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/",
-    "pubDate": "Tue, 27 May 2025 22:15:44 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Our latest fraud and scams advisory",
-    "link": "https://blog.google/technology/safety-security/fraud-and-scams-advisory-may-2025/",
-    "pubDate": "Tue, 27 May 2025 21:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Mistral launches API for building AI agents that run Python, generate images, perform RAG and more",
-    "link": "https://venturebeat.com/ai/mistral-launches-api-for-building-ai-agents-that-run-python-generate-images-perform-rag-and-more/",
-    "pubDate": "Tue, 27 May 2025 18:52:44 +0000",
-    "source": "VentureBeat AI"
   }
 ];
