@@ -8,63 +8,63 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
-    "title": "Less is more: Meta study shows shorter reasoning improves AI accuracy by 34%",
-    "link": "https://venturebeat.com/ai/less-is-more-meta-study-shows-shorter-reasoning-improves-ai-accuracy-by-34/",
-    "pubDate": "Wed, 28 May 2025 19:17:56 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "10 tips for 10 years of Google Photos",
-    "link": "https://blog.google/products/photos/google-photos-10-years-tips-tricks/",
-    "pubDate": "Wed, 28 May 2025 17:00:00 +0000",
+    "title": "Our latest scams survey sees changing online security habits",
+    "link": "https://blog.google/technology/safety-security/google-survey-digital-security-2025/",
+    "pubDate": "Wed, 04 Jun 2025 10:00:00 +0000",
     "source": "The Keyword"
   },
   {
-    "title": "Highlights from the Dialogues stage at I/O 2025",
-    "link": "https://blog.google/technology/developers/google-io-2025-dialogues-ai-quantum-storytelling/",
-    "pubDate": "Wed, 28 May 2025 16:14:00 +0000",
+    "title": "What’s next for AI and math",
+    "link": "https://www.technologyreview.com/2025/06/04/1117753/whats-next-for-ai-and-math/",
+    "pubDate": "Wed, 04 Jun 2025 08:21:24 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "Your AI models are failing in production—Here’s how to fix model selection",
+    "link": "https://venturebeat.com/ai/your-ai-models-are-failing-in-production-heres-how-to-fix-model-selection/",
+    "pubDate": "Tue, 03 Jun 2025 23:47:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Nvidia CEO Jensen Huang sings praises of processor in Nintendo Switch 2",
+    "link": "https://venturebeat.com/gaming-business/nvidia-ceo-jensen-huang-sings-praises-of-processor-in-nintendo-switch-2/",
+    "pubDate": "Tue, 03 Jun 2025 22:48:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Phonely’s new AI agents hit 99% accuracy—and customers can’t tell they’re not human",
+    "link": "https://venturebeat.com/ai/phonelys-new-ai-agents-hit-99-accuracy-and-customers-cant-tell-theyre-not-human/",
+    "pubDate": "Tue, 03 Jun 2025 20:31:27 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Advanced audio dialog and generation with Gemini 2.5",
+    "link": "https://blog.google/technology/google-deepmind/gemini-2-5-native-audio/",
+    "pubDate": "Tue, 03 Jun 2025 16:00:00 +0000",
     "source": "The Keyword"
   },
   {
-    "title": "Rumi raises $4.7M to change passive media into interactive AI experiences",
-    "link": "https://venturebeat.com/games/rumi-raises-4-7m-to-change-passive-media-into-interactive-ai-experiences/",
-    "pubDate": "Wed, 28 May 2025 15:00:00 +0000",
+    "title": "NotebookLM is adding a new way to share your own notebooks publicly.",
+    "link": "https://blog.google/technology/google-labs/notebooklm-public-notebooks/",
+    "pubDate": "Tue, 03 Jun 2025 16:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Epic Games reveals The State of Unreal for 2025",
+    "link": "https://venturebeat.com/games/epic-games-reveals-the-state-of-unreal-for-2025/",
+    "pubDate": "Tue, 03 Jun 2025 15:30:00 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "The AI Hype Index: College students are hooked on ChatGPT",
-    "link": "https://www.technologyreview.com/2025/05/28/1117468/ai-hype-index-college-students-chatgpt-meta-apple-anthropic-grok/",
-    "pubDate": "Wed, 28 May 2025 14:13:29 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Akool Live Camera can translate video calls in real time, swap faces, and get live virtual avatars to mimic human movements",
-    "link": "https://venturebeat.com/games/akool-live-camera-can-translate-video-calls-in-real-time-swap-faces-and-get-virtual-avatars-to-mimic-human-movements/",
-    "pubDate": "Wed, 28 May 2025 13:00:00 +0000",
+    "title": "What game companies can learn from AI analysis of 1.5M gamer conversations | Creativ Company",
+    "link": "https://venturebeat.com/games/what-game-companies-can-learn-from-ai-analysis-of-1-5m-gamer-conversations-creativ-company/",
+    "pubDate": "Tue, 03 Jun 2025 14:30:00 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "The Download: the story of OpenAI, and making magnesium",
-    "link": "https://www.technologyreview.com/2025/05/28/1117492/the-download-the-story-of-openai-and-making-magnesium/",
-    "pubDate": "Wed, 28 May 2025 12:10:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "OpenAI: The power and the pride",
-    "link": "https://www.technologyreview.com/2025/05/28/1117486/openai-the-power-and-the-pride/",
-    "pubDate": "Wed, 28 May 2025 10:07:09 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "This startup wants to make more climate-friendly metal in the US",
-    "link": "https://www.technologyreview.com/2025/05/28/1117481/metal-magrathea/",
-    "pubDate": "Wed, 28 May 2025 10:00:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Industry leaders gather to discuss tackling fraud together.",
-    "link": "https://blog.google/technology/safety-security/industry-leaders-gather-to-discuss-tackling-fraud-together/",
-    "pubDate": "Wed, 28 May 2025 09:00:00 +0000",
+    "title": "YouTube receives continued MRC brand safety accreditation.",
+    "link": "https://blog.google/products/ads-commerce/youtube-receives-continued-mrc-brand-safety-accreditation/",
+    "pubDate": "Tue, 03 Jun 2025 13:00:00 +0000",
     "source": "The Keyword"
   }
 ];

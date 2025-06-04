@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "news": "tsx scripts/update-news.ts",
-    "deploy-news": "npm run news && git add . && git commit -m \"update: fresh AI news\" && git push",
+    "deploy-news": "npm run news && echo \"// trigger rebuild\" > src/temp.ts && git add . && git commit -m \"update: fresh AI news\" && git push && rm src/temp.ts",
     "deploy-site": "git add . && git commit -m \"update: site content\" && git push"
   },
   "dependencies": {
