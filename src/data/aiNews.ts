@@ -8,6 +8,48 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
+    "title": "Stop guessing why your LLMs break: Anthropic’s new tool shows you exactly what goes wrong",
+    "link": "https://venturebeat.com/ai/stop-guessing-why-your-llms-break-anthropics-new-tool-shows-you-exactly-what-goes-wrong/",
+    "pubDate": "Wed, 04 Jun 2025 22:39:09 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "MIT Technology Review Insiders Panel",
+    "link": "https://www.technologyreview.com/2025/06/04/1117864/mit-technology-review-insiders-panel/",
+    "pubDate": "Wed, 04 Jun 2025 20:06:06 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "AI breakthroughs are bringing hope to cancer research and treatment",
+    "link": "https://blog.google/technology/health/ruth-porat-remarks-asco/",
+    "pubDate": "Wed, 04 Jun 2025 18:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "OpenAI hits 3M business users and launches workplace tools to take on Microsoft",
+    "link": "https://venturebeat.com/ai/openai-hits-3m-business-users-and-launches-workplace-tools-to-take-on-microsoft/",
+    "pubDate": "Wed, 04 Jun 2025 17:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Mistral AI’s new coding assistant takes direct aim at GitHub Copilot",
+    "link": "https://venturebeat.com/ai/mistral-ais-new-coding-assistant-takes-direct-aim-at-github-copilot/",
+    "pubDate": "Wed, 04 Jun 2025 14:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Nvidia says its Blackwell chips lead benchmarks in training AI LLMs",
+    "link": "https://venturebeat.com/games/nvidia-says-its-blackwell-chips-lead-benchmarks-in-training-ai-llms/",
+    "pubDate": "Wed, 04 Jun 2025 13:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "The Download: AI’s role in math, and calculating its energy footprint",
+    "link": "https://www.technologyreview.com/2025/06/04/1117829/the-download-ai-math-energy/",
+    "pubDate": "Wed, 04 Jun 2025 12:02:00 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
     "title": "Our latest scams survey sees changing online security habits",
     "link": "https://blog.google/technology/safety-security/google-survey-digital-security-2025/",
     "pubDate": "Wed, 04 Jun 2025 10:00:00 +0000",
@@ -24,47 +66,5 @@ export const aiNews: AINewsItem[] = [
     "link": "https://venturebeat.com/ai/your-ai-models-are-failing-in-production-heres-how-to-fix-model-selection/",
     "pubDate": "Tue, 03 Jun 2025 23:47:00 +0000",
     "source": "VentureBeat AI"
-  },
-  {
-    "title": "Nvidia CEO Jensen Huang sings praises of processor in Nintendo Switch 2",
-    "link": "https://venturebeat.com/gaming-business/nvidia-ceo-jensen-huang-sings-praises-of-processor-in-nintendo-switch-2/",
-    "pubDate": "Tue, 03 Jun 2025 22:48:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Phonely’s new AI agents hit 99% accuracy—and customers can’t tell they’re not human",
-    "link": "https://venturebeat.com/ai/phonelys-new-ai-agents-hit-99-accuracy-and-customers-cant-tell-theyre-not-human/",
-    "pubDate": "Tue, 03 Jun 2025 20:31:27 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Advanced audio dialog and generation with Gemini 2.5",
-    "link": "https://blog.google/technology/google-deepmind/gemini-2-5-native-audio/",
-    "pubDate": "Tue, 03 Jun 2025 16:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "NotebookLM is adding a new way to share your own notebooks publicly.",
-    "link": "https://blog.google/technology/google-labs/notebooklm-public-notebooks/",
-    "pubDate": "Tue, 03 Jun 2025 16:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Epic Games reveals The State of Unreal for 2025",
-    "link": "https://venturebeat.com/games/epic-games-reveals-the-state-of-unreal-for-2025/",
-    "pubDate": "Tue, 03 Jun 2025 15:30:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "What game companies can learn from AI analysis of 1.5M gamer conversations | Creativ Company",
-    "link": "https://venturebeat.com/games/what-game-companies-can-learn-from-ai-analysis-of-1-5m-gamer-conversations-creativ-company/",
-    "pubDate": "Tue, 03 Jun 2025 14:30:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "YouTube receives continued MRC brand safety accreditation.",
-    "link": "https://blog.google/products/ads-commerce/youtube-receives-continued-mrc-brand-safety-accreditation/",
-    "pubDate": "Tue, 03 Jun 2025 13:00:00 +0000",
-    "source": "The Keyword"
   }
 ];
