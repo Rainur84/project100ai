@@ -8,63 +8,63 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
-    "title": "Stop guessing why your LLMs break: Anthropic’s new tool shows you exactly what goes wrong",
-    "link": "https://venturebeat.com/ai/stop-guessing-why-your-llms-break-anthropics-new-tool-shows-you-exactly-what-goes-wrong/",
-    "pubDate": "Wed, 04 Jun 2025 22:39:09 +0000",
+    "title": "Sam Altman calls for ‘AI privilege’ as OpenAI clarifies court order to retain temporary and deleted ChatGPT sessions",
+    "link": "https://venturebeat.com/ai/sam-altman-calls-for-ai-privilege-as-openai-clarifies-court-order-to-retain-temporary-and-deleted-chatgpt-sessions/",
+    "pubDate": "Fri, 06 Jun 2025 17:48:53 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "MIT Technology Review Insiders Panel",
-    "link": "https://www.technologyreview.com/2025/06/04/1117864/mit-technology-review-insiders-panel/",
-    "pubDate": "Wed, 04 Jun 2025 20:06:06 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "AI breakthroughs are bringing hope to cancer research and treatment",
-    "link": "https://blog.google/technology/health/ruth-porat-remarks-asco/",
-    "pubDate": "Wed, 04 Jun 2025 18:00:00 +0000",
+    "title": "Plan ahead with scheduled actions in the Gemini app.",
+    "link": "https://blog.google/products/gemini/scheduled-actions-gemini-app/",
+    "pubDate": "Fri, 06 Jun 2025 17:00:00 +0000",
     "source": "The Keyword"
   },
   {
-    "title": "OpenAI hits 3M business users and launches workplace tools to take on Microsoft",
-    "link": "https://venturebeat.com/ai/openai-hits-3m-business-users-and-launches-workplace-tools-to-take-on-microsoft/",
-    "pubDate": "Wed, 04 Jun 2025 17:00:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Mistral AI’s new coding assistant takes direct aim at GitHub Copilot",
-    "link": "https://venturebeat.com/ai/mistral-ais-new-coding-assistant-takes-direct-aim-at-github-copilot/",
-    "pubDate": "Wed, 04 Jun 2025 14:00:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Nvidia says its Blackwell chips lead benchmarks in training AI LLMs",
-    "link": "https://venturebeat.com/games/nvidia-says-its-blackwell-chips-lead-benchmarks-in-training-ai-llms/",
-    "pubDate": "Wed, 04 Jun 2025 13:00:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "The Download: AI’s role in math, and calculating its energy footprint",
-    "link": "https://www.technologyreview.com/2025/06/04/1117829/the-download-ai-math-energy/",
-    "pubDate": "Wed, 04 Jun 2025 12:02:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Our latest scams survey sees changing online security habits",
-    "link": "https://blog.google/technology/safety-security/google-survey-digital-security-2025/",
-    "pubDate": "Wed, 04 Jun 2025 10:00:00 +0000",
+    "title": "Check out Google Play Books’ list of the best books of the year so far.",
+    "link": "https://blog.google/products/google-play/best-books-of-2025-so-far/",
+    "pubDate": "Fri, 06 Jun 2025 16:00:00 +0000",
     "source": "The Keyword"
   },
   {
-    "title": "What’s next for AI and math",
-    "link": "https://www.technologyreview.com/2025/06/04/1117753/whats-next-for-ai-and-math/",
-    "pubDate": "Wed, 04 Jun 2025 08:21:24 +0000",
+    "title": "Voice AI that actually converts: New TTS model boosts sales 15% for major brands",
+    "link": "https://venturebeat.com/ai/voice-ai-that-actually-converts-new-tts-model-boosts-sales-15-for-major-brands/",
+    "pubDate": "Fri, 06 Jun 2025 13:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "The Download: China’s AI agent boom, and GPS alternatives",
+    "link": "https://www.technologyreview.com/2025/06/06/1118044/the-download-chinas-ai-agent-boom-and-gps-alternatives/",
+    "pubDate": "Fri, 06 Jun 2025 12:10:00 +0000",
     "source": "MIT Technology Review"
   },
   {
-    "title": "Your AI models are failing in production—Here’s how to fix model selection",
-    "link": "https://venturebeat.com/ai/your-ai-models-are-failing-in-production-heres-how-to-fix-model-selection/",
-    "pubDate": "Tue, 03 Jun 2025 23:47:00 +0000",
+    "title": "Why doctors should look for ways to prescribe hope",
+    "link": "https://www.technologyreview.com/2025/06/06/1117937/why-doctors-should-look-for-ways-to-prescribe-hope/",
+    "pubDate": "Fri, 06 Jun 2025 09:00:00 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "Inside the race to find GPS alternatives",
+    "link": "https://www.technologyreview.com/2025/06/06/1117978/inside-the-race-to-find-gps-alternatives/",
+    "pubDate": "Fri, 06 Jun 2025 09:00:00 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "Google claims Gemini 2.5 Pro preview beats DeepSeek R1 and Grok 3 Beta in coding performance",
+    "link": "https://venturebeat.com/ai/google-claims-gemini-2-5-pro-preview-beats-deepseek-r1-and-grok-3-beta-in-coding-performance/",
+    "pubDate": "Thu, 05 Jun 2025 21:30:12 +0000",
     "source": "VentureBeat AI"
+  },
+  {
+    "title": "Google's enduring commitment to Europe",
+    "link": "https://blog.google/around-the-globe/google-europe/googles-enduring-commitment-to-europe/",
+    "pubDate": "Thu, 05 Jun 2025 19:45:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Artists used Google’s generative AI products to inspire an interactive sculpture.",
+    "link": "https://blog.google/technology/google-labs/reflection-point-ai-sculpture/",
+    "pubDate": "Thu, 05 Jun 2025 19:00:00 +0000",
+    "source": "The Keyword"
   }
 ];
