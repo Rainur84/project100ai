@@ -8,63 +8,63 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
+    "title": "How we’re advancing water stewardship in Taiwan",
+    "link": "https://blog.google/outreach-initiatives/sustainability/advancing-water-stewardship-in-taiwan/",
+    "pubDate": "Tue, 10 Jun 2025 02:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Apple makes major AI advance with image generation technology rivaling DALL-E and Midjourney",
+    "link": "https://venturebeat.com/ai/apple-makes-major-ai-advance-with-image-generation-technology-rivaling-dall-e-and-midjourney/",
+    "pubDate": "Mon, 09 Jun 2025 18:50:06 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "How LVMH is using Google Cloud for its “quiet tech”",
+    "link": "https://blog.google/products/google-cloud/lvmh/",
+    "pubDate": "Mon, 09 Jun 2025 16:49:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "How we built one of the most ambitious datasets in brain activity research",
+    "link": "https://blog.google/technology/research/zapbench-zebrafish-brain-mapping/",
+    "pubDate": "Mon, 09 Jun 2025 16:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Here’s the next cohort of the Google.org Accelerator: Generative AI",
+    "link": "https://blog.google/outreach-initiatives/google-org/generative-ai-accelerator-cohort-2025/",
+    "pubDate": "Mon, 09 Jun 2025 14:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "The Download: an inspiring toy robot arm, and why AM radio matters",
+    "link": "https://www.technologyreview.com/2025/06/09/1118186/the-download-an-inspiring-toy-robot-arm-and-why-am-radio-matters/",
+    "pubDate": "Mon, 09 Jun 2025 12:10:00 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "UK government harnesses Gemini to support faster planning decisions",
+    "link": "https://blog.google/around-the-globe/google-europe/united-kingdom/uk-government-harnesses-gemini-to-support-faster-planning-decisions/",
+    "pubDate": "Mon, 09 Jun 2025 11:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Like humans, AI is forcing institutions to rethink their purpose",
+    "link": "https://venturebeat.com/ai/like-humans-ai-is-forcing-institutions-to-rethink-their-purpose/",
+    "pubDate": "Sun, 08 Jun 2025 20:00:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Agent-based computing is outgrowing the web as we know it",
+    "link": "https://venturebeat.com/ai/agent-based-computing-is-outgrowing-the-web-as-we-know-it/",
+    "pubDate": "Sat, 07 Jun 2025 22:15:00 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
     "title": "Sam Altman calls for ‘AI privilege’ as OpenAI clarifies court order to retain temporary and deleted ChatGPT sessions",
     "link": "https://venturebeat.com/ai/sam-altman-calls-for-ai-privilege-as-openai-clarifies-court-order-to-retain-temporary-and-deleted-chatgpt-sessions/",
     "pubDate": "Fri, 06 Jun 2025 17:48:53 +0000",
     "source": "VentureBeat AI"
-  },
-  {
-    "title": "Plan ahead with scheduled actions in the Gemini app.",
-    "link": "https://blog.google/products/gemini/scheduled-actions-gemini-app/",
-    "pubDate": "Fri, 06 Jun 2025 17:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Check out Google Play Books’ list of the best books of the year so far.",
-    "link": "https://blog.google/products/google-play/best-books-of-2025-so-far/",
-    "pubDate": "Fri, 06 Jun 2025 16:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Voice AI that actually converts: New TTS model boosts sales 15% for major brands",
-    "link": "https://venturebeat.com/ai/voice-ai-that-actually-converts-new-tts-model-boosts-sales-15-for-major-brands/",
-    "pubDate": "Fri, 06 Jun 2025 13:00:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "The Download: China’s AI agent boom, and GPS alternatives",
-    "link": "https://www.technologyreview.com/2025/06/06/1118044/the-download-chinas-ai-agent-boom-and-gps-alternatives/",
-    "pubDate": "Fri, 06 Jun 2025 12:10:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Why doctors should look for ways to prescribe hope",
-    "link": "https://www.technologyreview.com/2025/06/06/1117937/why-doctors-should-look-for-ways-to-prescribe-hope/",
-    "pubDate": "Fri, 06 Jun 2025 09:00:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Inside the race to find GPS alternatives",
-    "link": "https://www.technologyreview.com/2025/06/06/1117978/inside-the-race-to-find-gps-alternatives/",
-    "pubDate": "Fri, 06 Jun 2025 09:00:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Google claims Gemini 2.5 Pro preview beats DeepSeek R1 and Grok 3 Beta in coding performance",
-    "link": "https://venturebeat.com/ai/google-claims-gemini-2-5-pro-preview-beats-deepseek-r1-and-grok-3-beta-in-coding-performance/",
-    "pubDate": "Thu, 05 Jun 2025 21:30:12 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Google's enduring commitment to Europe",
-    "link": "https://blog.google/around-the-globe/google-europe/googles-enduring-commitment-to-europe/",
-    "pubDate": "Thu, 05 Jun 2025 19:45:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Artists used Google’s generative AI products to inspire an interactive sculpture.",
-    "link": "https://blog.google/technology/google-labs/reflection-point-ai-sculpture/",
-    "pubDate": "Thu, 05 Jun 2025 19:00:00 +0000",
-    "source": "The Keyword"
   }
 ];
