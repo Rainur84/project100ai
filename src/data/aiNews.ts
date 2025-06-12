@@ -8,63 +8,63 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
-    "title": "How we’re advancing water stewardship in Taiwan",
-    "link": "https://blog.google/outreach-initiatives/sustainability/advancing-water-stewardship-in-taiwan/",
-    "pubDate": "Tue, 10 Jun 2025 02:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Apple makes major AI advance with image generation technology rivaling DALL-E and Midjourney",
-    "link": "https://venturebeat.com/ai/apple-makes-major-ai-advance-with-image-generation-technology-rivaling-dall-e-and-midjourney/",
-    "pubDate": "Mon, 09 Jun 2025 18:50:06 +0000",
+    "title": "TensorWave deploys AMD Instinct MI355X GPUs in its cloud platform",
+    "link": "https://venturebeat.com/games/tensorwave-deploys-amd-instinct-mi355x-gpus-in-its-cloud-platform/",
+    "pubDate": "Thu, 12 Jun 2025 18:30:00 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "How LVMH is using Google Cloud for its “quiet tech”",
-    "link": "https://blog.google/products/google-cloud/lvmh/",
-    "pubDate": "Mon, 09 Jun 2025 16:49:00 +0000",
-    "source": "The Keyword"
+    "title": "AMD debuts AMD Instinct MI350 Series accelerator chips with 35X better inferencing",
+    "link": "https://venturebeat.com/games/amd-debuts-amd-instinct-mi350-series-accelerator-chips-with-35x-better-inferencing/",
+    "pubDate": "Thu, 12 Jun 2025 18:30:00 +0000",
+    "source": "VentureBeat AI"
   },
   {
-    "title": "How we built one of the most ambitious datasets in brain activity research",
-    "link": "https://blog.google/technology/research/zapbench-zebrafish-brain-mapping/",
-    "pubDate": "Mon, 09 Jun 2025 16:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Here’s the next cohort of the Google.org Accelerator: Generative AI",
-    "link": "https://blog.google/outreach-initiatives/google-org/generative-ai-accelerator-cohort-2025/",
-    "pubDate": "Mon, 09 Jun 2025 14:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "The Download: an inspiring toy robot arm, and why AM radio matters",
-    "link": "https://www.technologyreview.com/2025/06/09/1118186/the-download-an-inspiring-toy-robot-arm-and-why-am-radio-matters/",
-    "pubDate": "Mon, 09 Jun 2025 12:10:00 +0000",
+    "title": "Shoring up global supply chains with generative AI",
+    "link": "https://www.technologyreview.com/2025/06/12/1118533/shoring-up-global-supply-chains-with-generative-ai/",
+    "pubDate": "Thu, 12 Jun 2025 18:10:27 +0000",
     "source": "MIT Technology Review"
   },
   {
-    "title": "UK government harnesses Gemini to support faster planning decisions",
-    "link": "https://blog.google/around-the-globe/google-europe/united-kingdom/uk-government-harnesses-gemini-to-support-faster-planning-decisions/",
-    "pubDate": "Mon, 09 Jun 2025 11:00:00 +0000",
+    "title": "5 things from I/O to try right now",
+    "link": "https://blog.google/technology/ai/io-2025-tools-to-try-globally/",
+    "pubDate": "Thu, 12 Jun 2025 16:00:00 +0000",
     "source": "The Keyword"
   },
   {
-    "title": "Like humans, AI is forcing institutions to rethink their purpose",
-    "link": "https://venturebeat.com/ai/like-humans-ai-is-forcing-institutions-to-rethink-their-purpose/",
-    "pubDate": "Sun, 08 Jun 2025 20:00:00 +0000",
+    "title": "Celebrating 10 years of Android Enterprise and looking ahead",
+    "link": "https://blog.google/products/android-enterprise/10-years-of-android-enterprise/",
+    "pubDate": "Thu, 12 Jun 2025 16:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Google DeepMind just changed hurricane forecasting forever with new AI model",
+    "link": "https://venturebeat.com/ai/google-deepmind-just-changed-hurricane-forecasting-forever-with-new-ai-model/",
+    "pubDate": "Thu, 12 Jun 2025 15:00:00 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "Agent-based computing is outgrowing the web as we know it",
-    "link": "https://venturebeat.com/ai/agent-based-computing-is-outgrowing-the-web-as-we-know-it/",
-    "pubDate": "Sat, 07 Jun 2025 22:15:00 +0000",
-    "source": "VentureBeat AI"
+    "title": "Weather Lab is an interactive website for sharing Google’s AI weather models.",
+    "link": "https://blog.google/technology/google-deepmind/weather-lab/",
+    "pubDate": "Thu, 12 Jun 2025 14:05:00 +0000",
+    "source": "The Keyword"
   },
   {
-    "title": "Sam Altman calls for ‘AI privilege’ as OpenAI clarifies court order to retain temporary and deleted ChatGPT sessions",
-    "link": "https://venturebeat.com/ai/sam-altman-calls-for-ai-privilege-as-openai-clarifies-court-order-to-retain-temporary-and-deleted-chatgpt-sessions/",
-    "pubDate": "Fri, 06 Jun 2025 17:48:53 +0000",
-    "source": "VentureBeat AI"
+    "title": "The Download: AI agents’ autonomy, and sodium-based batteries",
+    "link": "https://www.technologyreview.com/2025/06/12/1118609/the-download-ai-agents-autonomy-and-sodium-based-batteries/",
+    "pubDate": "Thu, 12 Jun 2025 12:10:00 +0000",
+    "source": "MIT Technology Review"
+  },
+  {
+    "title": "Using AI to tackle Type 2 diabetes in Taiwan",
+    "link": "https://blog.google/around-the-globe/google-asia/type-2-diabetes-taiwan/",
+    "pubDate": "Thu, 12 Jun 2025 10:19:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Are we ready to hand AI agents the keys?",
+    "link": "https://www.technologyreview.com/2025/06/12/1118189/ai-agents-manus-control-autonomy-operator-openai/",
+    "pubDate": "Thu, 12 Jun 2025 10:00:00 +0000",
+    "source": "MIT Technology Review"
   }
 ];
