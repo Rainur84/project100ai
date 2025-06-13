@@ -8,6 +8,24 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
+    "title": "An age assurance tool for Europe and beyond",
+    "link": "https://blog.google/around-the-globe/google-europe/age-assurance-europe/",
+    "pubDate": "Fri, 13 Jun 2025 07:00:00 +0000",
+    "source": "The Keyword"
+  },
+  {
+    "title": "Meta’s new world model lets robots manipulate objects in environments they’ve never encountered before",
+    "link": "https://venturebeat.com/ai/metas-new-world-model-lets-robots-manipulate-objects-in-environments-theyve-never-encountered-before/",
+    "pubDate": "Thu, 12 Jun 2025 22:22:07 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Cloud collapse: Replit and LlamaIndex knocked offline by Google Cloud identity outage",
+    "link": "https://venturebeat.com/ai/cloud-collapse-replit-llamaindex-knocked-offline-by-google-cloud-identity-outage/",
+    "pubDate": "Thu, 12 Jun 2025 22:05:33 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
     "title": "TensorWave deploys AMD Instinct MI355X GPUs in its cloud platform",
     "link": "https://venturebeat.com/games/tensorwave-deploys-amd-instinct-mi355x-gpus-in-its-cloud-platform/",
     "pubDate": "Thu, 12 Jun 2025 18:30:00 +0000",
@@ -48,23 +66,5 @@ export const aiNews: AINewsItem[] = [
     "link": "https://blog.google/technology/google-deepmind/weather-lab/",
     "pubDate": "Thu, 12 Jun 2025 14:05:00 +0000",
     "source": "The Keyword"
-  },
-  {
-    "title": "The Download: AI agents’ autonomy, and sodium-based batteries",
-    "link": "https://www.technologyreview.com/2025/06/12/1118609/the-download-ai-agents-autonomy-and-sodium-based-batteries/",
-    "pubDate": "Thu, 12 Jun 2025 12:10:00 +0000",
-    "source": "MIT Technology Review"
-  },
-  {
-    "title": "Using AI to tackle Type 2 diabetes in Taiwan",
-    "link": "https://blog.google/around-the-globe/google-asia/type-2-diabetes-taiwan/",
-    "pubDate": "Thu, 12 Jun 2025 10:19:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Are we ready to hand AI agents the keys?",
-    "link": "https://www.technologyreview.com/2025/06/12/1118189/ai-agents-manus-control-autonomy-operator-openai/",
-    "pubDate": "Thu, 12 Jun 2025 10:00:00 +0000",
-    "source": "MIT Technology Review"
   }
 ];
