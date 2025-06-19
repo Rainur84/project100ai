@@ -8,63 +8,63 @@ export type AINewsItem = {
 
 export const aiNews: AINewsItem[] = [
   {
-    "title": "An age assurance tool for Europe and beyond",
-    "link": "https://blog.google/around-the-globe/google-europe/age-assurance-europe/",
-    "pubDate": "Fri, 13 Jun 2025 07:00:00 +0000",
-    "source": "The Keyword"
-  },
-  {
-    "title": "Meta’s new world model lets robots manipulate objects in environments they’ve never encountered before",
-    "link": "https://venturebeat.com/ai/metas-new-world-model-lets-robots-manipulate-objects-in-environments-theyve-never-encountered-before/",
-    "pubDate": "Thu, 12 Jun 2025 22:22:07 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Cloud collapse: Replit and LlamaIndex knocked offline by Google Cloud identity outage",
-    "link": "https://venturebeat.com/ai/cloud-collapse-replit-llamaindex-knocked-offline-by-google-cloud-identity-outage/",
-    "pubDate": "Thu, 12 Jun 2025 22:05:33 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "TensorWave deploys AMD Instinct MI355X GPUs in its cloud platform",
-    "link": "https://venturebeat.com/games/tensorwave-deploys-amd-instinct-mi355x-gpus-in-its-cloud-platform/",
-    "pubDate": "Thu, 12 Jun 2025 18:30:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "AMD debuts AMD Instinct MI350 Series accelerator chips with 35X better inferencing",
-    "link": "https://venturebeat.com/games/amd-debuts-amd-instinct-mi350-series-accelerator-chips-with-35x-better-inferencing/",
-    "pubDate": "Thu, 12 Jun 2025 18:30:00 +0000",
-    "source": "VentureBeat AI"
-  },
-  {
-    "title": "Shoring up global supply chains with generative AI",
-    "link": "https://www.technologyreview.com/2025/06/12/1118533/shoring-up-global-supply-chains-with-generative-ai/",
-    "pubDate": "Thu, 12 Jun 2025 18:10:27 +0000",
+    "title": "The Download: future grids, and bad boy bots",
+    "link": "https://www.technologyreview.com/2025/06/19/1119059/the-download-future-grids-and-bad-boy-bots/",
+    "pubDate": "Thu, 19 Jun 2025 12:15:33 +0000",
     "source": "MIT Technology Review"
   },
   {
-    "title": "5 things from I/O to try right now",
-    "link": "https://blog.google/technology/ai/io-2025-tools-to-try-globally/",
-    "pubDate": "Thu, 12 Jun 2025 16:00:00 +0000",
-    "source": "The Keyword"
+    "title": "Is this the electric grid of the future?",
+    "link": "https://www.technologyreview.com/2025/06/19/1118248/electric-grid-future-lincoln-nebraska-utilities-energy-transition/",
+    "pubDate": "Thu, 19 Jun 2025 10:00:00 +0000",
+    "source": "MIT Technology Review"
   },
   {
-    "title": "Celebrating 10 years of Android Enterprise and looking ahead",
-    "link": "https://blog.google/products/android-enterprise/10-years-of-android-enterprise/",
-    "pubDate": "Thu, 12 Jun 2025 16:00:00 +0000",
-    "source": "The Keyword"
+    "title": "Inside the US power struggle over coal",
+    "link": "https://www.technologyreview.com/2025/06/19/1119027/us-coal-power-struggle/",
+    "pubDate": "Thu, 19 Jun 2025 10:00:00 +0000",
+    "source": "MIT Technology Review"
   },
   {
-    "title": "Google DeepMind just changed hurricane forecasting forever with new AI model",
-    "link": "https://venturebeat.com/ai/google-deepmind-just-changed-hurricane-forecasting-forever-with-new-ai-model/",
-    "pubDate": "Thu, 12 Jun 2025 15:00:00 +0000",
+    "title": "GenLayer launches a new method to incentivize people to market your brand using AI and blockchain",
+    "link": "https://venturebeat.com/ai/genlayer-launches-a-new-method-to-incentivize-people-to-market-your-brand-using-ai-and-blockchain/",
+    "pubDate": "Thu, 19 Jun 2025 10:00:00 +0000",
     "source": "VentureBeat AI"
   },
   {
-    "title": "Weather Lab is an interactive website for sharing Google’s AI weather models.",
-    "link": "https://blog.google/technology/google-deepmind/weather-lab/",
-    "pubDate": "Thu, 12 Jun 2025 14:05:00 +0000",
+    "title": "The Wallace Collection launches on Google Arts & Culture",
+    "link": "https://blog.google/outreach-initiatives/arts-culture/the-wallace-collection-launches-on-google-arts-culture/",
+    "pubDate": "Thu, 19 Jun 2025 07:30:00 +0000",
     "source": "The Keyword"
+  },
+  {
+    "title": "Announcing our 2025 VB Transform Innovation Showcase finalists",
+    "link": "https://venturebeat.com/ai/announcing-our-2025-vb-transform-innovation-showcase-finalists/",
+    "pubDate": "Thu, 19 Jun 2025 02:46:15 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "OpenAI open sourced a new Customer Service Agent framework — learn more about its growing enterprise strategy",
+    "link": "https://venturebeat.com/programming-development/openai-open-sourced-a-new-customer-service-agent-framework-learn-more-about-its-growing-enterprise-strategy/",
+    "pubDate": "Wed, 18 Jun 2025 22:30:02 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "Announcing the 2025 finalists for VentureBeat Women in AI Awards",
+    "link": "https://venturebeat.com/ai/announcing-the-2024-nominees-for-venturebeat-women-in-ai-awards-2025/",
+    "pubDate": "Wed, 18 Jun 2025 22:06:48 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "From prompt chaos to clarity: How to build a robust AI orchestration layer",
+    "link": "https://venturebeat.com/ai/from-prompt-chaos-to-clarity-how-to-build-a-robust-ai-orchestration-layer/",
+    "pubDate": "Wed, 18 Jun 2025 19:11:10 +0000",
+    "source": "VentureBeat AI"
+  },
+  {
+    "title": "OpenAI can rehabilitate AI models that develop a “bad boy persona”",
+    "link": "https://www.technologyreview.com/2025/06/18/1119042/openai-can-rehabilitate-ai-models-that-develop-a-bad-boy-persona/",
+    "pubDate": "Wed, 18 Jun 2025 18:19:15 +0000",
+    "source": "MIT Technology Review"
   }
 ];
